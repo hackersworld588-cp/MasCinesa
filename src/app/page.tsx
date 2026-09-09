@@ -6,6 +6,7 @@ import MovieRow from "@/components/MovieRow";
 import { db } from "@/lib/db";
 import { getCurrentUser } from "@/lib/auth";
 import { formatMovieWithRelations } from "@/lib/ai-engine";
+import { getAllMovies, getFeaturedMovie } from "@/lib/movie-service";
 
 export const revalidate = 60; // ISR cache revalidation
 
@@ -13,35 +14,10 @@ export default async function HomePage() {
   const user = await getCurrentUser();
 
   // 1. Fetch Featured Hero Movie (Sarrainodu or Hera Pheri or DJ)
-  const featuredRecord = await db.movie.findFirst({
-    where: {
-      OR: [
-        { title: { contains: "Sarrainodu" } },
-        { title: { contains: "Hera Pheri" } },
-        { title: { contains: "DJ" } }
-      ]
-    },
-    include: {
-      movieGenres: { include: { genre: true } },
-      movieDirectors: { include: { director: true } },
-      movieCast: { include: { actor: true } },
-    },
-  });
+  const featuredMovie = await getFeaturedMovie();
 
-  const featuredMovie = featuredRecord
-    ? formatMovieWithRelations(featuredRecord)
-    : null;
-
-  // 2. Fetch All Movies from Database
-  const allMovies = await db.movie.findMany({
-    include: {
-      movieGenres: { include: { genre: true } },
-      movieDirectors: { include: { director: true } },
-      movieCast: { include: { actor: true } },
-    },
-  });
-
-  const formattedAll = allMovies.map(formatMovieWithRelations);
+  // 2. Fetch All Movies from Database or Static dataset
+  const formattedAll = await getAllMovies();
 
   // 💥 Category 1: Goldmines Mass & Action Blockbusters
   const massActionMovies = formattedAll.filter((m) =>
@@ -83,21 +59,25 @@ export default async function HomePage() {
   // Continue Watching (if user logged in)
   let continueWatchingMovies: any[] = [];
   if (user) {
-    const history = await db.watchHistory.findMany({
-      where: { userId: user.id },
-      take: 6,
-      orderBy: { watchedAt: "desc" },
-      include: {
-        movie: {
-          include: {
-            movieGenres: { include: { genre: true } },
-            movieDirectors: { include: { director: true } },
-            movieCast: { include: { actor: true } },
+    try {
+      const history = await db.watchHistory.findMany({
+        where: { userId: user.id },
+        take: 6,
+        orderBy: { watchedAt: "desc" },
+        include: {
+          movie: {
+            include: {
+              movieGenres: { include: { genre: true } },
+              movieDirectors: { include: { director: true } },
+              movieCast: { include: { actor: true } },
+            },
           },
         },
-      },
-    });
-    continueWatchingMovies = history.map((h) => formatMovieWithRelations(h.movie));
+      });
+      continueWatchingMovies = history.map((h) => formatMovieWithRelations(h.movie));
+    } catch (e) {
+      continueWatchingMovies = [];
+    }
   }
 
   return (

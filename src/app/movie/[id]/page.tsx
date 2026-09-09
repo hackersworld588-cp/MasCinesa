@@ -15,6 +15,7 @@ import {
 import { db } from "@/lib/db";
 import { getCurrentUser } from "@/lib/auth";
 import { formatMovieWithRelations, getHybridRecommendations } from "@/lib/ai-engine";
+import { getMovieById } from "@/lib/movie-service";
 import WatchlistButton from "@/components/WatchlistButton";
 import MovieRow from "@/components/MovieRow";
 import ReviewSection from "@/components/ReviewSection";
@@ -28,53 +29,56 @@ export default async function MovieDetailsPage({ params }: MoviePageProps) {
   const { id } = params;
   const user = await getCurrentUser();
 
-  const isNum = !isNaN(Number(id));
-  const movieRecord = await db.movie.findFirst({
-    where: isNum ? { OR: [{ id }, { tmdbId: Number(id) }] } : { id },
-    include: {
-      movieGenres: { include: { genre: true } },
-      movieDirectors: { include: { director: true } },
-      movieCast: {
-        include: { actor: true },
-        orderBy: { orderIndex: "asc" },
-      },
-      reviews: {
-        where: { status: "approved" },
-        include: {
-          user: { select: { id: true, name: true, avatar: true, role: true } },
-        },
-        orderBy: { helpfulUpvotes: "desc" },
-      },
-    },
-  });
+  const movie = await getMovieById(id);
 
-  if (!movieRecord) {
+  if (!movie) {
     notFound();
   }
 
-  const movie = formatMovieWithRelations(movieRecord);
+  // Load reviews safely if DB is online
+  let initialReviews: any[] = [];
+  try {
+    initialReviews = await db.review.findMany({
+      where: { movieId: movie.id, status: "approved" },
+      include: {
+        user: { select: { id: true, name: true, avatar: true, role: true } },
+      },
+      orderBy: { helpfulUpvotes: "desc" },
+    });
+  } catch (e) {
+    initialReviews = [];
+  }
 
   // Check user watchlist state
   let inWatchlist = false;
   let userRatingVal: number | null = null;
   if (user) {
-    const wl = await db.watchlistMovie.findFirst({
-      where: { watchlist: { userId: user.id }, movieId: movie.id },
-    });
-    inWatchlist = !!wl;
+    try {
+      const wl = await db.watchlistMovie.findFirst({
+        where: { watchlist: { userId: user.id }, movieId: movie.id },
+      });
+      inWatchlist = !!wl;
 
-    const ratingRec = await db.rating.findUnique({
-      where: { userId_movieId: { userId: user.id, movieId: movie.id } },
-    });
-    userRatingVal = ratingRec?.score || null;
+      const ratingRec = await db.rating.findUnique({
+        where: { userId_movieId: { userId: user.id, movieId: movie.id } },
+      });
+      userRatingVal = ratingRec?.score || null;
+    } catch (e) {
+      // ignore
+    }
   }
 
   // Similar Movies via Content-Based Hybrid Engine
-  const similarRecs = await getHybridRecommendations({
-    movieId: movie.id,
-    limit: 8,
-  });
-  const similarMovies = similarRecs.map((r) => r.movie);
+  let similarMovies: any[] = [];
+  try {
+    const similarRecs = await getHybridRecommendations({
+      movieId: movie.id,
+      limit: 8,
+    });
+    similarMovies = similarRecs.map((r) => r.movie);
+  } catch (e) {
+    similarMovies = [];
+  }
 
   return (
     <div className="min-h-screen bg-background text-gray-100 pb-16">
@@ -316,7 +320,7 @@ export default async function MovieDetailsPage({ params }: MoviePageProps) {
         <div className="mt-16">
           <ReviewSection
             movieId={movie.id}
-            initialReviews={movieRecord.reviews as any}
+            initialReviews={initialReviews as any}
             initialUserRating={userRatingVal}
             currentUserId={user?.id}
           />

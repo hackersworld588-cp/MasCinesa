@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { db } from "@/lib/db";
+import { getMovieById } from "@/lib/movie-service";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
@@ -9,19 +9,7 @@ export async function GET(request: NextRequest) {
 
   let movie = null;
   if (movieId) {
-    movie = await db.movie.findUnique({
-      where: { id: movieId },
-      select: {
-        id: true,
-        title: true,
-        imdbId: true,
-        tmdbId: true,
-        trailerKey: true,
-        fullMovieKey: true,
-        isFreeWatch: true,
-        language: true,
-      },
-    });
+    movie = await getMovieById(movieId);
   }
 
   const effectiveImdbId = imdbId || movie?.imdbId;

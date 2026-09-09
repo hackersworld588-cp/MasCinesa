@@ -1,6 +1,7 @@
 import { Movie } from "../types";
 import { db } from "./db";
 import { formatMovieWithRelations } from "./ai-engine";
+import { getAllMovies, getMovieById } from "./movie-service";
 
 const TMDB_API_BASE = "https://api.themoviedb.org/3";
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p";
@@ -41,21 +42,15 @@ class TMDBServiceImpl implements TMDBService {
    * Fallback to local high-quality database if TMDB key is not provided or fails
    */
   private async getLocalFallback(category: "trending" | "popular" | "top_rated" | "upcoming"): Promise<Movie[]> {
-    let orderBy: any = { popularity: "desc" };
-    if (category === "top_rated") orderBy = { voteAverage: "desc" };
-    if (category === "upcoming") orderBy = { releaseYear: "desc" };
-
-    const movies = await db.movie.findMany({
-      orderBy,
-      take: 12,
-      include: {
-        movieGenres: { include: { genre: true } },
-        movieDirectors: { include: { director: true } },
-        movieCast: { include: { actor: true } },
-      },
-    });
-
-    return movies.map(formatMovieWithRelations);
+    let movies = await getAllMovies();
+    if (category === "top_rated") {
+      movies = [...movies].sort((a, b) => b.voteAverage - a.voteAverage);
+    } else if (category === "upcoming") {
+      movies = [...movies].sort((a, b) => (b.releaseYear || 0) - (a.releaseYear || 0));
+    } else {
+      movies = [...movies].sort((a, b) => b.popularity - a.popularity);
+    }
+    return movies.slice(0, 12);
   }
 
   async getTrending(): Promise<Movie[]> {
@@ -158,19 +153,8 @@ class TMDBServiceImpl implements TMDBService {
     const cached = this.getFromCache(`movie_${id}`);
     if (cached) return cached;
 
-    // First check local database by id or tmdbId
-    const isNum = !isNaN(Number(id));
-    const local = await db.movie.findFirst({
-      where: isNum ? { OR: [{ id }, { tmdbId: Number(id) }] } : { id },
-      include: {
-        movieGenres: { include: { genre: true } },
-        movieDirectors: { include: { director: true } },
-        movieCast: { include: { actor: true } },
-      },
-    });
-
-    if (local) {
-      const movie = formatMovieWithRelations(local);
+    const movie = await getMovieById(id);
+    if (movie) {
       this.setCache(`movie_${id}`, movie, 600);
       return movie;
     }
@@ -181,23 +165,14 @@ class TMDBServiceImpl implements TMDBService {
   async searchMovies(query: string): Promise<Movie[]> {
     if (!query) return [];
 
-    const locals = await db.movie.findMany({
-      where: {
-        OR: [
-          { title: { contains: query } },
-          { originalTitle: { contains: query } },
-          { overview: { contains: query } },
-        ],
-      },
-      take: 15,
-      include: {
-        movieGenres: { include: { genre: true } },
-        movieDirectors: { include: { director: true } },
-        movieCast: { include: { actor: true } },
-      },
-    });
-
-    return locals.map(formatMovieWithRelations);
+    const all = await getAllMovies();
+    const q = query.toLowerCase();
+    return all.filter(
+      (m) =>
+        m.title.toLowerCase().includes(q) ||
+        (m.originalTitle && m.originalTitle.toLowerCase().includes(q)) ||
+        (m.overview && m.overview.toLowerCase().includes(q))
+    ).slice(0, 15);
   }
 
   private mapTMDBMovie(item: any): Movie {

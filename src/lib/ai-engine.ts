@@ -1,5 +1,6 @@
 import { db } from "./db";
 import { Movie, RecommendationResult } from "../types";
+import staticMoviesData from "@/data/movies.json";
 
 export interface ParsedIntent {
   rawQuery: string;
@@ -257,14 +258,25 @@ export async function getHybridRecommendations(options: {
 }): Promise<RecommendationResult[]> {
   const { userId, naturalQuery, movieId, limit = 8 } = options;
 
-  // 1. Fetch Candidate Movies with full relational mappings
-  const allMovies = await db.movie.findMany({
-    include: {
-      movieGenres: { include: { genre: true } },
-      movieDirectors: { include: { director: true } },
-      movieCast: { include: { actor: true } },
-    },
-  });
+  let allMovies: any[] = [];
+  try {
+    const dbMovies = await db.movie.findMany({
+      include: {
+        movieGenres: { include: { genre: true } },
+        movieDirectors: { include: { director: true } },
+        movieCast: { include: { actor: true } },
+      },
+    });
+    if (dbMovies && dbMovies.length > 0) {
+      allMovies = dbMovies.map(formatMovieWithRelations);
+    }
+  } catch (e) {
+    allMovies = [];
+  }
+
+  if (!allMovies.length) {
+    allMovies = staticMoviesData as unknown as Movie[];
+  }
 
   if (!allMovies.length) return [];
 
@@ -277,19 +289,23 @@ export async function getHybridRecommendations(options: {
   let userLikedGenres: string[] = [];
 
   if (userId) {
-    const pref = await db.userPreference.findUnique({ where: { userId } });
-    if (pref) {
-      userPreference = pref;
-      try {
-        userLikedGenres = JSON.parse(pref.favoriteGenres);
-      } catch (e) {}
-    }
+    try {
+      const pref = await db.userPreference.findUnique({ where: { userId } });
+      if (pref) {
+        userPreference = pref;
+        try {
+          userLikedGenres = JSON.parse(pref.favoriteGenres);
+        } catch (e) {}
+      }
 
-    const history = await db.watchHistory.findMany({
-      where: { userId },
-      select: { movieId: true },
-    });
-    userWatchedMovieIds = history.map((h) => h.movieId);
+      const history = await db.watchHistory.findMany({
+        where: { userId },
+        select: { movieId: true },
+      });
+      userWatchedMovieIds = history.map((h) => h.movieId);
+    } catch (e) {
+      // ignore
+    }
   }
 
   // 3. Find Reference Movie (either explicit ID or detected from natural query)
@@ -316,19 +332,19 @@ export async function getHybridRecommendations(options: {
     const matchedTags: string[] = [];
     const explanations: string[] = [];
 
-    const movieGenreNames = movie.movieGenres.map((g) => g.genre.name);
-    const movieDirectorNames = movie.movieDirectors.map((d) => d.director.name);
-    const movieCastNames = movie.movieCast.map((c) => c.actor.name);
+    const movieGenreNames: string[] = (movie.genres?.map((g: any) => g.name) || movie.movieGenres?.map((g: any) => g.genre?.name) || []) as string[];
+    const movieDirectorNames: string[] = (movie.directors?.map((d: any) => d.name) || movie.movieDirectors?.map((d: any) => d.director?.name) || []) as string[];
+    const movieCastNames: string[] = (movie.cast?.map((c: any) => c.actor?.name || c.characterName) || movie.movieCast?.map((c: any) => c.actor?.name) || []) as string[];
 
     // ==========================================
     // A. Reference Movie Content-Based Matching
     // ==========================================
     if (refMovie) {
-      const refGenreNames = refMovie.movieGenres.map((g: any) => g.genre.name);
-      const refDirectorNames = refMovie.movieDirectors.map((d: any) => d.director.name);
+      const refGenreNames: string[] = (refMovie.genres?.map((g: any) => g.name) || refMovie.movieGenres?.map((g: any) => g.genre?.name) || []) as string[];
+      const refDirectorNames: string[] = (refMovie.directors?.map((d: any) => d.name) || refMovie.movieDirectors?.map((d: any) => d.director?.name) || []) as string[];
 
       // Genre Overlap
-      const commonGenres = movieGenreNames.filter((g) => refGenreNames.includes(g));
+      const commonGenres = movieGenreNames.filter((g: string) => refGenreNames.includes(g));
       if (commonGenres.length > 0) {
         score += commonGenres.length * 0.22;
         matchedTags.push(...commonGenres);

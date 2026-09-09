@@ -12,40 +12,56 @@ export async function GET(req: Request) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    // Get active conversation or create one
-    let conversation = await db.conversation.findFirst({
-      where: { userId: user.id },
-      orderBy: { updatedAt: "desc" },
-      include: {
-        messages: {
-          orderBy: { createdAt: "asc" },
-        },
-      },
-    });
-
-    if (!conversation) {
-      conversation = await db.conversation.create({
-        data: {
-          userId: user.id,
-          title: "CineSa AI Assistant",
-        },
-        include: { messages: true },
-      });
-
-      // Seed initial welcome message
-      await db.message.create({
-        data: {
-          conversationId: conversation.id,
-          sender: "assistant",
-          content:
-            "Namaste! I'm CineSa, your personal AI film curator. Whether you're searching in English, Hindi, or Hinglish — ask me for mind-bending sci-fi, Hollywood Hindi dubbed hits, family movie nights, or free YouTube full movies!",
+    let conversation = null;
+    try {
+      // Get active conversation or create one
+      conversation = await db.conversation.findFirst({
+        where: { userId: user.id },
+        orderBy: { updatedAt: "desc" },
+        include: {
+          messages: {
+            orderBy: { createdAt: "asc" },
+          },
         },
       });
 
-      conversation = await db.conversation.findUnique({
-        where: { id: conversation.id },
-        include: { messages: { orderBy: { createdAt: "asc" } } },
-      }) as any;
+      if (!conversation) {
+        conversation = await db.conversation.create({
+          data: {
+            userId: user.id,
+            title: "CineSa AI Assistant",
+          },
+          include: { messages: true },
+        });
+
+        // Seed initial welcome message
+        await db.message.create({
+          data: {
+            conversationId: conversation.id,
+            sender: "assistant",
+            content:
+              "Namaste! I'm CineSa, your personal AI film curator. Whether you're searching in English, Hindi, or Hinglish — ask me for mind-bending sci-fi, Hollywood Hindi dubbed hits, family movie nights, or free YouTube full movies!",
+          },
+        });
+
+        conversation = (await db.conversation.findUnique({
+          where: { id: conversation.id },
+          include: { messages: { orderBy: { createdAt: "asc" } } },
+        })) as any;
+      }
+    } catch (dbErr) {
+      conversation = {
+        id: "default-conv",
+        title: "CineSa AI Assistant",
+        messages: [
+          {
+            id: "msg-welcome",
+            sender: "assistant",
+            content:
+              "Namaste! I'm CineSa, your personal AI film curator. Ask me for South Indian Hindi dubbed movies, comedy blockbusters, Hollywood hits, or free YouTube full movies!",
+          },
+        ],
+      };
     }
 
     return NextResponse.json({ conversation });
@@ -66,23 +82,25 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Message cannot be empty" }, { status: 400 });
     }
 
-    // 1. Fetch or create conversation
-    let convId = conversationId;
-    if (!convId) {
-      const conv = await db.conversation.create({
-        data: { userId: user.id, title: message.slice(0, 40) },
-      });
-      convId = conv.id;
-    }
+    let convId = conversationId || "default-conv";
+    try {
+      if (!conversationId) {
+        const conv = await db.conversation.create({
+          data: { userId: user.id, title: message.slice(0, 40) },
+        });
+        convId = conv.id;
+      }
 
-    // 2. Save User Message
-    await db.message.create({
-      data: {
-        conversationId: convId,
-        sender: "user",
-        content: message,
-      },
-    });
+      await db.message.create({
+        data: {
+          conversationId: convId,
+          sender: "user",
+          content: message,
+        },
+      });
+    } catch (e) {
+      // ignore DB save error in serverless read-only mode
+    }
 
     // 3. Natural Language Intent Parsing & Recommendation Retrieval
     const intent = parseNaturalLanguageQuery(message);
@@ -112,22 +130,28 @@ export async function POST(req: Request) {
 
     // 5. Save Assistant Message with embedded movie payload
     const moviePayload = recommendations.map((r) => r.movie);
-    const assistantMessage = await db.message.create({
-      data: {
-        conversationId: convId,
-        sender: "assistant",
-        content: assistantReply,
-        metadata: JSON.stringify({
-          recommendations: moviePayload,
-          intent,
-        }),
-      },
-    });
+    let msgId = `msg-${Date.now()}`;
+    try {
+      const assistantMessage = await db.message.create({
+        data: {
+          conversationId: convId,
+          sender: "assistant",
+          content: assistantReply,
+          metadata: JSON.stringify({
+            recommendations: moviePayload,
+            intent,
+          }),
+        },
+      });
+      msgId = assistantMessage.id;
+    } catch (e) {
+      // ignore
+    }
 
     return NextResponse.json({
       success: true,
       message: {
-        id: assistantMessage.id,
+        id: msgId,
         sender: "assistant",
         content: assistantReply,
         recommendations: moviePayload,

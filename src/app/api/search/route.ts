@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { formatMovieWithRelations } from "@/lib/ai-engine";
+import { getAllMovies } from "@/lib/movie-service";
 
 export async function GET(req: Request) {
   try {
@@ -15,17 +14,10 @@ export async function GET(req: Request) {
     const runtimeMax = searchParams.get("runtimeMax") ? Number(searchParams.get("runtimeMax")) : undefined;
     const language = searchParams.get("language") || "";
     const streaming = searchParams.get("streaming") || "";
-    const sortBy = searchParams.get("sortBy") || "popularity"; // 'popularity', 'vote_average', 'release_date'
+    const sortBy = searchParams.get("sortBy") || "popularity";
     const sortOrder = searchParams.get("sortOrder") || "desc";
 
-    const allMovies = await db.movie.findMany({
-      include: {
-        movieGenres: { include: { genre: true } },
-        movieDirectors: { include: { director: true } },
-        movieCast: { include: { actor: true } },
-      },
-    });
-
+    const allMovies = await getAllMovies();
     const normQuery = query.toLowerCase().trim();
 
     // Filter candidate movies
@@ -35,11 +27,12 @@ export async function GET(req: Request) {
         const titleMatch = movie.title.toLowerCase().includes(normQuery);
         const originalTitleMatch = movie.originalTitle?.toLowerCase().includes(normQuery);
         const overviewMatch = movie.overview.toLowerCase().includes(normQuery);
-        const castMatch = movie.movieCast.some((c) =>
-          c.actor.name.toLowerCase().includes(normQuery)
+        const castMatch = movie.cast?.some((c) =>
+          c.actor?.name?.toLowerCase().includes(normQuery) ||
+          c.characterName?.toLowerCase().includes(normQuery)
         );
-        const directorMatch = movie.movieDirectors.some((d) =>
-          d.director.name.toLowerCase().includes(normQuery)
+        const directorMatch = movie.directors?.some((d) =>
+          d.name?.toLowerCase().includes(normQuery)
         );
 
         if (!titleMatch && !originalTitleMatch && !overviewMatch && !castMatch && !directorMatch) {
@@ -49,24 +42,24 @@ export async function GET(req: Request) {
 
       // 2. Genre Filter
       if (genre && genre !== "all") {
-        const hasGenre = movie.movieGenres.some(
-          (mg) => mg.genre.name.toLowerCase() === genre.toLowerCase() || mg.genre.slug === genre.toLowerCase()
+        const hasGenre = movie.genres?.some(
+          (g) => g.name.toLowerCase() === genre.toLowerCase() || g.slug === genre.toLowerCase()
         );
         if (!hasGenre) return false;
       }
 
       // 3. Director Filter
       if (director) {
-        const hasDirector = movie.movieDirectors.some((md) =>
-          md.director.name.toLowerCase().includes(director.toLowerCase())
+        const hasDirector = movie.directors?.some((d) =>
+          d.name.toLowerCase().includes(director.toLowerCase())
         );
         if (!hasDirector) return false;
       }
 
       // 4. Actor Filter
       if (actor) {
-        const hasActor = movie.movieCast.some((mc) =>
-          mc.actor.name.toLowerCase().includes(actor.toLowerCase())
+        const hasActor = movie.cast?.some((c) =>
+          c.actor?.name?.toLowerCase().includes(actor.toLowerCase())
         );
         if (!hasActor) return false;
       }
@@ -86,12 +79,8 @@ export async function GET(req: Request) {
 
       // 9. Streaming Platform
       if (streaming && streaming !== "all") {
-        try {
-          const platforms: string[] = JSON.parse(movie.streamingPlatforms);
-          if (!platforms.some((p) => p.toLowerCase() === streaming.toLowerCase())) {
-            return false;
-          }
-        } catch (e) {
+        const platforms = movie.streamingPlatforms || [];
+        if (!platforms.some((p) => p.toLowerCase().includes(streaming.toLowerCase()))) {
           return false;
         }
       }
@@ -119,11 +108,9 @@ export async function GET(req: Request) {
       return valB - valA;
     });
 
-    const results = filtered.map(formatMovieWithRelations);
-
     return NextResponse.json({
-      movies: results,
-      total: results.length,
+      movies: filtered,
+      total: filtered.length,
       filters: { query, genre, director, actor, yearMin, yearMax, ratingMin, runtimeMax, language, streaming, sortBy },
     });
   } catch (err: any) {
