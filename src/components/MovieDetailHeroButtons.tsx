@@ -146,6 +146,8 @@ export default function MovieDetailHeroButtons({
         tmdbId={tmdbId}
         backdropUrl={backdropUrl}
         title={title}
+        movieId={movieId}
+        posterUrl={backdropUrl || undefined}
       />
     </>
   );

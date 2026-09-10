@@ -144,6 +144,8 @@ export default function MovieCard({
         tmdbId={movie.tmdbId}
         backdropUrl={movie.backdropUrl}
         title={movie.title}
+        movieId={movie.id}
+        posterUrl={imgSrc || movie.posterUrl}
       />
     </>
   );

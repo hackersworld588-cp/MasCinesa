@@ -3,50 +3,23 @@ import Link from "next/link";
 import { ArrowRight, ShieldCheck } from "lucide-react";
 import HeroSection from "@/components/HeroSection";
 import MovieRow from "@/components/MovieRow";
+import ContinueWatchingRow from "@/components/ContinueWatchingRow";
+import FounderSection from "@/components/FounderSection";
 import { getAllMovies, getFeaturedMovie } from "@/lib/movie-service";
+import { getStrictCategorizedMovies } from "@/lib/movie-categorizer";
 
 export default async function HomePage() {
-  // 1. Fetch Featured Hero Movie (Sarrainodu or Hera Pheri or DJ)
+  // 1. Fetch Featured Hero Movie
   const featuredMovie = await getFeaturedMovie();
 
-  // 2. Fetch All Movies from Database or Static dataset
+  // 2. Fetch All Movies from Database or Static dataset (126 total)
   const formattedAll = await getAllMovies();
 
-  // 💥 Category 1: Goldmines Mass & Action Blockbusters
-  const massActionMovies = formattedAll.filter((m) =>
-    m.genres?.some((g) => ["Action", "Crime"].includes(g.name)) &&
-    !m.genres?.some((g) => ["Horror"].includes(g.name))
-  );
+  // 3. Strict Non-Overlapping Categorization
+  // Guarantees zero duplicate movies across categories and strict separation between Hollywood and Bollywood/South Indian.
+  const categorized = getStrictCategorizedMovies(formattedAll);
 
-  // 😂 Category 2: Comedy Dhamaal & Family Laughs
-  const comedyMovies = formattedAll.filter((m) =>
-    m.genres?.some((g) => ["Comedy"].includes(g.name))
-  );
-
-  // 👻 Category 3: Horror, Thriller & Mystery Nights
-  const horrorMovies = formattedAll.filter((m) =>
-    m.genres?.some((g) => ["Horror", "Mystery"].includes(g.name))
-  );
-
-  // ❤️ Category 4: Romantic & Emotion-Packed Blockbusters
-  const romanceMovies = formattedAll.filter((m) =>
-    m.genres?.some((g) => ["Romance", "Drama", "Biography"].includes(g.name)) &&
-    !m.genres?.some((g) => ["Horror", "Crime"].includes(g.name))
-  );
-
-  // 🎬 Category 5: Marvel & Hollywood Hindi Dubbed Hits
-  const hollywoodMovies = formattedAll.filter((m) =>
-    m.title.includes("Avengers") ||
-    m.title.includes("Thor")
-  );
-
-  // 🌐 Category 6: Indo Overseas Films (@IndoOverseasFilms-Hindi Official Catalog)
-  const iofMovies = formattedAll.filter((m) =>
-    m.genres?.some((g) => g.name === "Indo Overseas Films") ||
-    m.streamingPlatforms?.includes("Indo Overseas Films")
-  );
-
-  // 🌟 Trending / Most Popular
+  // 🌟 Trending / Most Popular (subset from overall catalog)
   const trendingMovies = [...formattedAll].sort((a, b) => b.popularity - a.popularity).slice(0, 10);
 
   return (
@@ -92,77 +65,83 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 2. 💥 South Indian Hindi Dubbed Blockbusters (Goldmines Mass) */}
+      {/* 3. 🕒 Continue Watching Row (Client component - resumes playback at exact second) */}
+      <div className="mt-4">
+        <ContinueWatchingRow />
+      </div>
 
       {/* 4. 💥 South Indian Hindi Dubbed Blockbusters (Goldmines Mass) */}
-      {massActionMovies.length > 0 && (
-        <div className="mt-4">
+      {categorized.goldminesAction.length > 0 && (
+        <div className="mt-2">
           <MovieRow
             title="💥 Goldmines Mass & Action Blockbusters"
             subtitle="Sarrainodu, DJ, Race Gurram, Vikram Vedha, Kaithi, Magadheera, Theri aur all-time mass hits"
-            movies={massActionMovies}
+            movies={categorized.goldminesAction}
             badge="Goldmines Blockbuster"
           />
         </div>
       )}
 
       {/* 5. 😂 Comedy Dhamaal & Family Laughs */}
-      {comedyMovies.length > 0 && (
+      {categorized.comedyMovies.length > 0 && (
         <MovieRow
           title="😂 Comedy Dhamaal & Family Laughs"
           subtitle="Hera Pheri, Sabse Badhkar Hum 2, Sher Dil, Businessman, Super Khiladi Returns aur non-stop hasi"
-          movies={comedyMovies}
+          movies={categorized.comedyMovies}
           badge="Superhit Comedy"
         />
       )}
 
       {/* 6. 👻 Horror, Thriller & Mystery Nights */}
-      {horrorMovies.length > 0 && (
+      {categorized.horrorThriller.length > 0 && (
         <MovieRow
           title="👻 Horror, Thriller & Mystery Nights"
           subtitle="Chandramukhi, Kanchana, Doctor (4K), Shaitan aur rooh kaanp dene wali suspense filmein"
-          movies={horrorMovies}
+          movies={categorized.horrorThriller}
           badge="Supernatural & Thrills"
         />
       )}
 
       {/* 7. ❤️ Romantic & Emotion-Packed Blockbusters */}
-      {romanceMovies.length > 0 && (
+      {categorized.romanceDrama.length > 0 && (
         <MovieRow
           title="❤️ Romantic & Emotional Blockbusters"
           subtitle="Dear Comrade, Uppena, Mahanati (4K), Dwaraka, Madam Geeta Rani aur dil chhu lene wali kahaniyan"
-          movies={romanceMovies}
+          movies={categorized.romanceDrama}
           badge="Romance & Heartfelt"
         />
       )}
 
       {/* 8. 🎬 Marvel Blockbusters (Hindi Dubbed) */}
-      {hollywoodMovies.length > 0 && (
+      {categorized.marvelHollywood.length > 0 && (
         <MovieRow
           title="🎬 Marvel Blockbusters (Hindi Dubbed)"
           subtitle="Avengers: Infinity War, Avengers: Endgame, Thor: Ragnarok aur Marvel ke iconic superhero hits"
-          movies={hollywoodMovies}
+          movies={categorized.marvelHollywood}
           badge="Marvel Hindi HD"
         />
       )}
 
       {/* 9. 🌐 Indo Overseas Films (Official Hollywood Hindi Dubbed) */}
-      {iofMovies.length > 0 && (
+      {categorized.iofHollywood.length > 0 && (
         <MovieRow
           title="🌐 Indo Overseas Films (Official Hindi Dubbed)"
-          subtitle="Jackie Chan, Don Lee, The Wandering Earth, Everest, Anaconda, Lucy 2, Demon Mermaid aur 80+ official IOF hits"
-          movies={iofMovies}
+          subtitle="Jackie Chan, Don Lee, The Wandering Earth, Everest, Anaconda, Lucy 2, Demon Mermaid aur 75+ official IOF hits"
+          movies={categorized.iofHollywood}
           badge="IOF Hindi Official"
         />
       )}
 
-      {/* 9. 🌟 Trending Movies */}
+      {/* 10. 🌟 Most Popular This Week */}
       <MovieRow
         title="🌟 Most Popular This Week"
         subtitle="Audience ke sabse pasandeeda aur sabse zyada dekhe gaye movies"
         movies={trendingMovies}
         badge="Trending"
       />
+
+      {/* 11. 👑 Meet The Founder — Mohammad Aabid Husain (Jaipur, Rajasthan) */}
+      <FounderSection />
     </div>
   );
 }

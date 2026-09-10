@@ -93,11 +93,11 @@ export default function HeroSection({ movie }: HeroSectionProps) {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
               {/* Watch Movie (Ad-Free HD) */}
               <button
                 onClick={() => setPlayerOpen(true)}
-                className="flex items-center gap-2.5 px-6 sm:px-8 py-3.5 rounded-xl font-bold text-sm sm:text-base bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-xl shadow-emerald-950/60 border border-emerald-400/40 transition-all duration-200 hover:scale-[1.03] active:scale-[0.98]"
+                className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-6 sm:px-8 py-3.5 rounded-xl font-bold text-sm sm:text-base bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-xl shadow-emerald-950/60 border border-emerald-400/40 transition-all duration-200 hover:scale-[1.03] active:scale-[0.98]"
               >
                 <Play className="w-5 h-5 fill-white" />
                 <span>Watch Full Movie</span>
@@ -106,22 +106,24 @@ export default function HeroSection({ movie }: HeroSectionProps) {
                 </span>
               </button>
 
-              {/* Add to Watchlist */}
-              <WatchlistButton
-                movieId={movie.id}
-                initialInWatchlist={movie.isWatchlist}
-                variant="secondary"
-                className="py-3.5 px-6 rounded-xl text-sm sm:text-base font-semibold"
-              />
+              <div className="flex items-center gap-3 w-full sm:w-auto">
+                {/* Add to Watchlist */}
+                <WatchlistButton
+                  movieId={movie.id}
+                  initialInWatchlist={movie.isWatchlist}
+                  variant="secondary"
+                  className="flex-1 sm:flex-initial py-3.5 px-5 rounded-xl text-sm sm:text-base font-semibold justify-center"
+                />
 
-              {/* More Details */}
-              <Link
-                href={`/movie/${movie.id}`}
-                className="flex items-center gap-2 px-5 py-3.5 rounded-xl text-sm sm:text-base font-semibold text-gray-300 bg-white/5 border border-white/10 hover:bg-white/10 hover:text-white transition"
-              >
-                <Info className="w-4 h-4" />
-                <span>Details</span>
-              </Link>
+                {/* More Details */}
+                <Link
+                  href={`/movie/${movie.id}`}
+                  className="flex-1 sm:flex-initial flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-sm sm:text-base font-semibold text-gray-300 bg-white/5 border border-white/10 hover:bg-white/10 hover:text-white transition"
+                >
+                  <Info className="w-4 h-4" />
+                  <span>Details</span>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -138,6 +140,8 @@ export default function HeroSection({ movie }: HeroSectionProps) {
         tmdbId={movie.tmdbId}
         backdropUrl={movie.backdropUrl}
         title={movie.title}
+        movieId={movie.id}
+        posterUrl={movie.posterUrl}
       />
     </>
   );

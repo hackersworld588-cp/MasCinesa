@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import MobileNav from "@/components/MobileNav";
+import Footer from "@/components/Footer";
 import InstallPrompt from "@/components/InstallPrompt";
 
 export const viewport: Viewport = {
@@ -46,7 +47,10 @@ export default function RootLayout({
         <Navbar />
 
         {/* Dynamic Page Content */}
-        <main className="flex-1 pb-20 md:pb-12">{children}</main>
+        <main className="flex-1">{children}</main>
+
+        {/* Global Footer with Founder Credits & Contact */}
+        <Footer />
 
         {/* Mobile Persistent Bottom Nav */}
         <MobileNav />

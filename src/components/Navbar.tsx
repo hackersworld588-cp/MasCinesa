@@ -55,6 +55,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/search", label: "Explore & Search", icon: Search },
     { href: "/watchlist", label: "Watchlist", icon: Bookmark },
+    { href: "/about", label: "About Founder", icon: Shield },
   ];
 
   return (

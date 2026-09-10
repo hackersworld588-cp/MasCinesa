@@ -7,12 +7,15 @@ import CinemaPlayer from "./CinemaPlayer";
 interface TrailerModalProps {
   isOpen: boolean;
   onClose: () => void;
+  movieId?: string | null;
   trailerKey?: string | null;
   trailerUrl?: string | null;
   fullMovieKey?: string | null;
   imdbId?: string | null;
   tmdbId?: number | null;
+  posterUrl?: string | null;
   backdropUrl?: string | null;
+  initialStartTime?: number | null;
   initialMode?: "trailer" | "fullMovie";
   title: string;
 }
@@ -20,11 +23,14 @@ interface TrailerModalProps {
 export default function TrailerModal({
   isOpen,
   onClose,
+  movieId,
   fullMovieKey,
   trailerKey,
   imdbId,
   tmdbId,
+  posterUrl,
   backdropUrl,
+  initialStartTime,
   title,
 }: TrailerModalProps) {
   useEffect(() => {
@@ -90,10 +96,13 @@ export default function TrailerModal({
         <div className="w-full overflow-y-auto">
           <CinemaPlayer
             title={title}
+            movieId={movieId}
             imdbId={imdbId}
             tmdbId={tmdbId}
             fullMovieKey={fullMovieKey || trailerKey}
+            posterUrl={posterUrl}
             backdropUrl={backdropUrl}
+            initialStartTime={initialStartTime}
             onClose={onClose}
           />
         </div>
