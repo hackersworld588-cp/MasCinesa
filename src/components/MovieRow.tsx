@@ -75,7 +75,8 @@ export default function MovieRow({
       {/* Horizontal Scroll Container */}
       <div
         ref={rowRef}
-        className="flex gap-3.5 sm:gap-6 overflow-x-auto no-scrollbar px-4 sm:px-8 md:px-12 scroll-smooth py-2 touch-pan-x overscroll-x-contain"
+        className="flex gap-3.5 sm:gap-6 overflow-x-auto no-scrollbar px-4 sm:px-8 md:px-12 scroll-smooth py-2"
+        style={{ WebkitOverflowScrolling: "touch" }}
       >
         {movies.map((movie) => (
           <div

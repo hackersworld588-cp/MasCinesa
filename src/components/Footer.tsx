@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Film, Heart, MapPin, Phone, MessageCircle, ShieldCheck, Sparkles } from "lucide-react";
 
 export default function Footer() {
@@ -34,9 +35,15 @@ export default function Footer() {
 
             {/* Founder Credit Card */}
             <div className="mt-5 p-3.5 rounded-2xl bg-white/5 border border-white/10 flex items-center gap-3">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-brand-crimson to-emerald-500 p-0.5 flex-shrink-0">
-                <div className="w-full h-full bg-surface rounded-[10px] flex items-center justify-center font-bold text-white text-sm">
-                  AH
+              <div className="relative w-11 h-11 rounded-xl bg-gradient-to-tr from-brand-crimson to-emerald-500 p-0.5 flex-shrink-0">
+                <div className="relative w-full h-full rounded-[10px] overflow-hidden bg-surface">
+                  <Image
+                    src="/founder.jpg"
+                    alt="Mohammad Aabid Husain"
+                    fill
+                    sizes="44px"
+                    className="object-cover object-top"
+                  />
                 </div>
               </div>
               <div className="flex-1 min-w-0">

@@ -2,12 +2,13 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, MessageCircle, MapPin, Sparkles, Heart, ArrowRight, ShieldCheck, Film } from "lucide-react";
 
 export default function FounderSection() {
   const phoneNumber = "+919588879423";
   const displayPhone = "+91 9588879423";
-  const whatsappUrl = "https://wa.me/919588879423?text=Hello%20Mohammad%20Aabid%20Husain,%20I%20visited%20CineSa%20and%20loved%20the%20platform!";
+  const whatsappUrl = "https://wa.me/919588879423?text=Hello%20Mohammad%20Aabid%20Husain,%20I%20am%20reaching%20out%20from%20CineSa!";
 
   return (
     <section className="relative py-10 sm:py-14 max-w-7xl mx-auto px-4 sm:px-8 md:px-12 w-full">
@@ -15,7 +16,7 @@ export default function FounderSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-brand-crimson/10 via-brand-purple/10 to-emerald-500/10 rounded-3xl blur-3xl -z-10 pointer-events-none" />
 
       <div className="relative rounded-3xl bg-surface/80 border border-white/10 p-6 sm:p-10 md:p-12 backdrop-blur-xl shadow-2xl overflow-hidden">
-        {/* Subtle decorative top badge */}
+        {/* Decorative Top Badges */}
         <div className="flex flex-wrap items-center gap-2 mb-6">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-crimson/20 border border-brand-crimson/40 text-brand-crimson">
             <Sparkles className="w-3.5 h-3.5" />
@@ -31,12 +32,22 @@ export default function FounderSection() {
           {/* Left Column: Founder Identity & Bio (7 cols) */}
           <div className="lg:col-span-7 flex flex-col">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 mb-4">
-              {/* Founder Avatar with Glowing Border */}
-              <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-gradient-to-tr from-brand-crimson via-brand-purple to-emerald-400 p-0.5 shadow-xl shadow-brand-crimson/20 flex-shrink-0">
-                <div className="w-full h-full bg-surface-elevated rounded-[14px] flex items-center justify-center font-black text-2xl sm:text-3xl text-white tracking-wider">
-                  AH
+              {/* Founder Avatar with Real Profile Photo */}
+              <div className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-gradient-to-tr from-brand-crimson via-brand-purple to-emerald-400 p-0.5 shadow-xl shadow-brand-crimson/20 flex-shrink-0">
+                <div className="relative w-full h-full rounded-[14px] overflow-hidden bg-surface-elevated">
+                  <Image
+                    src="/founder.jpg"
+                    alt="Mohammad Aabid Husain — Founder CineSa"
+                    fill
+                    sizes="(max-width: 640px) 96px, 112px"
+                    className="object-cover object-top"
+                    priority
+                  />
                 </div>
-                <div className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-emerald-500 border-2 border-surface flex items-center justify-center text-[10px] text-white" title="Online & Available">
+                <div
+                  className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-emerald-500 border-2 border-surface flex items-center justify-center text-[10px] text-white font-bold"
+                  title="Online & Verified"
+                >
                   ✓
                 </div>
               </div>
@@ -58,15 +69,14 @@ export default function FounderSection() {
             </div>
 
             <p className="text-sm sm:text-base text-gray-300 leading-relaxed mt-2">
-              <strong className="text-white font-semibold">Mohammad Aabid Husain</strong> ne CineSa ko ek mission ke saath develop kiya hai: Indian cinema lovers ko 
-              <span className="text-emerald-400 font-semibold"> 100% Free & Ad-Free</span> premium streaming experience dena. Jahan South Indian blockbusters, 
-              Hollywood Hindi dubbed hits, aur Bollywood classics bina kisi intrusive pop-up ya ad disturbance ke ek jagah mil sakein.
+              <strong className="text-white font-semibold">Mohammad Aabid Husain</strong> created CineSa with a clear vision: to offer cinema lovers a 
+              <span className="text-emerald-400 font-semibold"> 100% Ad-Free, seamless streaming experience</span>. CineSa brings together high-definition South Indian mass blockbusters, official Hollywood Hindi dubbed hits, and Bollywood classics without pop-up redirects or subscriptions.
             </p>
 
             <p className="text-xs sm:text-sm text-gray-400 mt-3 flex items-center gap-1.5">
-              <span>Platform built with</span>
+              <span>Engineered with passion and</span>
               <Heart className="w-4 h-4 text-brand-crimson fill-brand-crimson inline" />
-              <span>for cinema enthusiasts across India & worldwide.</span>
+              <span>for cinema enthusiasts worldwide.</span>
             </p>
 
             {/* Quick Action CTAs */}
@@ -106,7 +116,7 @@ export default function FounderSection() {
           <div className="lg:col-span-5 flex flex-col gap-3.5 bg-black/40 border border-white/10 rounded-2xl p-5 sm:p-6 backdrop-blur-md">
             <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400 flex items-center gap-2">
               <Film className="w-4 h-4 text-brand-crimson" />
-              Founder&apos;s Guarantees to Users
+              Founder&apos;s Core Guarantees
             </h3>
 
             <div className="space-y-3 mt-1">
@@ -115,9 +125,9 @@ export default function FounderSection() {
                   01
                 </div>
                 <div>
-                  <h4 className="text-xs sm:text-sm font-bold text-white">Strict Non-Overlapping Genres</h4>
+                  <h4 className="text-xs sm:text-sm font-bold text-white">Strict Non-Overlapping Categories</h4>
                   <p className="text-xs text-gray-400 mt-0.5">
-                    Hollywood movies sirf Hollywood mein, Comedy sirf Comedy mein — zero duplicate confusion.
+                    Hollywood movies strictly in Hollywood, South Indian in South, and Comedy in Comedy — zero duplicates.
                   </p>
                 </div>
               </div>
@@ -127,9 +137,9 @@ export default function FounderSection() {
                   02
                 </div>
                 <div>
-                  <h4 className="text-xs sm:text-sm font-bold text-white">Exact Second Playback Resume</h4>
+                  <h4 className="text-xs sm:text-sm font-bold text-white">Exact-Second Playback Resume</h4>
                   <p className="text-xs text-gray-400 mt-0.5">
-                    Jahan se movie pause ya close ki thi, agle visit par theek usi second se play hogi.
+                    Whenever you pause or leave, CineSa remembers your position and resumes at that exact second.
                   </p>
                 </div>
               </div>
@@ -141,7 +151,7 @@ export default function FounderSection() {
                 <div>
                   <h4 className="text-xs sm:text-sm font-bold text-white">Direct Founder Accessibility</h4>
                   <p className="text-xs text-gray-400 mt-0.5">
-                    Koi suggestion ya new movie request ho to Mohammad Aabid Husain se direct connect karein.
+                    Have feedback or a movie request? Reach out directly to Mohammad Aabid Husain anytime.
                   </p>
                 </div>
               </div>

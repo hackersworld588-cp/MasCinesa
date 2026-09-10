@@ -2,19 +2,19 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Home, Sparkles, Search, MessageSquare, Bookmark, User } from "lucide-react";
+import { Home, Search, MessageSquare, Bookmark } from "lucide-react";
 
 export default function MobileNav() {
   const pathname = usePathname();
 
   const items = [
     { href: "/", label: "Home", icon: Home },
-    { href: "/ai-recommendations", label: "AI Picks", icon: Sparkles },
     { href: "/search", label: "Search", icon: Search },
     { href: "/chat", label: "CineSa", icon: MessageSquare, special: true },
     { href: "/watchlist", label: "Watchlist", icon: Bookmark },
-    { href: "/profile", label: "Profile", icon: User },
+    { href: "/about", label: "Founder", isFounder: true },
   ];
 
   return (
@@ -38,7 +38,7 @@ export default function MobileNav() {
                       : "bg-brand-red text-white shadow-brand-red/40"
                   }`}
                 >
-                  <Icon className="w-5 h-5 text-white" />
+                  {Icon && <Icon className="w-5 h-5 text-white" />}
                 </div>
                 <span
                   className={`text-[10px] mt-1 font-semibold ${
@@ -51,6 +51,35 @@ export default function MobileNav() {
             );
           }
 
+          if (item.isFounder) {
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`flex flex-col items-center justify-center py-1 px-2 rounded-xl transition ${
+                  isActive ? "text-brand-crimson font-bold" : "text-gray-400 hover:text-white"
+                }`}
+              >
+                <div
+                  className={`relative w-5 h-5 rounded-full overflow-hidden transition-all ${
+                    isActive
+                      ? "ring-2 ring-brand-crimson scale-110"
+                      : "ring-1 ring-white/30 opacity-80"
+                  }`}
+                >
+                  <Image
+                    src="/founder.jpg"
+                    alt="Founder Mohammad Aabid Husain"
+                    fill
+                    sizes="20px"
+                    className="object-cover object-top"
+                  />
+                </div>
+                <span className="text-[10px] mt-1 font-medium">{item.label}</span>
+              </Link>
+            );
+          }
+
           return (
             <Link
               key={item.href}
@@ -59,7 +88,7 @@ export default function MobileNav() {
                 isActive ? "text-brand-crimson font-bold" : "text-gray-400 hover:text-white"
               }`}
             >
-              <Icon className="w-5 h-5" />
+              {Icon && <Icon className="w-5 h-5" />}
               <span className="text-[10px] mt-1 font-medium">{item.label}</span>
             </Link>
           );

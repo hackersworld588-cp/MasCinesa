@@ -105,11 +105,22 @@ export default function Navbar() {
         </nav>
 
         {/* Right Side: AI Assistant Quick Button & User Profile */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
+          {/* Mobile Quick Founder Link */}
+          <Link
+            href="/about"
+            className="md:hidden flex items-center gap-1.5 px-2 py-1.5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-gray-200 transition"
+          >
+            <div className="relative w-5 h-5 rounded-full overflow-hidden ring-1 ring-emerald-400/50 flex-shrink-0">
+              <Image src="/founder.jpg" alt="Founder" fill sizes="20px" className="object-cover object-top" />
+            </div>
+            <span className="text-[11px] font-semibold">Founder</span>
+          </Link>
+
           {/* Quick AI Chat Link */}
           <Link
             href="/chat"
-            className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-brand-purple/20 to-brand-crimson/20 border border-brand-purple/40 hover:border-brand-purple/70 text-white text-xs sm:text-sm font-semibold hover:shadow-lg hover:shadow-purple-900/30 transition group"
+            className="flex items-center gap-2 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl bg-gradient-to-r from-brand-purple/20 to-brand-crimson/20 border border-brand-purple/40 hover:border-brand-purple/70 text-white text-xs sm:text-sm font-semibold hover:shadow-lg hover:shadow-purple-900/30 transition group"
           >
             <Sparkles className="w-4 h-4 text-brand-purple group-hover:rotate-12 transition-transform" />
             <span className="hidden sm:inline">Ask CineMate</span>
