@@ -1,6 +1,7 @@
 import { Movie } from "@/types";
 
 export interface StrictMovieCategories {
+  turkishHistorical: Movie[];
   marvelHollywood: Movie[];
   iofHollywood: Movie[];
   goldminesAction: Movie[];
@@ -14,11 +15,13 @@ export interface StrictMovieCategories {
  * Guarantees:
  * 1. Zero duplicates across sections (every movie appears in at most ONE category).
  * 2. Strict Hollywood vs Bollywood separation (Hollywood/Marvel movies never bleed into Bollywood/South sections).
+ * 3. Dedicated Turkish & Islamic Historical Drama series category.
  */
 export function getStrictCategorizedMovies(allMovies: Movie[]): StrictMovieCategories {
   const assigned = new Set<string>();
 
   const result: StrictMovieCategories = {
+    turkishHistorical: [],
     marvelHollywood: [],
     iofHollywood: [],
     goldminesAction: [],
@@ -26,6 +29,23 @@ export function getStrictCategorizedMovies(allMovies: Movie[]): StrictMovieCateg
     horrorThriller: [],
     romanceDrama: [],
   };
+
+  // 0. Turkish & Islamic Historical Mega Series (Kuruluş Osman, Ertuğrul, Selahaddin, Abdülhamid - Exclusive)
+  for (const m of allMovies) {
+    const t = m.title.toLowerCase();
+    const genres = m.genres?.map((g) => g.name) || [];
+    const isTurkish =
+      t.includes("osman") ||
+      t.includes("ertugrul") ||
+      t.includes("selahaddin") ||
+      t.includes("abdulhamid") ||
+      genres.includes("Turkish Drama") ||
+      genres.includes("Historical Drama");
+    if (isTurkish && !assigned.has(m.id)) {
+      result.turkishHistorical.push(m);
+      assigned.add(m.id);
+    }
+  }
 
   // 1. Marvel & Hollywood Superhero Hits (Exclusive)
   for (const m of allMovies) {

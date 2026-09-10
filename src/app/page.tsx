@@ -5,14 +5,14 @@ import HeroSection from "@/components/HeroSection";
 import MovieRow from "@/components/MovieRow";
 import ContinueWatchingRow from "@/components/ContinueWatchingRow";
 import FounderSection from "@/components/FounderSection";
-import { getAllMovies, getFeaturedMovie } from "@/lib/movie-service";
+import { getAllMovies, getFeaturedHeroMovies } from "@/lib/movie-service";
 import { getStrictCategorizedMovies } from "@/lib/movie-categorizer";
 
 export default async function HomePage() {
-  // 1. Fetch Featured Hero Movie
-  const featuredMovie = await getFeaturedMovie();
+  // 1. Fetch 4 Featured Hero Series (Kuruluş Osman, Ertuğrul Ghazi, Selahaddin Eyyubi, Sultan Abdülhamid)
+  const featuredHeroMovies = await getFeaturedHeroMovies();
 
-  // 2. Fetch All Movies from Database or Static dataset (126 total)
+  // 2. Fetch All Movies from Database or Static dataset (138 total)
   const formattedAll = await getAllMovies();
 
   // 3. Strict Non-Overlapping Categorization
@@ -24,8 +24,8 @@ export default async function HomePage() {
 
   return (
     <div className="flex flex-col w-full bg-background min-h-screen">
-      {/* 1. Cinematic Hero Section */}
-      {featuredMovie && <HeroSection movie={featuredMovie} />}
+      {/* 1. Cinematic Auto-Rotating Hero Banner Section */}
+      {featuredHeroMovies.length > 0 && <HeroSection movies={featuredHeroMovies} />}
 
       {/* 2. Ad-Free Streaming Banner */}
       <section className="relative -mt-6 sm:-mt-10 z-20 max-w-7xl mx-auto px-4 sm:px-8 md:px-12 w-full">
@@ -70,7 +70,19 @@ export default async function HomePage() {
         <ContinueWatchingRow />
       </div>
 
-      {/* 4. 💥 South Indian Hindi Dubbed Blockbusters (Goldmines Mass) */}
+      {/* 4. ⚔️ Turkish & Islamic Historical Mega-Series */}
+      {categorized.turkishHistorical.length > 0 && (
+        <div className="mt-2">
+          <MovieRow
+            title="⚔️ Turkish & Islamic Historical Mega-Series (Urdu Dubbed)"
+            subtitle="Kuruluş: Osman, Ertuğrul Ghazi, Sultan Selahaddin Eyyubi aur Payitaht Sultan Abdülhamid ke blockbuster episodes"
+            movies={categorized.turkishHistorical}
+            badge="Historical Mega Series"
+          />
+        </div>
+      )}
+
+      {/* 5. 💥 South Indian Hindi Dubbed Blockbusters (Goldmines Mass) */}
       {categorized.goldminesAction.length > 0 && (
         <div className="mt-2">
           <MovieRow

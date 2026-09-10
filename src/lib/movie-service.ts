@@ -35,45 +35,44 @@ export async function getAllMovies(): Promise<Movie[]> {
 }
 
 /**
+ * Get the featured hero series for the auto-rotating Hero Banner
+ * Specifically features the 4 legendary Turkish & Islamic series:
+ * 1. Kuruluş: Osman (Urdu Dubbed)
+ * 2. Ertugrul Ghazi (Diriliş: Ertuğrul Urdu)
+ * 3. Sultan Selahaddin Eyyubi (Kudüs Fatihi)
+ * 4. Payitaht Sultan Abdülhamid
+ */
+export async function getFeaturedHeroMovies(): Promise<Movie[]> {
+  const all = await getAllMovies();
+  
+  const kurulus = all.find((m) => m.fullMovieKey === "yzC6IWPLg78" || m.title.includes("Kuruluş: Osman"));
+  const ertugrul = all.find((m) => m.fullMovieKey === "fa89NxhAKis" || m.title.includes("Ertugrul Ghazi"));
+  const selahaddin = all.find((m) => m.fullMovieKey === "o1b-cTUM_ig" || m.title.includes("Selahaddin Eyyubi"));
+  const payitaht = all.find((m) => m.fullMovieKey === "GyqbUrT_7j8" || m.title.includes("Payitaht Sultan"));
+
+  const list: Movie[] = [];
+  if (kurulus) list.push(kurulus);
+  if (ertugrul) list.push(ertugrul);
+  if (selahaddin) list.push(selahaddin);
+  if (payitaht) list.push(payitaht);
+
+  if (list.length >= 4) return list;
+
+  for (const m of all) {
+    if (!list.find((x) => x.id === m.id)) {
+      list.push(m);
+      if (list.length >= 4) break;
+    }
+  }
+  return list;
+}
+
+/**
  * Get the featured hero movie safely
  */
 export async function getFeaturedMovie(): Promise<Movie | null> {
-  if (isRemoteDb) {
-    try {
-      const { db } = await import("@/lib/db");
-      const { formatMovieWithRelations } = await import("@/lib/ai-engine");
-      const featuredRecord = await db.movie.findFirst({
-        where: {
-          OR: [
-            { title: { contains: "Sarrainodu" } },
-            { title: { contains: "Hera Pheri" } },
-            { title: { contains: "DJ" } },
-          ],
-        },
-        include: {
-          movieGenres: { include: { genre: true } },
-          movieDirectors: { include: { director: true } },
-          movieCast: { include: { actor: true } },
-        },
-      });
-      if (featuredRecord) {
-        return formatMovieWithRelations(featuredRecord);
-      }
-    } catch (error) {
-      console.warn("Database query for featured movie failed, using static fallback:", error);
-    }
-  }
-
-  return (
-    staticMovies.find(
-      (m) =>
-        m.title.includes("Sarrainodu") ||
-        m.title.includes("Hera Pheri") ||
-        m.title.includes("DJ")
-    ) ||
-    staticMovies[0] ||
-    null
-  );
+  const heroes = await getFeaturedHeroMovies();
+  return heroes[0] || null;
 }
 
 /**
