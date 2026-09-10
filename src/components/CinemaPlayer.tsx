@@ -51,11 +51,19 @@ export default function CinemaPlayer({
   const [theaterMode, setTheaterMode] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const playerContainerRef = useRef<HTMLDivElement>(null);
+  const activeEpRef = useRef<HTMLButtonElement>(null);
 
   // Active episode if series
   const activeEpisode = episodes && episodes.length > 0 ? episodes[currentEpIndex] : null;
   const activeTitle = activeEpisode ? `${title} - ${activeEpisode.title}` : title;
   const videoKey = activeEpisode ? activeEpisode.fullMovieKey : (fullMovieKey || "TIQ5hrfermg");
+
+  // Scroll active episode pill into view
+  useEffect(() => {
+    if (activeEpRef.current) {
+      activeEpRef.current.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    }
+  }, [currentEpIndex]);
 
   // Resume playback timing
   const resolvedStartTime = initialStartTime || (movieId ? getSavedStartTime(movieId) : 0);
@@ -291,6 +299,7 @@ export default function CinemaPlayer({
               return (
                 <button
                   key={ep.id || idx}
+                  ref={isCurrent ? activeEpRef : null}
                   onClick={() => handleSelectEpisode(idx)}
                   className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex-shrink-0 border ${
                     isCurrent

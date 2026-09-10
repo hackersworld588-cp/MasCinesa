@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import MovieRow from "@/components/MovieRow";
 import ContinueWatchingRow from "@/components/ContinueWatchingRow";
 import FounderSection from "@/components/FounderSection";
+import TurkishMegaSeriesHub from "@/components/TurkishMegaSeriesHub";
 import { getAllMovies, getFeaturedHeroMovies } from "@/lib/movie-service";
 import { getStrictCategorizedMovies } from "@/lib/movie-categorizer";
 
@@ -70,16 +71,9 @@ export default async function HomePage() {
         <ContinueWatchingRow />
       </div>
 
-      {/* 4. ⚔️ Turkish & Islamic Historical Mega-Series */}
+      {/* 4. ⚔️ Turkish & Islamic Historical Mega-Series (4 Clean Master Cards with Sequence-Wise Episodes Inside) */}
       {categorized.turkishHistorical.length > 0 && (
-        <div className="mt-2">
-          <MovieRow
-            title="⚔️ Turkish & Islamic Historical Mega-Series (Urdu Dubbed)"
-            subtitle="Kuruluş: Osman, Ertuğrul Ghazi, Sultan Selahaddin Eyyubi aur Payitaht Sultan Abdülhamid ke blockbuster episodes"
-            movies={categorized.turkishHistorical}
-            badge="Historical Mega Series"
-          />
-        </div>
+        <TurkishMegaSeriesHub seriesList={categorized.turkishHistorical} />
       )}
 
       {/* 5. 💥 South Indian Hindi Dubbed Blockbusters (Goldmines Mass) */}

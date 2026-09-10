@@ -3,8 +3,8 @@
     "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Kuruluş: Osman (Urdu Dubbed)",
-    "originalTitle": "Kuruluş: Osman",
+    "title": "Kurulu\u015f: Osman (Urdu Dubbed)",
+    "originalTitle": "Kurulu\u015f: Osman",
     "tagline": "The Legend of Osman Bey & The Dawn of the Ottoman Empire",
     "overview": "Follow the heroic journey of Osman Bey, son of Ertugrul Ghazi, as he battles internal traitors, Byzantine warlords, and Mongol legions to lay the foundation of the glorious Ottoman Empire. Dubbed in official Urdu audio.",
     "releaseDate": "2020-01-01",
@@ -17,7 +17,7 @@
     "fullMovieKey": "yzC6IWPLg78",
     "isFreeWatch": true,
     "isSeries": true,
-    "totalEpisodes": 3,
+    "totalEpisodes": 68,
     "voteAverage": 9.4,
     "voteCount": 75000,
     "popularity": 99.8,
@@ -51,7 +51,7 @@
       {
         "id": "d-mg",
         "tmdbId": null,
-        "name": "Metin Günay",
+        "name": "Metin G\u00fcnay",
         "profileUrl": null,
         "popularity": 88
       }
@@ -66,7 +66,7 @@
         "actor": {
           "id": "a-bo",
           "tmdbId": null,
-          "name": "Burak Özçivit",
+          "name": "Burak \u00d6z\u00e7ivit",
           "profileUrl": null,
           "popularity": 90
         }
@@ -80,7 +80,7 @@
         "actor": {
           "id": "a-ot",
           "tmdbId": null,
-          "name": "Özge Törer",
+          "name": "\u00d6zge T\u00f6rer",
           "profileUrl": null,
           "popularity": 85
         }
@@ -94,7 +94,7 @@
         "actor": {
           "id": "a-ya",
           "tmdbId": null,
-          "name": "Yıldız Çağrı Atiksoy",
+          "name": "Y\u0131ld\u0131z \u00c7a\u011fr\u0131 Atiksoy",
           "profileUrl": null,
           "popularity": 80
         }
@@ -102,37 +102,752 @@
     ],
     "episodes": [
       {
-        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-1",
         "episodeNumber": 1,
-        "title": "Episode 1: The Legend of Osman Begins",
-        "overview": "Osman Bey leads his Alps into danger to uncover Byzantine conspiracies threatening the Kayi camp.",
-        "runtime": 124,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 1",
+        "overview": "Kurulu\u015f Osman official episode 1. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "yzC6IWPLg78",
         "thumbnailUrl": "https://i.ytimg.com/vi/yzC6IWPLg78/hqdefault.jpg",
         "badge": "Full HD",
         "releaseDate": "2020-01-01"
       },
       {
-        "id": "4769ec89-c475-4415-9a3e-f65465193b74",
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-2",
         "episodeNumber": 2,
-        "title": "Episode 2: The Camp in Danger",
-        "overview": "Tensions rise as Osman uncovers dark secrets from Kulucahisar castle.",
-        "runtime": 118,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 2",
+        "overview": "Kurulu\u015f Osman official episode 2. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "X2DnXfwOK98",
         "thumbnailUrl": "https://i.ytimg.com/vi/X2DnXfwOK98/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2020-01-08"
+        "releaseDate": "2020-01-01"
       },
       {
-        "id": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-3",
         "episodeNumber": 3,
-        "title": "Season 4 - Episode 74 (Ultra 4K)",
-        "overview": "In ultra 4K visual fidelity, Osman Bey faces treacherous plots in the Marmara region.",
-        "runtime": 130,
-        "fullMovieKey": "pwVF9clT-CI",
-        "thumbnailUrl": "https://i.ytimg.com/vi/pwVF9clT-CI/hqdefault.jpg",
-        "badge": "Ultra 4K",
-        "releaseDate": "2023-05-10"
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 3",
+        "overview": "Kurulu\u015f Osman official episode 3. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "L6v3L9WhDVA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/L6v3L9WhDVA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-4",
+        "episodeNumber": 4,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 4",
+        "overview": "Kurulu\u015f Osman official episode 4. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "tL1Ek95mhJY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/tL1Ek95mhJY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-5",
+        "episodeNumber": 5,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 5",
+        "overview": "Kurulu\u015f Osman official episode 5. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "pOlJ_-zPKM0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/pOlJ_-zPKM0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-6",
+        "episodeNumber": 6,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 6",
+        "overview": "Kurulu\u015f Osman official episode 6. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "PRKcimBLw2s",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PRKcimBLw2s/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-7",
+        "episodeNumber": 7,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 7",
+        "overview": "Kurulu\u015f Osman official episode 7. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "K5Qbv5OLnkc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/K5Qbv5OLnkc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-8",
+        "episodeNumber": 8,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 8",
+        "overview": "Kurulu\u015f Osman official episode 8. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "CA2meY9asls",
+        "thumbnailUrl": "https://i.ytimg.com/vi/CA2meY9asls/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-9",
+        "episodeNumber": 9,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 9",
+        "overview": "Kurulu\u015f Osman official episode 9. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "JqVeuAfyPcc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/JqVeuAfyPcc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-10",
+        "episodeNumber": 10,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 10",
+        "overview": "Kurulu\u015f Osman official episode 10. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "um0yMh9vWqM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/um0yMh9vWqM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-11",
+        "episodeNumber": 11,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 11",
+        "overview": "Kurulu\u015f Osman official episode 11. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "PMEHQ_GRMA0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PMEHQ_GRMA0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-12",
+        "episodeNumber": 12,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 12",
+        "overview": "Kurulu\u015f Osman official episode 12. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "WLf4XCtYock",
+        "thumbnailUrl": "https://i.ytimg.com/vi/WLf4XCtYock/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-13",
+        "episodeNumber": 13,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 13",
+        "overview": "Kurulu\u015f Osman official episode 13. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "-iPzhUoSy3g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/-iPzhUoSy3g/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-14",
+        "episodeNumber": 14,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 14",
+        "overview": "Kurulu\u015f Osman official episode 14. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "VDH9UcjkHRM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VDH9UcjkHRM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-15",
+        "episodeNumber": 15,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 15",
+        "overview": "Kurulu\u015f Osman official episode 15. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "AovY4Od5NLo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/AovY4Od5NLo/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-16",
+        "episodeNumber": 16,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 16",
+        "overview": "Kurulu\u015f Osman official episode 16. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "A9TFLoElkOI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/A9TFLoElkOI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-17",
+        "episodeNumber": 17,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 17",
+        "overview": "Kurulu\u015f Osman official episode 17. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "B6otao5RoGg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/B6otao5RoGg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-18",
+        "episodeNumber": 18,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 18",
+        "overview": "Kurulu\u015f Osman official episode 18. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "LtQogdP38mg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/LtQogdP38mg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-19",
+        "episodeNumber": 19,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 19",
+        "overview": "Kurulu\u015f Osman official episode 19. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "AHIt6YpbI6A",
+        "thumbnailUrl": "https://i.ytimg.com/vi/AHIt6YpbI6A/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-20",
+        "episodeNumber": 20,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 20",
+        "overview": "Kurulu\u015f Osman official episode 20. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "1DtR3mjc-hE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1DtR3mjc-hE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-21",
+        "episodeNumber": 21,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 21",
+        "overview": "Kurulu\u015f Osman official episode 21. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "oWXXKI65HDs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/oWXXKI65HDs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-22",
+        "episodeNumber": 22,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 22",
+        "overview": "Kurulu\u015f Osman official episode 22. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Tz9g3RPORgU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Tz9g3RPORgU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-23",
+        "episodeNumber": 23,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 23",
+        "overview": "Kurulu\u015f Osman official episode 23. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "YuML58vHtmA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YuML58vHtmA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-24",
+        "episodeNumber": 24,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 24",
+        "overview": "Kurulu\u015f Osman official episode 24. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "OnHZ3bdnA2g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/OnHZ3bdnA2g/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-25",
+        "episodeNumber": 25,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 25",
+        "overview": "Kurulu\u015f Osman official episode 25. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "4XZqXCZjhjc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/4XZqXCZjhjc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-26",
+        "episodeNumber": 26,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 26",
+        "overview": "Kurulu\u015f Osman official episode 26. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "X1AyuJnPN8U",
+        "thumbnailUrl": "https://i.ytimg.com/vi/X1AyuJnPN8U/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-27",
+        "episodeNumber": 27,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 27",
+        "overview": "Kurulu\u015f Osman official episode 27. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "M0druNoebNI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/M0druNoebNI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-28",
+        "episodeNumber": 28,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 28",
+        "overview": "Kurulu\u015f Osman official episode 28. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "6_jtesc6KFs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6_jtesc6KFs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-29",
+        "episodeNumber": 29,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 29",
+        "overview": "Kurulu\u015f Osman official episode 29. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "FpUc2xa4gRs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FpUc2xa4gRs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-30",
+        "episodeNumber": 30,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 30",
+        "overview": "Kurulu\u015f Osman official episode 30. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "SGypgTBqOPs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/SGypgTBqOPs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-31",
+        "episodeNumber": 31,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 31",
+        "overview": "Kurulu\u015f Osman official episode 31. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "jHzwcdZcKOU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/jHzwcdZcKOU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-32",
+        "episodeNumber": 32,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 32",
+        "overview": "Kurulu\u015f Osman official episode 32. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "dqYkXLreAkQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dqYkXLreAkQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-33",
+        "episodeNumber": 33,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 33",
+        "overview": "Kurulu\u015f Osman official episode 33. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "WxWoVn2nk3U",
+        "thumbnailUrl": "https://i.ytimg.com/vi/WxWoVn2nk3U/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-34",
+        "episodeNumber": 34,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 34",
+        "overview": "Kurulu\u015f Osman official episode 34. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "g7ihaHhnZdg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/g7ihaHhnZdg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-35",
+        "episodeNumber": 35,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 35",
+        "overview": "Kurulu\u015f Osman official episode 35. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "5mfoO-vy3Tw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5mfoO-vy3Tw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-36",
+        "episodeNumber": 36,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 36",
+        "overview": "Kurulu\u015f Osman official episode 36. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "PWUFq-t9y9g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PWUFq-t9y9g/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-37",
+        "episodeNumber": 37,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 37",
+        "overview": "Kurulu\u015f Osman official episode 37. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "0ZVLNtoYR7E",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0ZVLNtoYR7E/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-38",
+        "episodeNumber": 38,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 38",
+        "overview": "Kurulu\u015f Osman official episode 38. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "LSU3jyiJoUo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/LSU3jyiJoUo/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-39",
+        "episodeNumber": 39,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 39",
+        "overview": "Kurulu\u015f Osman official episode 39. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "KumCPcLgsNM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KumCPcLgsNM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-40",
+        "episodeNumber": 40,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 40",
+        "overview": "Kurulu\u015f Osman official episode 40. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "SU1T7uQNTIE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/SU1T7uQNTIE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-41",
+        "episodeNumber": 41,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 41",
+        "overview": "Kurulu\u015f Osman official episode 41. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "CTt7K_xfBLc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/CTt7K_xfBLc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-42",
+        "episodeNumber": 42,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 42",
+        "overview": "Kurulu\u015f Osman official episode 42. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "tG0vKkuv0ws",
+        "thumbnailUrl": "https://i.ytimg.com/vi/tG0vKkuv0ws/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-43",
+        "episodeNumber": 43,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 43",
+        "overview": "Kurulu\u015f Osman official episode 43. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "n4vuAoxKq1o",
+        "thumbnailUrl": "https://i.ytimg.com/vi/n4vuAoxKq1o/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-44",
+        "episodeNumber": 44,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 44",
+        "overview": "Kurulu\u015f Osman official episode 44. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "WId6rcac7Jg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/WId6rcac7Jg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-45",
+        "episodeNumber": 45,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 45",
+        "overview": "Kurulu\u015f Osman official episode 45. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "y0YZnemXF7k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/y0YZnemXF7k/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-46",
+        "episodeNumber": 46,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 46",
+        "overview": "Kurulu\u015f Osman official episode 46. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "UAXlIjuSJ3Q",
+        "thumbnailUrl": "https://i.ytimg.com/vi/UAXlIjuSJ3Q/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-47",
+        "episodeNumber": 47,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 47",
+        "overview": "Kurulu\u015f Osman official episode 47. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "qlxQLi7VVaY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/qlxQLi7VVaY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-48",
+        "episodeNumber": 48,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 48",
+        "overview": "Kurulu\u015f Osman official episode 48. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "YhRa248oNPg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YhRa248oNPg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-49",
+        "episodeNumber": 49,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 49",
+        "overview": "Kurulu\u015f Osman official episode 49. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "PPx8rgSrC2w",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PPx8rgSrC2w/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-50",
+        "episodeNumber": 50,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 50",
+        "overview": "Kurulu\u015f Osman official episode 50. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "K8ICoy5xox0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/K8ICoy5xox0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-51",
+        "episodeNumber": 51,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 51",
+        "overview": "Kurulu\u015f Osman official episode 51. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "DXCrDQ_r6yk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/DXCrDQ_r6yk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-52",
+        "episodeNumber": 52,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 52",
+        "overview": "Kurulu\u015f Osman official episode 52. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "UfBiKE1u00g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/UfBiKE1u00g/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-53",
+        "episodeNumber": 53,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 53",
+        "overview": "Kurulu\u015f Osman official episode 53. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "trS7wZKMLWc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/trS7wZKMLWc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-54",
+        "episodeNumber": 54,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 54",
+        "overview": "Kurulu\u015f Osman official episode 54. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "1IHlPFLZp5I",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1IHlPFLZp5I/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-55",
+        "episodeNumber": 55,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 55",
+        "overview": "Kurulu\u015f Osman official episode 55. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "TA0pHAouFmY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/TA0pHAouFmY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-56",
+        "episodeNumber": 56,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 56",
+        "overview": "Kurulu\u015f Osman official episode 56. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "6-hEIyY7k_k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6-hEIyY7k_k/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-57",
+        "episodeNumber": 57,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 57",
+        "overview": "Kurulu\u015f Osman official episode 57. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "UMbeDDo55_A",
+        "thumbnailUrl": "https://i.ytimg.com/vi/UMbeDDo55_A/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-58",
+        "episodeNumber": 58,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 58",
+        "overview": "Kurulu\u015f Osman official episode 58. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Wx2lGaLJpSE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Wx2lGaLJpSE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-59",
+        "episodeNumber": 59,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 59",
+        "overview": "Kurulu\u015f Osman official episode 59. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "DcxBodhXyU4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/DcxBodhXyU4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-60",
+        "episodeNumber": 60,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 60",
+        "overview": "Kurulu\u015f Osman official episode 60. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ubAqce0TNbc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ubAqce0TNbc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-61",
+        "episodeNumber": 61,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 61",
+        "overview": "Kurulu\u015f Osman official episode 61. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "6AshvAkG6XA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6AshvAkG6XA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-62",
+        "episodeNumber": 62,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 62",
+        "overview": "Kurulu\u015f Osman official episode 62. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "asx-PTWaot0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/asx-PTWaot0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-63",
+        "episodeNumber": 63,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 63",
+        "overview": "Kurulu\u015f Osman official episode 63. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "zJYgtmhuHDI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zJYgtmhuHDI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-64",
+        "episodeNumber": 64,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 64",
+        "overview": "Kurulu\u015f Osman official episode 64. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "x2oZx2-B0tE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/x2oZx2-B0tE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-65",
+        "episodeNumber": 65,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 65",
+        "overview": "Kurulu\u015f Osman official episode 65. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "qSRybQ8f3JU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/qSRybQ8f3JU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-66",
+        "episodeNumber": 66,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 66",
+        "overview": "Kurulu\u015f Osman official episode 66. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "RLuZuk2UA2c",
+        "thumbnailUrl": "https://i.ytimg.com/vi/RLuZuk2UA2c/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-67",
+        "episodeNumber": 67,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 67",
+        "overview": "Kurulu\u015f Osman official episode 67. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "TKkp26g1fdM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/TKkp26g1fdM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77-ep-68",
+        "episodeNumber": 68,
+        "title": "Kurulus Osman Urdu - Season 1 - Episode 68",
+        "overview": "Kurulu\u015f Osman official episode 68. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ZqHAFXZ1Y1E",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZqHAFXZ1Y1E/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
       }
     ]
   },
@@ -140,8 +855,8 @@
     "id": "d8675e82-af77-48b3-b161-0a5829d21542",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Diriliş: Ertuğrul (Ertugrul Ghazi Urdu)",
-    "originalTitle": "Diriliş: Ertuğrul",
+    "title": "Ertu\u011frul Ghazi (Urdu Dubbed)",
+    "originalTitle": "Dirili\u015f: Ertu\u011frul",
     "tagline": "Faith, Honor, and the Sword of Justice",
     "overview": "13th-century Anatolia: When nomad warrior Ertugrul rescues captive noble prisoners from the Templar Knights, he sparks an epic conflict that will reshape the destiny of the Islamic world and the Kayi tribe. Official TRT/PTV Urdu Dubbing.",
     "releaseDate": "2019-01-01",
@@ -154,7 +869,7 @@
     "fullMovieKey": "fa89NxhAKis",
     "isFreeWatch": true,
     "isSeries": true,
-    "totalEpisodes": 3,
+    "totalEpisodes": 76,
     "voteAverage": 9.6,
     "voteCount": 95000,
     "popularity": 99.9,
@@ -188,7 +903,7 @@
       {
         "id": "d-mg",
         "tmdbId": null,
-        "name": "Metin Günay",
+        "name": "Metin G\u00fcnay",
         "profileUrl": null,
         "popularity": 90
       }
@@ -198,12 +913,12 @@
         "id": "c-4",
         "movieId": "ertugrul-ghazi-series",
         "actorId": "a-ea",
-        "characterName": "Ertuğrul Ghazi",
+        "characterName": "Ertu\u011frul Ghazi",
         "orderIndex": 0,
         "actor": {
           "id": "a-ea",
           "tmdbId": null,
-          "name": "Engin Altan Düzyatan",
+          "name": "Engin Altan D\u00fczyatan",
           "profileUrl": null,
           "popularity": 95
         }
@@ -217,7 +932,7 @@
         "actor": {
           "id": "a-eb",
           "tmdbId": null,
-          "name": "Esra Bilgiç",
+          "name": "Esra Bilgi\u00e7",
           "profileUrl": null,
           "popularity": 90
         }
@@ -231,7 +946,7 @@
         "actor": {
           "id": "a-cc",
           "tmdbId": null,
-          "name": "Cengiz Coşkun",
+          "name": "Cengiz Co\u015fkun",
           "profileUrl": null,
           "popularity": 85
         }
@@ -239,37 +954,840 @@
     ],
     "episodes": [
       {
-        "id": "d8675e82-af77-48b3-b161-0a5829d21542",
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-1",
         "episodeNumber": 1,
-        "title": "Episode 1: The Nomad Warrior",
-        "overview": "Ertugrul saves a noble Seljuk family from Crusaders, setting off a chain of dangerous events.",
-        "runtime": 115,
+        "title": "Ertugrul Ghazi Urdu - Episode 1 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 1. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "fa89NxhAKis",
         "thumbnailUrl": "https://i.ytimg.com/vi/fa89NxhAKis/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2019-01-01"
+        "releaseDate": "2020-01-01"
       },
       {
-        "id": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-2",
         "episodeNumber": 2,
-        "title": "Episode 2: The Journey to Aleppo",
-        "overview": "Suleyman Shah and Ertugrul seek new winter pastures under the gaze of Sultan El-Aziz.",
-        "runtime": 110,
+        "title": "Ertugrul Ghazi Urdu - Episode 2 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 2. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "EXdtyUnUpGY",
         "thumbnailUrl": "https://i.ytimg.com/vi/EXdtyUnUpGY/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2019-01-03"
+        "releaseDate": "2020-01-01"
       },
       {
-        "id": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-3",
         "episodeNumber": 3,
-        "title": "Episode 3: A Duel of Honor",
-        "overview": "Titus swears vengeance as conspiracies within Aleppo fortress threaten the alliance.",
-        "runtime": 112,
+        "title": "Ertugrul Ghazi Urdu - Episode 3 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 3. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "U5sJ59S6mNs",
         "thumbnailUrl": "https://i.ytimg.com/vi/U5sJ59S6mNs/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2019-01-05"
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-4",
+        "episodeNumber": 4,
+        "title": "Ertugrul Ghazi Urdu - Episode 4 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 4. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "l0GN8_iwDwE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/l0GN8_iwDwE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-5",
+        "episodeNumber": 5,
+        "title": "Ertugrul Ghazi Urdu - Episode 5 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 5. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "WPwoF-RnqHU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/WPwoF-RnqHU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-6",
+        "episodeNumber": 6,
+        "title": "Ertugrul Ghazi Urdu - Episode 6 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 6. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "sdVnFA9Qb4A",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sdVnFA9Qb4A/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-7",
+        "episodeNumber": 7,
+        "title": "Ertugrul Ghazi Urdu - Episode 7 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 7. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "7sT7hg_s5Vs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/7sT7hg_s5Vs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-8",
+        "episodeNumber": 8,
+        "title": "Ertugrul Ghazi Urdu - Episode 8 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 8. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "jpp92OUeoPk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/jpp92OUeoPk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-9",
+        "episodeNumber": 9,
+        "title": "Ertugrul Ghazi Urdu - Episode 9 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 9. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "nnbmRYRoY_M",
+        "thumbnailUrl": "https://i.ytimg.com/vi/nnbmRYRoY_M/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-10",
+        "episodeNumber": 10,
+        "title": "Ertugrul Ghazi Urdu - Episode 10 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 10. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "XCH3m8hE12k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XCH3m8hE12k/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-11",
+        "episodeNumber": 11,
+        "title": "Ertugrul Ghazi Urdu - Episode 11 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 11. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "39Nkh09QfWU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/39Nkh09QfWU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-12",
+        "episodeNumber": 12,
+        "title": "Ertugrul Ghazi Urdu - Episode 12 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 12. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "vVq_vc-zLV8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vVq_vc-zLV8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-13",
+        "episodeNumber": 13,
+        "title": "Ertugrul Ghazi Urdu - Episode 13 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 13. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "f7OltFzBziQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/f7OltFzBziQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-14",
+        "episodeNumber": 14,
+        "title": "Ertugrul Ghazi Urdu - Episode 14 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 14. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "YTpYZv94Qo4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YTpYZv94Qo4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-15",
+        "episodeNumber": 15,
+        "title": "Ertugrul Ghazi Urdu - Episode 15 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 15. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "9zoV-JB44tg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/9zoV-JB44tg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-16",
+        "episodeNumber": 16,
+        "title": "Ertugrul Ghazi Urdu - Episode 16 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 16. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "UV3YnyfH_MY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/UV3YnyfH_MY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-17",
+        "episodeNumber": 17,
+        "title": "Ertugrul Ghazi Urdu - Episode 17 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 17. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "_os5hn0xRgE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_os5hn0xRgE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-18",
+        "episodeNumber": 18,
+        "title": "Ertugrul Ghazi Urdu - Episode 18 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 18. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "DlGdYn3XZRs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/DlGdYn3XZRs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-19",
+        "episodeNumber": 19,
+        "title": "Ertugrul Ghazi Urdu - Episode 19 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 19. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "iYxO4ATo2k0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/iYxO4ATo2k0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-20",
+        "episodeNumber": 20,
+        "title": "Ertugrul Ghazi Urdu - Episode 20 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 20. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "QOXP1FXPOyk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/QOXP1FXPOyk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-21",
+        "episodeNumber": 21,
+        "title": "Ertugrul Ghazi Urdu - Episode 21 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 21. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "hwpzaxlg6_w",
+        "thumbnailUrl": "https://i.ytimg.com/vi/hwpzaxlg6_w/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-22",
+        "episodeNumber": 22,
+        "title": "Ertugrul Ghazi Urdu - Episode 22 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 22. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "YUyr9DjVNms",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YUyr9DjVNms/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-23",
+        "episodeNumber": 23,
+        "title": "Ertugrul Ghazi Urdu - Episode 23 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 23. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "xbecF4qB00I",
+        "thumbnailUrl": "https://i.ytimg.com/vi/xbecF4qB00I/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-24",
+        "episodeNumber": 24,
+        "title": "Ertugrul Ghazi Urdu - Episode 24 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 24. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "HiwsHaq16GU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/HiwsHaq16GU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-25",
+        "episodeNumber": 25,
+        "title": "Ertugrul Ghazi Urdu - Episode 25 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 25. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "eLOFTlHWRF0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/eLOFTlHWRF0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-26",
+        "episodeNumber": 26,
+        "title": "Ertugrul Ghazi Urdu - Episode 26 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 26. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "vLT-B8IsckY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vLT-B8IsckY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-27",
+        "episodeNumber": 27,
+        "title": "Ertugrul Ghazi Urdu - Episode 27 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 27. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "y7wilUWutbc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/y7wilUWutbc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-28",
+        "episodeNumber": 28,
+        "title": "Ertugrul Ghazi Urdu - Episode 28 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 28. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "_XaFB0f5Iqw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_XaFB0f5Iqw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-29",
+        "episodeNumber": 29,
+        "title": "Ertugrul Ghazi Urdu - Episode 29 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 29. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "JxE6O8NpIQE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/JxE6O8NpIQE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-30",
+        "episodeNumber": 30,
+        "title": "Ertugrul Ghazi Urdu - Episode 30 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 30. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "--nnzHx5__g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/--nnzHx5__g/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-31",
+        "episodeNumber": 31,
+        "title": "Ertugrul Ghazi Urdu - Episode 31 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 31. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Qb7r_2a4vZI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Qb7r_2a4vZI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-32",
+        "episodeNumber": 32,
+        "title": "Ertugrul Ghazi Urdu - Episode 32 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 32. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "D4k9l4xqBR0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/D4k9l4xqBR0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-33",
+        "episodeNumber": 33,
+        "title": "Ertugrul Ghazi Urdu - Episode 33 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 33. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Ltmp3YWy7XM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Ltmp3YWy7XM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-34",
+        "episodeNumber": 34,
+        "title": "Ertugrul Ghazi Urdu - Episode 34 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 34. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "vdatkyDtp8w",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vdatkyDtp8w/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-35",
+        "episodeNumber": 35,
+        "title": "Ertugrul Ghazi Urdu - Episode 35 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 35. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "1gQvBe54FWM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1gQvBe54FWM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-36",
+        "episodeNumber": 36,
+        "title": "Ertugrul Ghazi Urdu - Episode 36 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 36. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "XNnIVqFQ-is",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XNnIVqFQ-is/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-37",
+        "episodeNumber": 37,
+        "title": "Ertugrul Ghazi Urdu - Episode 37 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 37. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ZBLUtD0ikKY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZBLUtD0ikKY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-38",
+        "episodeNumber": 38,
+        "title": "Ertugrul Ghazi Urdu - Episode 38 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 38. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "eBj9B_978DM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/eBj9B_978DM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-39",
+        "episodeNumber": 39,
+        "title": "Ertugrul Ghazi Urdu - Episode 39 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 39. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "UM81SscQaUY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/UM81SscQaUY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-40",
+        "episodeNumber": 40,
+        "title": "Ertugrul Ghazi Urdu - Episode 40 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 40. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "FP9aaN6arws",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FP9aaN6arws/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-41",
+        "episodeNumber": 41,
+        "title": "Ertugrul Ghazi Urdu - Episode 41 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 41. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "UjesU-WThS0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/UjesU-WThS0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-42",
+        "episodeNumber": 42,
+        "title": "Ertugrul Ghazi Urdu - Episode 42 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 42. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "8-l2XfQcxWM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8-l2XfQcxWM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-43",
+        "episodeNumber": 43,
+        "title": "Ertugrul Ghazi Urdu - Episode 43 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 43. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "kVCWp42QU9s",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kVCWp42QU9s/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-44",
+        "episodeNumber": 44,
+        "title": "Ertugrul Ghazi Urdu - Episode 44 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 44. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "VeyHFvhOOus",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VeyHFvhOOus/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-45",
+        "episodeNumber": 45,
+        "title": "Ertugrul Ghazi Urdu - Episode 45 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 45. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "uNrC9b1P-9I",
+        "thumbnailUrl": "https://i.ytimg.com/vi/uNrC9b1P-9I/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-46",
+        "episodeNumber": 46,
+        "title": "Ertugrul Ghazi Urdu - Episode 46 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 46. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "q0bEoVmKLeY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/q0bEoVmKLeY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-47",
+        "episodeNumber": 47,
+        "title": "Ertugrul Ghazi Urdu - Episode 47 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 47. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "rbknWEfAEcE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rbknWEfAEcE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-48",
+        "episodeNumber": 48,
+        "title": "Ertugrul Ghazi Urdu - Episode 48 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 48. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "uCTcUx4mrYo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/uCTcUx4mrYo/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-49",
+        "episodeNumber": 49,
+        "title": "Ertugrul Ghazi Urdu - Episode 49 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 49. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "GsE3LcNIlLY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/GsE3LcNIlLY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-50",
+        "episodeNumber": 50,
+        "title": "Ertugrul Ghazi Urdu - Episode 50 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 50. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "lqnzy8XZkQ8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/lqnzy8XZkQ8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-51",
+        "episodeNumber": 51,
+        "title": "Ertugrul Ghazi Urdu - Episode 51 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 51. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "SytXAMV_j9Q",
+        "thumbnailUrl": "https://i.ytimg.com/vi/SytXAMV_j9Q/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-52",
+        "episodeNumber": 52,
+        "title": "Ertugrul Ghazi Urdu - Episode 52 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 52. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "cwtYxvpwpoQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/cwtYxvpwpoQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-53",
+        "episodeNumber": 53,
+        "title": "Ertugrul Ghazi Urdu - Episode 53 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 53. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "FD85yFg1oVA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FD85yFg1oVA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-54",
+        "episodeNumber": 54,
+        "title": "Ertugrul Ghazi Urdu - Episode 54 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 54. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "dsb9WdD4VM0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dsb9WdD4VM0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-55",
+        "episodeNumber": 55,
+        "title": "Ertugrul Ghazi Urdu - Episode 55 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 55. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "gtptRms8V14",
+        "thumbnailUrl": "https://i.ytimg.com/vi/gtptRms8V14/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-56",
+        "episodeNumber": 56,
+        "title": "Ertugrul Ghazi Urdu - Episode 56 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 56. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "XKrUrQY-nso",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XKrUrQY-nso/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-57",
+        "episodeNumber": 57,
+        "title": "Ertugrul Ghazi Urdu - Episode 57 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 57. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ev-EqYvLfiY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ev-EqYvLfiY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-58",
+        "episodeNumber": 58,
+        "title": "Ertugrul Ghazi Urdu - Episode 58 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 58. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Mvp2NlLszFA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Mvp2NlLszFA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-59",
+        "episodeNumber": 59,
+        "title": "Ertugrul Ghazi Urdu - Episode 59 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 59. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "vzw47eKqObg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vzw47eKqObg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-60",
+        "episodeNumber": 60,
+        "title": "Ertugrul Ghazi Urdu - Episode 60 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 60. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "TdgCLzUFlt0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/TdgCLzUFlt0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-61",
+        "episodeNumber": 61,
+        "title": "Ertugrul Ghazi Urdu - Episode 61 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 61. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "PJDQ2YpogPA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PJDQ2YpogPA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-62",
+        "episodeNumber": 62,
+        "title": "Ertugrul Ghazi Urdu - Episode 62 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 62. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "jqu5DYc0yvU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/jqu5DYc0yvU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-63",
+        "episodeNumber": 63,
+        "title": "Ertugrul Ghazi Urdu - Episode 63 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 63. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "m8BwQ9WUnv8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/m8BwQ9WUnv8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-64",
+        "episodeNumber": 64,
+        "title": "Ertugrul Ghazi Urdu - Episode 64 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 64. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "5NW4ZZx0_kY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5NW4ZZx0_kY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-65",
+        "episodeNumber": 65,
+        "title": "Ertugrul Ghazi Urdu - Episode 65 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 65. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "9qTNnCLb75c",
+        "thumbnailUrl": "https://i.ytimg.com/vi/9qTNnCLb75c/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-66",
+        "episodeNumber": 66,
+        "title": "Ertugrul Ghazi Urdu - Episode 66 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 66. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "MA0ewHjK0UE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MA0ewHjK0UE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-67",
+        "episodeNumber": 67,
+        "title": "Ertugrul Ghazi Urdu - Episode 67 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 67. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "tiC7T0YIcnE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/tiC7T0YIcnE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-68",
+        "episodeNumber": 68,
+        "title": "Ertugrul Ghazi Urdu - Episode 68 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 68. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "c7kGLFDokh4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/c7kGLFDokh4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-69",
+        "episodeNumber": 69,
+        "title": "Ertugrul Ghazi Urdu - Episode 69 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 69. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "87PC5QKEtGs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/87PC5QKEtGs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-70",
+        "episodeNumber": 70,
+        "title": "Ertugrul Ghazi Urdu - Episode 70 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 70. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "i-Ne9iKRx20",
+        "thumbnailUrl": "https://i.ytimg.com/vi/i-Ne9iKRx20/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-71",
+        "episodeNumber": 71,
+        "title": "Ertugrul Ghazi Urdu - Episode 71 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 71. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "e91GfZyoAzQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/e91GfZyoAzQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-72",
+        "episodeNumber": 72,
+        "title": "Ertugrul Ghazi Urdu - Episode 72 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 72. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "BBfSfTc_Olg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/BBfSfTc_Olg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-73",
+        "episodeNumber": 73,
+        "title": "Ertugrul Ghazi Urdu - Episode 73 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 73. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "u_nQiC1vbIw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/u_nQiC1vbIw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-74",
+        "episodeNumber": 74,
+        "title": "Ertugrul Ghazi Urdu - Episode 74 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 74. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "YvVinvu22DY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YvVinvu22DY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-75",
+        "episodeNumber": 75,
+        "title": "Ertugrul Ghazi Urdu - Episode 75 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 75. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "6Nh9oqEyQEk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6Nh9oqEyQEk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542-ep-76",
+        "episodeNumber": 76,
+        "title": "Ertugrul Ghazi Urdu - Episode 76 - Season 1",
+        "overview": "Ertu\u011frul Ghazi official episode 76. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "qA4r7LDmnqY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/qA4r7LDmnqY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
       }
     ]
   },
@@ -277,8 +1795,8 @@
     "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Kudüs Fatihi Selahaddin Eyyubi (Urdu / Hindi)",
-    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
+    "title": "Kud\u00fcs Fatihi Selahaddin Eyyubi",
+    "originalTitle": "Kud\u00fcs Fatihi Selahaddin Eyyubi",
     "tagline": "The Conqueror of Jerusalem & Lion of Islam",
     "overview": "The grand historical drama chronicling the extraordinary life, valor, and chivalry of Sultan Salahuddin Ayyubi (Saladin), who united the Muslim world and liberated Jerusalem from the Crusaders with unyielding honor.",
     "releaseDate": "2023-11-13",
@@ -291,7 +1809,7 @@
     "fullMovieKey": "o1b-cTUM_ig",
     "isFreeWatch": true,
     "isSeries": true,
-    "totalEpisodes": 3,
+    "totalEpisodes": 58,
     "voteAverage": 9.3,
     "voteCount": 42000,
     "popularity": 98.2,
@@ -325,7 +1843,7 @@
       {
         "id": "d-si",
         "tmdbId": null,
-        "name": "Sedat İnci",
+        "name": "Sedat \u0130nci",
         "profileUrl": null,
         "popularity": 85
       }
@@ -340,7 +1858,7 @@
         "actor": {
           "id": "a-ug",
           "tmdbId": null,
-          "name": "Uğur Güneş",
+          "name": "U\u011fur G\u00fcne\u015f",
           "profileUrl": null,
           "popularity": 88
         }
@@ -349,12 +1867,12 @@
         "id": "c-8",
         "movieId": "selahaddin-eyyubi-series",
         "actorId": "a-dd",
-        "characterName": "Süreyya Hatun",
+        "characterName": "S\u00fcreyya Hatun",
         "orderIndex": 1,
         "actor": {
           "id": "a-dd",
           "tmdbId": null,
-          "name": "Dilin Döğer",
+          "name": "Dilin D\u00f6\u011fer",
           "profileUrl": null,
           "popularity": 82
         }
@@ -362,37 +1880,642 @@
     ],
     "episodes": [
       {
-        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-1",
         "episodeNumber": 1,
-        "title": "Episode 1: The Lion of Islam",
-        "overview": "Young Selahaddin defends the realm against Crusader ambushes and unifies the people.",
-        "runtime": 135,
+        "title": "Selahaddin Eyyubi - Episode 1 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 1. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "o1b-cTUM_ig",
         "thumbnailUrl": "https://i.ytimg.com/vi/o1b-cTUM_ig/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2023-11-13"
+        "releaseDate": "2020-01-01"
       },
       {
-        "id": "84e18939-0ecf-49c1-abb0-7954d26515f0",
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-2",
         "episodeNumber": 2,
-        "title": "Episode 2: The Siege Begins",
-        "overview": "Selahaddin uncovers a secret plot inside the court while standing firm in Ascalon.",
-        "runtime": 128,
+        "title": "Selahaddin Eyyubi - Episode 2 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 2. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "VHXyJxWKDBA",
         "thumbnailUrl": "https://i.ytimg.com/vi/VHXyJxWKDBA/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2023-11-20"
+        "releaseDate": "2020-01-01"
       },
       {
-        "id": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-3",
         "episodeNumber": 3,
-        "title": "Episode 3: Justice Above All",
-        "overview": "The battle for unity intensifies as Selahaddin risks his life to defend the innocent.",
-        "runtime": 125,
+        "title": "Selahaddin Eyyubi - Episode 3 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 3. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "kgzIZRLC1Jk",
         "thumbnailUrl": "https://i.ytimg.com/vi/kgzIZRLC1Jk/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2023-11-27"
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-4",
+        "episodeNumber": 4,
+        "title": "Selahaddin Eyyubi - Episode 4 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 4. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Uoy9IlAhhEc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Uoy9IlAhhEc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-5",
+        "episodeNumber": 5,
+        "title": "Selahaddin Eyyubi - Episode 5 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 5. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "3OKli8kFwr0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/3OKli8kFwr0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-6",
+        "episodeNumber": 6,
+        "title": "Selahaddin Eyyubi - Episode 6 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 6. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "1VJeTtg3bPI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1VJeTtg3bPI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-7",
+        "episodeNumber": 7,
+        "title": "Selahaddin Eyyubi - Episode 7 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 7. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "dpw3yKEPUZw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dpw3yKEPUZw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-8",
+        "episodeNumber": 8,
+        "title": "Selahaddin Eyyubi - Episode 8 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 8. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "c4CCpzzAvho",
+        "thumbnailUrl": "https://i.ytimg.com/vi/c4CCpzzAvho/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-9",
+        "episodeNumber": 9,
+        "title": "Selahaddin Eyyubi - Episode 9 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 9. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "qv0dgq2tlMc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/qv0dgq2tlMc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-10",
+        "episodeNumber": 10,
+        "title": "Selahaddin Eyyubi - Episode 10 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 10. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Ivh9eu91e4k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Ivh9eu91e4k/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-11",
+        "episodeNumber": 11,
+        "title": "Selahaddin Eyyubi - Episode 11 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 11. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "0L4JhwU0Zys",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0L4JhwU0Zys/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-12",
+        "episodeNumber": 12,
+        "title": "Selahaddin Eyyubi - Episode 12 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 12. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "DcCK3-qI_uk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/DcCK3-qI_uk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-13",
+        "episodeNumber": 13,
+        "title": "Selahaddin Eyyubi - Episode 13 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 13. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "zlH6qV1wBCk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zlH6qV1wBCk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-14",
+        "episodeNumber": 14,
+        "title": "Selahaddin Eyyubi - Episode 14 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 14. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "dLKjkuuuBQY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dLKjkuuuBQY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-15",
+        "episodeNumber": 15,
+        "title": "Selahaddin Eyyubi - Episode 15 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 15. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "1XSV81j25G4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1XSV81j25G4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-16",
+        "episodeNumber": 16,
+        "title": "Selahaddin Eyyubi - Episode 16 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 16. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "GVgEnFASNXs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/GVgEnFASNXs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-17",
+        "episodeNumber": 17,
+        "title": "Selahaddin Eyyubi - Episode 17 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 17. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "sjYA9p06bwc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sjYA9p06bwc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-18",
+        "episodeNumber": 18,
+        "title": "Selahaddin Eyyubi - Episode 18 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 18. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "yiPOEpLuKSI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yiPOEpLuKSI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-19",
+        "episodeNumber": 19,
+        "title": "Selahaddin Eyyubi - Episode 19 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 19. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Kk2yMsvNY3Q",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Kk2yMsvNY3Q/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-20",
+        "episodeNumber": 20,
+        "title": "Selahaddin Eyyubi - Episode 20 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 20. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "EcorhwUVrhw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/EcorhwUVrhw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-21",
+        "episodeNumber": 21,
+        "title": "Selahaddin Eyyubi - Episode 21 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 21. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "2-EYMqctNnw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2-EYMqctNnw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-22",
+        "episodeNumber": 22,
+        "title": "Selahaddin Eyyubi - Episode 22 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 22. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "mXY1bb93Hz8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mXY1bb93Hz8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-23",
+        "episodeNumber": 23,
+        "title": "Selahaddin Eyyubi - Episode 23 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 23. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "9NdNez0d-A8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/9NdNez0d-A8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-24",
+        "episodeNumber": 24,
+        "title": "Selahaddin Eyyubi - Episode 24 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 24. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "MAKqvdma1gk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MAKqvdma1gk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-25",
+        "episodeNumber": 25,
+        "title": "Selahaddin Eyyubi - Episode 25 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 25. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "OfEuBuU9Qp4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/OfEuBuU9Qp4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-26",
+        "episodeNumber": 26,
+        "title": "Selahaddin Eyyubi - Episode 26 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 26. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "KVFq7D7642k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KVFq7D7642k/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-27",
+        "episodeNumber": 27,
+        "title": "Selahaddin Eyyubi - Episode 27 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 27. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "KM6Cc4H8lGU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KM6Cc4H8lGU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-28",
+        "episodeNumber": 28,
+        "title": "Selahaddin Eyyubi - Episode 28 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 28. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "W8OJ2Vn7ExY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/W8OJ2Vn7ExY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-29",
+        "episodeNumber": 29,
+        "title": "Selahaddin Eyyubi - Episode 29 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 29. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Mu_ABGZFgG4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Mu_ABGZFgG4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-30",
+        "episodeNumber": 30,
+        "title": "Selahaddin Eyyubi - Episode 30 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 30. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "vkWwD_-ri08",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vkWwD_-ri08/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-31",
+        "episodeNumber": 31,
+        "title": "Selahaddin Eyyubi - Episode 31 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 31. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ZgUhybPcYO4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZgUhybPcYO4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-32",
+        "episodeNumber": 32,
+        "title": "Selahaddin Eyyubi - Episode 32 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 32. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "vu3X_L_9Oog",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vu3X_L_9Oog/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-33",
+        "episodeNumber": 33,
+        "title": "Selahaddin Eyyubi - Episode 33 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 33. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "v0cLjG09c-s",
+        "thumbnailUrl": "https://i.ytimg.com/vi/v0cLjG09c-s/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-34",
+        "episodeNumber": 34,
+        "title": "Selahaddin Eyyubi - Episode 34 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 34. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "VAgZcRlwDuk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VAgZcRlwDuk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-35",
+        "episodeNumber": 35,
+        "title": "Selahaddin Eyyubi - Episode 35 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 35. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "z-SpXOovC-Q",
+        "thumbnailUrl": "https://i.ytimg.com/vi/z-SpXOovC-Q/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-36",
+        "episodeNumber": 36,
+        "title": "Selahaddin Eyyubi - Episode 36 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 36. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "9WXOMKEZPg4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/9WXOMKEZPg4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-37",
+        "episodeNumber": 37,
+        "title": "Selahaddin Eyyubi - Episode 37 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 37. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "7IlDwMk13yk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/7IlDwMk13yk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-38",
+        "episodeNumber": 38,
+        "title": "Selahaddin Eyyubi - Episode 38 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 38. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "4kw25dnpYJ8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/4kw25dnpYJ8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-39",
+        "episodeNumber": 39,
+        "title": "Selahaddin Eyyubi - Episode 39 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 39. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "0zRx9ov-eEo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0zRx9ov-eEo/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-40",
+        "episodeNumber": 40,
+        "title": "Selahaddin Eyyubi - Episode 40 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 40. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "FSWC_Hf6R6U",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FSWC_Hf6R6U/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-41",
+        "episodeNumber": 41,
+        "title": "Selahaddin Eyyubi - Episode 41 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 41. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "qsAmcr7w8j4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/qsAmcr7w8j4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-42",
+        "episodeNumber": 42,
+        "title": "Selahaddin Eyyubi - Episode 42 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 42. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "u-GjT93K7X4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/u-GjT93K7X4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-43",
+        "episodeNumber": 43,
+        "title": "Selahaddin Eyyubi - Episode 43 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 43. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "IhGDFXjjLB0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/IhGDFXjjLB0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-44",
+        "episodeNumber": 44,
+        "title": "Selahaddin Eyyubi - Episode 44 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 44. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "0YaV9rtAwBc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0YaV9rtAwBc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-45",
+        "episodeNumber": 45,
+        "title": "Selahaddin Eyyubi - Episode 45 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 45. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "MeapHp7jy_Q",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MeapHp7jy_Q/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-46",
+        "episodeNumber": 46,
+        "title": "Selahaddin Eyyubi - Episode 46 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 46. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "pqm_XssPxCA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/pqm_XssPxCA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-47",
+        "episodeNumber": 47,
+        "title": "Selahaddin Eyyubi - Episode 47 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 47. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "d-ASXuw2n-I",
+        "thumbnailUrl": "https://i.ytimg.com/vi/d-ASXuw2n-I/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-48",
+        "episodeNumber": 48,
+        "title": "Selahaddin Eyyubi - Episode 48 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 48. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "97thOdu9MPM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/97thOdu9MPM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-49",
+        "episodeNumber": 49,
+        "title": "Selahaddin Eyyubi - Episode 49 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 49. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "xsL6KcL0XJ0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/xsL6KcL0XJ0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-50",
+        "episodeNumber": 50,
+        "title": "Selahaddin Eyyubi - Episode 50 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 50. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Q7OBP_CFrUw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Q7OBP_CFrUw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-51",
+        "episodeNumber": 51,
+        "title": "Selahaddin Eyyubi - Episode 51 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 51. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "nMwHdOAKCS8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/nMwHdOAKCS8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-52",
+        "episodeNumber": 52,
+        "title": "Selahaddin Eyyubi - Episode 52 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 52. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "zxBbOYADCEg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zxBbOYADCEg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-53",
+        "episodeNumber": 53,
+        "title": "Selahaddin Eyyubi - Episode 53 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 53. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "qrAem-mNOt4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/qrAem-mNOt4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-54",
+        "episodeNumber": 54,
+        "title": "Selahaddin Eyyubi - Episode 54 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 54. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ZH9Yyun5tVw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZH9Yyun5tVw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-55",
+        "episodeNumber": 55,
+        "title": "Selahaddin Eyyubi - Episode 55 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 55. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "tjrLiufKfy4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/tjrLiufKfy4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-56",
+        "episodeNumber": 56,
+        "title": "Selahaddin Eyyubi - Episode 56 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 56. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "zvQNJ7pVOHg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zvQNJ7pVOHg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-57",
+        "episodeNumber": 57,
+        "title": "Selahaddin Eyyubi - Episode 57 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 57. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "FIrDr-9W3Ns",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FIrDr-9W3Ns/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31-ep-58",
+        "episodeNumber": 58,
+        "title": "Selahaddin Eyyubi - Episode 58 (Urdu Dubbed)",
+        "overview": "Selahaddin Eyyubi official episode 58. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "CSEEk-Fa-CU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/CSEEk-Fa-CU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
       }
     ]
   },
@@ -400,10 +2523,10 @@
     "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Payitaht: Sultan Abdülhamid (Urdu Dubbed)",
-    "originalTitle": "Payitaht: Abdülhamid",
+    "title": "Payitaht: Sultan Abd\u00fclhamid",
+    "originalTitle": "Payitaht: Abd\u00fclhamid",
     "tagline": "The 34th Sultan Fierce Fight for the Throne and Faith",
-    "overview": "Experience the intense political chess match of the final 20 years of Sultan Abdülhamid II reign, as he outwits Western imperialist plots, global conspiracies, and internal betrayals to safeguard the Ottoman Empire and the Caliphate.",
+    "overview": "Experience the intense political chess match of the final 20 years of Sultan Abd\u00fclhamid II reign, as he outwits Western imperialist plots, global conspiracies, and internal betrayals to safeguard the Ottoman Empire and the Caliphate.",
     "releaseDate": "2021-01-01",
     "releaseYear": 2021,
     "runtime": 125,
@@ -414,7 +2537,7 @@
     "fullMovieKey": "GyqbUrT_7j8",
     "isFreeWatch": true,
     "isSeries": true,
-    "totalEpisodes": 3,
+    "totalEpisodes": 100,
     "voteAverage": 9.2,
     "voteCount": 38000,
     "popularity": 96,
@@ -458,12 +2581,12 @@
         "id": "c-9",
         "movieId": "payitaht-abdulhamid-series",
         "actorId": "a-bi",
-        "characterName": "Sultan Abdülhamid II",
+        "characterName": "Sultan Abd\u00fclhamid II",
         "orderIndex": 0,
         "actor": {
           "id": "a-bi",
           "tmdbId": null,
-          "name": "Bülent İnal",
+          "name": "B\u00fclent \u0130nal",
           "profileUrl": null,
           "popularity": 90
         }
@@ -472,12 +2595,12 @@
         "id": "c-10",
         "movieId": "payitaht-abdulhamid-series",
         "actorId": "a-oc",
-        "characterName": "Bidar Kadın",
+        "characterName": "Bidar Kad\u0131n",
         "orderIndex": 1,
         "actor": {
           "id": "a-oc",
           "tmdbId": null,
-          "name": "Özlem Conker",
+          "name": "\u00d6zlem Conker",
           "profileUrl": null,
           "popularity": 80
         }
@@ -485,37 +2608,1104 @@
     ],
     "episodes": [
       {
-        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-1",
         "episodeNumber": 1,
-        "title": "Episode 1: The Imperial Throne",
-        "overview": "Sultan Abdülhamid II navigates deadly palace intrigues and foreign conspiracies.",
-        "runtime": 125,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 1",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 1. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "GyqbUrT_7j8",
         "thumbnailUrl": "https://i.ytimg.com/vi/GyqbUrT_7j8/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2021-01-01"
+        "releaseDate": "2020-01-01"
       },
       {
-        "id": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-2",
         "episodeNumber": 2,
-        "title": "Episode 2: The Great Game in Istanbul",
-        "overview": "The Sultan launches the historic Hejaz Railway project while battling espionage.",
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 2",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 2. Stream in high definition with official Urdu dubbed audio.",
         "runtime": 120,
         "fullMovieKey": "Lj1UYTxvDjk",
         "thumbnailUrl": "https://i.ytimg.com/vi/Lj1UYTxvDjk/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2021-01-08"
+        "releaseDate": "2020-01-01"
       },
       {
-        "id": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-3",
         "episodeNumber": 3,
-        "title": "Episode 3: Guarding the Sacred Lands",
-        "overview": "Facing mounting pressure from international financiers, Sultan Abdülhamid defends Jerusalem.",
-        "runtime": 122,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 3",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 3. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
         "fullMovieKey": "8ZqiaQ2lXbg",
         "thumbnailUrl": "https://i.ytimg.com/vi/8ZqiaQ2lXbg/hqdefault.jpg",
         "badge": "Full HD",
-        "releaseDate": "2021-01-15"
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-4",
+        "episodeNumber": 4,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 4",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 4. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "S_8Ulaj6QTs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/S_8Ulaj6QTs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-5",
+        "episodeNumber": 5,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 5",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 5. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "vieVOUfzRSg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vieVOUfzRSg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-6",
+        "episodeNumber": 6,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 6",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 6. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "gHwVP800K4k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/gHwVP800K4k/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-7",
+        "episodeNumber": 7,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 7",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 7. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "uhlz2cBZCUc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/uhlz2cBZCUc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-8",
+        "episodeNumber": 8,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 8",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 8. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "MqOj4bJclUs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MqOj4bJclUs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-9",
+        "episodeNumber": 9,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 9",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 9. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "_ZJGn9iekiY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_ZJGn9iekiY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-10",
+        "episodeNumber": 10,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 10",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 10. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "O8FXZ1gLzpM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/O8FXZ1gLzpM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-11",
+        "episodeNumber": 11,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 11",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 11. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "5O4Z6Ou2nr4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5O4Z6Ou2nr4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-12",
+        "episodeNumber": 12,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 12",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 12. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "UfeDWvoPxMM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/UfeDWvoPxMM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-13",
+        "episodeNumber": 13,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 13",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 13. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "xh9diA9UzQg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/xh9diA9UzQg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-14",
+        "episodeNumber": 14,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 14",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 14. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "sUIsKgtU9Mk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sUIsKgtU9Mk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-15",
+        "episodeNumber": 15,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 15",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 15. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "kD-A5z8YzK4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kD-A5z8YzK4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-16",
+        "episodeNumber": 16,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 16",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 16. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "GSGe5j0U3gw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/GSGe5j0U3gw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-17",
+        "episodeNumber": 17,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 17",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 17. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "_J0K3jfKH8c",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_J0K3jfKH8c/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-18",
+        "episodeNumber": 18,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 18",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 18. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ZlYoHTVnIak",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZlYoHTVnIak/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-19",
+        "episodeNumber": 19,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 19",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 19. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "1UnD7_JLmYw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1UnD7_JLmYw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-20",
+        "episodeNumber": 20,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 20",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 20. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "osofrIjuhGc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/osofrIjuhGc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-21",
+        "episodeNumber": 21,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 21",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 21. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "KWQ9wPnnJ8c",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KWQ9wPnnJ8c/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-22",
+        "episodeNumber": 22,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 22",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 22. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "hy-XlYERyc0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/hy-XlYERyc0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-23",
+        "episodeNumber": 23,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 23",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 23. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "176wq14bzG0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/176wq14bzG0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-24",
+        "episodeNumber": 24,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 24",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 24. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "f1U8j4H6TIw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/f1U8j4H6TIw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-25",
+        "episodeNumber": 25,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 25",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 25. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "KSCYVJrEdjQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KSCYVJrEdjQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-26",
+        "episodeNumber": 26,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 26",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 26. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "qjnwPHvFJwQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/qjnwPHvFJwQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-27",
+        "episodeNumber": 27,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 27",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 27. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "fHm3bah3-5I",
+        "thumbnailUrl": "https://i.ytimg.com/vi/fHm3bah3-5I/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-28",
+        "episodeNumber": 28,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 28",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 28. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "b5g7KRXXLj0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/b5g7KRXXLj0/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-29",
+        "episodeNumber": 29,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 29",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 29. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "zZmTYdvUP_8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zZmTYdvUP_8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-30",
+        "episodeNumber": 30,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 30",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 30. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "15LYz2ZPAJk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/15LYz2ZPAJk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-31",
+        "episodeNumber": 31,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 31",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 31. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "P6dbLkDEme4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/P6dbLkDEme4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-32",
+        "episodeNumber": 32,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 32",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 32. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "omYnZOwRiSw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/omYnZOwRiSw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-33",
+        "episodeNumber": 33,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 33",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 33. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "fl9XyH0V_4M",
+        "thumbnailUrl": "https://i.ytimg.com/vi/fl9XyH0V_4M/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-34",
+        "episodeNumber": 34,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 34",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 34. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "xDm9qm7pmJw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/xDm9qm7pmJw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-35",
+        "episodeNumber": 35,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 35",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 35. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "EjsJl1C9xs4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/EjsJl1C9xs4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-36",
+        "episodeNumber": 36,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 36",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 36. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "XUEZyMThLjo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XUEZyMThLjo/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-37",
+        "episodeNumber": 37,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 37",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 37. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ywZOQU-FxSQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ywZOQU-FxSQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-38",
+        "episodeNumber": 38,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 38",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 38. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "2I239W8NA-M",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2I239W8NA-M/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-39",
+        "episodeNumber": 39,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 39",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 39. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "QXrnplADetE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/QXrnplADetE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-40",
+        "episodeNumber": 40,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 40",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 40. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "3qhyI48owSQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/3qhyI48owSQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-41",
+        "episodeNumber": 41,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 41",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 41. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "0rXHQljI5gM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0rXHQljI5gM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-42",
+        "episodeNumber": 42,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 42",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 42. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "xUQWpK4kTXw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/xUQWpK4kTXw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-43",
+        "episodeNumber": 43,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 43",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 43. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "SAaRgJnb8Ic",
+        "thumbnailUrl": "https://i.ytimg.com/vi/SAaRgJnb8Ic/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-44",
+        "episodeNumber": 44,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 44",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 44. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "kT0k0ZeVyv4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kT0k0ZeVyv4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-45",
+        "episodeNumber": 45,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 45",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 45. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "L2PWit9llwA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/L2PWit9llwA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-46",
+        "episodeNumber": 46,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 46",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 46. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "CfPb6WHhjWU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/CfPb6WHhjWU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-47",
+        "episodeNumber": 47,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 47",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 47. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "nbS4daEU9aQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/nbS4daEU9aQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-48",
+        "episodeNumber": 48,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 48",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 48. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "y12vWLMM72g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/y12vWLMM72g/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-49",
+        "episodeNumber": 49,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 49",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 49. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "lYGmPjr_nI4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/lYGmPjr_nI4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-50",
+        "episodeNumber": 50,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 50",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 50. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "yEsiUoQcago",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yEsiUoQcago/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-51",
+        "episodeNumber": 51,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 51",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 51. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "18LErurhhFU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/18LErurhhFU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-52",
+        "episodeNumber": 52,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 52",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 52. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "wcZzxlPRXCM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/wcZzxlPRXCM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-53",
+        "episodeNumber": 53,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 53",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 53. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "MVF6PxBilcY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MVF6PxBilcY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-54",
+        "episodeNumber": 54,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 54",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 54. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "85nJ_mKr2GI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/85nJ_mKr2GI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-55",
+        "episodeNumber": 55,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 55",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 55. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "6IRmWGta4qg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6IRmWGta4qg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-56",
+        "episodeNumber": 56,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 56",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 56. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "FnNbxLJgInU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FnNbxLJgInU/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-57",
+        "episodeNumber": 57,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 57",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 57. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "clqBDuclqng",
+        "thumbnailUrl": "https://i.ytimg.com/vi/clqBDuclqng/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-58",
+        "episodeNumber": 58,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 58",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 58. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "GdksQ_hS9To",
+        "thumbnailUrl": "https://i.ytimg.com/vi/GdksQ_hS9To/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-59",
+        "episodeNumber": 59,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 59",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 59. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "P99iDmiuOcA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/P99iDmiuOcA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-60",
+        "episodeNumber": 60,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 60",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 60. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "RhOL76imPlA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/RhOL76imPlA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-61",
+        "episodeNumber": 61,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 61",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 61. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "mmrBhA-gc7s",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mmrBhA-gc7s/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-62",
+        "episodeNumber": 62,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 62",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 62. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Gx6cdluSA9A",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Gx6cdluSA9A/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-63",
+        "episodeNumber": 63,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 63",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 63. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "wPp4V4KbYeo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/wPp4V4KbYeo/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-64",
+        "episodeNumber": 64,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 64",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 64. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "yR_KpFtbL5k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yR_KpFtbL5k/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-65",
+        "episodeNumber": 65,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 65",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 65. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "NocuRab7rQg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/NocuRab7rQg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-66",
+        "episodeNumber": 66,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 66",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 66. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "wf8hACaxi8E",
+        "thumbnailUrl": "https://i.ytimg.com/vi/wf8hACaxi8E/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-67",
+        "episodeNumber": 67,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 67",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 67. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "M2xbtqrp-aw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/M2xbtqrp-aw/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-68",
+        "episodeNumber": 68,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 68",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 68. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "zM9BLfTE8vA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zM9BLfTE8vA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-69",
+        "episodeNumber": 69,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 69",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 69. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "mZkmuOABjKM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mZkmuOABjKM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-70",
+        "episodeNumber": 70,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 70",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 70. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "5wv-ohYz3Ag",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5wv-ohYz3Ag/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-71",
+        "episodeNumber": 71,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 71",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 71. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "9htC-tkSCzg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/9htC-tkSCzg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-72",
+        "episodeNumber": 72,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 72",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 72. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "LK8kWcXrvc4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/LK8kWcXrvc4/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-73",
+        "episodeNumber": 73,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 73",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 73. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "gFcyXDX8t6g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/gFcyXDX8t6g/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-74",
+        "episodeNumber": 74,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 74",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 74. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "2d6MMea7fhE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2d6MMea7fhE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-75",
+        "episodeNumber": 75,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 75",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 75. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "2HEbO_3yc5E",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2HEbO_3yc5E/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-76",
+        "episodeNumber": 76,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 76",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 76. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "rUwdJXk-LaI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rUwdJXk-LaI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-77",
+        "episodeNumber": 77,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 77",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 77. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "I_mpTizOO3M",
+        "thumbnailUrl": "https://i.ytimg.com/vi/I_mpTizOO3M/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-78",
+        "episodeNumber": 78,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 78",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 78. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "in27Qc74WjQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/in27Qc74WjQ/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-79",
+        "episodeNumber": 79,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 79",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 79. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "D4QOhJhZX50",
+        "thumbnailUrl": "https://i.ytimg.com/vi/D4QOhJhZX50/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-80",
+        "episodeNumber": 80,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 80",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 80. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "KgoED1W2Mbg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KgoED1W2Mbg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-81",
+        "episodeNumber": 81,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 81",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 81. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "LH3LCPKqFZg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/LH3LCPKqFZg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-82",
+        "episodeNumber": 82,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 82",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 82. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "LSopHyxy44A",
+        "thumbnailUrl": "https://i.ytimg.com/vi/LSopHyxy44A/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-83",
+        "episodeNumber": 83,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 83",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 83. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "hVOrPJGrD_M",
+        "thumbnailUrl": "https://i.ytimg.com/vi/hVOrPJGrD_M/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-84",
+        "episodeNumber": 84,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 84",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 84. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "KD48aLFSvKI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KD48aLFSvKI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-85",
+        "episodeNumber": 85,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 85",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 85. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "82DAaNrP1Bc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/82DAaNrP1Bc/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-86",
+        "episodeNumber": 86,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 86",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 86. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "6quWo0ACeLk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6quWo0ACeLk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-87",
+        "episodeNumber": 87,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 87",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 87. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "cVtj5M4VcLI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/cVtj5M4VcLI/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-88",
+        "episodeNumber": 88,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 88",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 88. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "KsCwbx2YFmM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KsCwbx2YFmM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-89",
+        "episodeNumber": 89,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 89",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 89. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "QOLhADFtfCo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/QOLhADFtfCo/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-90",
+        "episodeNumber": 90,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 90",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 90. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "L48MI9qYlZA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/L48MI9qYlZA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-91",
+        "episodeNumber": 91,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 91",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 91. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "zx4WXW_P5Sg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zx4WXW_P5Sg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-92",
+        "episodeNumber": 92,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 92",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 92. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "Dv9e_bHsscM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Dv9e_bHsscM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-93",
+        "episodeNumber": 93,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 93",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 93. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "i5aO_K_SVgM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/i5aO_K_SVgM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-94",
+        "episodeNumber": 94,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 94",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 94. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "ZQ6suf8vF7E",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZQ6suf8vF7E/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-95",
+        "episodeNumber": 95,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 95",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 95. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "8B7se7zSwZs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8B7se7zSwZs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-96",
+        "episodeNumber": 96,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 96",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 96. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "FZBjISGAqPo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FZBjISGAqPo/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-97",
+        "episodeNumber": 97,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 97",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 97. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "q3ujve-DM3g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/q3ujve-DM3g/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-98",
+        "episodeNumber": 98,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 98",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 98. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "f2PI1LnAsFE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/f2PI1LnAsFE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-99",
+        "episodeNumber": 99,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 99",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 99. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "F47pAeYXdIE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/F47pAeYXdIE/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7-ep-100",
+        "episodeNumber": 100,
+        "title": "Payitaht Sultan Abdulhamid - Season 1 - Episode 100",
+        "overview": "Payitaht Sultan Abd\u00fclhamid official episode 100. Stream in high definition with official Urdu dubbed audio.",
+        "runtime": 120,
+        "fullMovieKey": "VY8SPisy2dM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VY8SPisy2dM/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
       }
     ]
   },
@@ -668,7 +3858,7 @@
     "title": "Hera Pheri (2000)",
     "originalTitle": "Hera Pheri",
     "tagline": "The Greatest Comedy Masterpiece in Indian Cinema",
-    "overview": "Three unemployed roommates—Baburao Ganpatrao Apte, Raju, and Shyam—get entangled in a hilarious kidnapping plot following a wrong cross-connection call.",
+    "overview": "Three unemployed roommates\u2014Baburao Ganpatrao Apte, Raju, and Shyam\u2014get entangled in a hilarious kidnapping plot following a wrong cross-connection call.",
     "releaseDate": "2000-03-31",
     "releaseYear": 2000,
     "runtime": 156,
@@ -1421,7 +4611,7 @@
       {
         "id": "1fe2bb26-02cb-486e-849c-8e243900a8fb",
         "tmdbId": null,
-        "name": "Pushkar–Gayathri",
+        "name": "Pushkar\u2013Gayathri",
         "profileUrl": null,
         "popularity": 85
       }
@@ -1874,7 +5064,7 @@
     "title": "Doctor (4K)",
     "originalTitle": "Doctor",
     "tagline": "Calculated Intellect Meets Dark Comedy",
-    "overview": "A clinical military doctor concocts an astonishingly bizarre operation with his ex-fiancée's eccentric family to rescue a kidnapped niece from a Goa trafficking cartel.",
+    "overview": "A clinical military doctor concocts an astonishingly bizarre operation with his ex-fianc\u00e9e's eccentric family to rescue a kidnapped niece from a Goa trafficking cartel.",
     "releaseDate": "2021-10-09",
     "releaseYear": 2021,
     "runtime": 148,
@@ -1989,7 +5179,7 @@
     "id": "7d0df951-b627-4d70-b270-65a5bccd499d",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Theri (थेरी HD)",
+    "title": "Theri (\u0925\u0947\u0930\u0940 HD)",
     "originalTitle": "Theri",
     "tagline": "A Father's Protective Vow",
     "overview": "A former DCP fakes his death and lives a quiet life to raise his young daughter safely, until dangerous enemies from his past resurface.",
@@ -9779,10 +12969,10 @@
     "id": "03c1cdcc-1401-4b8c-a133-330c6886f388",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Pil’s Adventures (Hindi Dubbed)",
-    "originalTitle": "Pil’s Adventures",
+    "title": "Pil\u2019s Adventures (Hindi Dubbed)",
+    "originalTitle": "Pil\u2019s Adventures",
     "tagline": "Official Indo Overseas Films Release",
-    "overview": "Pil’s Adventures in full Hindi dubbed audio. High-stakes entertainment, full HD streaming straight from Indo Overseas Films.",
+    "overview": "Pil\u2019s Adventures in full Hindi dubbed audio. High-stakes entertainment, full HD streaming straight from Indo Overseas Films.",
     "releaseDate": "2024-01-01",
     "releaseYear": 2024,
     "runtime": 86,
@@ -9876,9 +13066,9 @@
     "tmdbId": null,
     "imdbId": null,
     "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 3",
-    "originalTitle": "Payitaht: Abdülhamid",
+    "originalTitle": "Payitaht: Abd\u00fclhamid",
     "tagline": "Guarding the Sacred Lands",
-    "overview": "Facing mounting pressure from international bankers, Sultan Abdülhamid delivers his iconic decree protecting Palestine and the sacred lands of Jerusalem and Medina.",
+    "overview": "Facing mounting pressure from international bankers, Sultan Abd\u00fclhamid delivers his iconic decree protecting Palestine and the sacred lands of Jerusalem and Medina.",
     "releaseDate": "2021-01-01",
     "releaseYear": 2021,
     "runtime": 122,
@@ -9936,12 +13126,12 @@
         "id": "da2ab313-9c9f-4b26-9d10-5c887a81c5ae",
         "movieId": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
         "actorId": "45c8628a-6b9d-4199-980b-dc781200a4c5",
-        "characterName": "Sultan Abdülhamid II",
+        "characterName": "Sultan Abd\u00fclhamid II",
         "orderIndex": 0,
         "actor": {
           "id": "45c8628a-6b9d-4199-980b-dc781200a4c5",
           "tmdbId": null,
-          "name": "Bülent İnal",
+          "name": "B\u00fclent \u0130nal",
           "profileUrl": null,
           "popularity": 80
         }
@@ -9968,9 +13158,9 @@
     "tmdbId": null,
     "imdbId": null,
     "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 2",
-    "originalTitle": "Payitaht: Abdülhamid",
+    "originalTitle": "Payitaht: Abd\u00fclhamid",
     "tagline": "The Great Game in Istanbul",
-    "overview": "Sultan Abdülhamid launches the historic Hejaz Railway project while foreign envoys attempt to destabilize the Ottoman capital through espionage and financial coercion.",
+    "overview": "Sultan Abd\u00fclhamid launches the historic Hejaz Railway project while foreign envoys attempt to destabilize the Ottoman capital through espionage and financial coercion.",
     "releaseDate": "2021-01-01",
     "releaseYear": 2021,
     "runtime": 120,
@@ -10028,12 +13218,12 @@
         "id": "d2156deb-d2b5-4692-9159-0859271a3391",
         "movieId": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
         "actorId": "bcc0c157-237e-4dc0-a785-f07016fc041c",
-        "characterName": "Sultan Abdülhamid II",
+        "characterName": "Sultan Abd\u00fclhamid II",
         "orderIndex": 0,
         "actor": {
           "id": "bcc0c157-237e-4dc0-a785-f07016fc041c",
           "tmdbId": null,
-          "name": "Bülent İnal",
+          "name": "B\u00fclent \u0130nal",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10059,10 +13249,10 @@
     "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 1",
-    "originalTitle": "Payitaht: Abdülhamid",
+    "title": "Payitaht: Sultan Abd\u00fclhamid",
+    "originalTitle": "Payitaht: Abd\u00fclhamid",
     "tagline": "The 34th Sultan Fierce Fight for the Throne and Faith",
-    "overview": "Experience the intense political chess match of the final 20 years of Sultan Abdülhamid II reign, as he outwits Western imperialist plots, global conspiracies, and internal betrayals to safeguard the Ottoman Empire and the Caliphate.",
+    "overview": "Experience the intense political chess match of the final 20 years of Sultan Abd\u00fclhamid II reign, as he outwits Western imperialist plots, global conspiracies, and internal betrayals to safeguard the Ottoman Empire and the Caliphate.",
     "releaseDate": "2021-01-01",
     "releaseYear": 2021,
     "runtime": 125,
@@ -10120,12 +13310,12 @@
         "id": "d44a1cba-9fbe-410a-970f-5e4ad5b41e9e",
         "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
         "actorId": "ba325c36-5ed6-448c-a275-c9d188482905",
-        "characterName": "Sultan Abdülhamid II",
+        "characterName": "Sultan Abd\u00fclhamid II",
         "orderIndex": 0,
         "actor": {
           "id": "ba325c36-5ed6-448c-a275-c9d188482905",
           "tmdbId": null,
-          "name": "Bülent İnal",
+          "name": "B\u00fclent \u0130nal",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10134,12 +13324,12 @@
         "id": "0a7a0c0e-0448-43df-954c-55aeb719e9b3",
         "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
         "actorId": "76ad499f-945c-4781-95d5-6c1b89c6a758",
-        "characterName": "Bidar Kadın",
+        "characterName": "Bidar Kad\u0131n",
         "orderIndex": 1,
         "actor": {
           "id": "76ad499f-945c-4781-95d5-6c1b89c6a758",
           "tmdbId": null,
-          "name": "Özlem Conker",
+          "name": "\u00d6zlem Conker",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10167,7 +13357,7 @@
         "actor": {
           "id": "9b32d889-d6e3-4ad7-8825-2ae7394ef287",
           "tmdbId": null,
-          "name": "Saygın Soysal",
+          "name": "Sayg\u0131n Soysal",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10179,8 +13369,8 @@
     "id": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 3",
-    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
+    "title": "Sultan Selahaddin Eyyubi (Kud\u00fcs Fatihi) - Episode 3",
+    "originalTitle": "Kud\u00fcs Fatihi Selahaddin Eyyubi",
     "tagline": "Justice Above All",
     "overview": "The battle for unity intensifies as Selahaddin risks his life to rescue captives and defend the honor of the oppressed.",
     "releaseDate": "2023-01-01",
@@ -10225,7 +13415,7 @@
       {
         "id": "216e5f98-e0ed-4166-a8a0-c04eeebcf3f0",
         "tmdbId": null,
-        "name": "Sedat İnci",
+        "name": "Sedat \u0130nci",
         "profileUrl": null,
         "popularity": 85
       }
@@ -10240,7 +13430,7 @@
         "actor": {
           "id": "24fa9bd9-1674-48d8-960f-8f048facdefc",
           "tmdbId": null,
-          "name": "Uğur Güneş",
+          "name": "U\u011fur G\u00fcne\u015f",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10249,12 +13439,12 @@
         "id": "b57e9da8-c0da-4212-bd94-ebb8fde27e33",
         "movieId": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
         "actorId": "c8824c65-58ee-41ad-ba4a-ce0b778933cc",
-        "characterName": "Süreyya Hatun",
+        "characterName": "S\u00fcreyya Hatun",
         "orderIndex": 1,
         "actor": {
           "id": "c8824c65-58ee-41ad-ba4a-ce0b778933cc",
           "tmdbId": null,
-          "name": "Dilin Döğer",
+          "name": "Dilin D\u00f6\u011fer",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10266,8 +13456,8 @@
     "id": "84e18939-0ecf-49c1-abb0-7954d26515f0",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 2",
-    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
+    "title": "Sultan Selahaddin Eyyubi (Kud\u00fcs Fatihi) - Episode 2",
+    "originalTitle": "Kud\u00fcs Fatihi Selahaddin Eyyubi",
     "tagline": "The Siege of the Lion",
     "overview": "Selahaddin uncovers a secret plot inside the Zengi court while standing firm in defense of the realm against Ascalon crusader army.",
     "releaseDate": "2023-01-01",
@@ -10312,7 +13502,7 @@
       {
         "id": "78443cbe-1208-4b67-8180-09a97907d40f",
         "tmdbId": null,
-        "name": "Sedat İnci",
+        "name": "Sedat \u0130nci",
         "profileUrl": null,
         "popularity": 85
       }
@@ -10327,7 +13517,7 @@
         "actor": {
           "id": "54cb560d-c56c-4bb0-bb11-2641ffc72fab",
           "tmdbId": null,
-          "name": "Uğur Güneş",
+          "name": "U\u011fur G\u00fcne\u015f",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10336,12 +13526,12 @@
         "id": "df7b284a-f911-406a-82d9-d805e8c2b107",
         "movieId": "84e18939-0ecf-49c1-abb0-7954d26515f0",
         "actorId": "f4699ecb-d13b-4093-ae73-32114a0ec2af",
-        "characterName": "Süreyya Hatun",
+        "characterName": "S\u00fcreyya Hatun",
         "orderIndex": 1,
         "actor": {
           "id": "f4699ecb-d13b-4093-ae73-32114a0ec2af",
           "tmdbId": null,
-          "name": "Dilin Döğer",
+          "name": "Dilin D\u00f6\u011fer",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10353,8 +13543,8 @@
     "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 1",
-    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
+    "title": "Kud\u00fcs Fatihi Selahaddin Eyyubi",
+    "originalTitle": "Kud\u00fcs Fatihi Selahaddin Eyyubi",
     "tagline": "The Conqueror of Jerusalem & Lion of Islam",
     "overview": "The grand historical drama chronicling the extraordinary life, valor, and chivalry of Sultan Salahuddin Ayyubi (Saladin), who united the Muslim world and liberated Jerusalem from the Crusaders with unyielding honor.",
     "releaseDate": "2023-01-01",
@@ -10404,7 +13594,7 @@
       {
         "id": "8e6e787d-3a41-45ca-9725-37bcc784c482",
         "tmdbId": null,
-        "name": "Sedat İnci",
+        "name": "Sedat \u0130nci",
         "profileUrl": null,
         "popularity": 85
       }
@@ -10419,7 +13609,7 @@
         "actor": {
           "id": "9443b8f1-f4b9-4959-9430-a6196e40238f",
           "tmdbId": null,
-          "name": "Uğur Güneş",
+          "name": "U\u011fur G\u00fcne\u015f",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10428,12 +13618,12 @@
         "id": "c2e8705d-4ea9-4119-93b2-46ca4b097ae5",
         "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
         "actorId": "14da8c4e-0639-4526-8a79-351efe5fd774",
-        "characterName": "Süreyya Hatun",
+        "characterName": "S\u00fcreyya Hatun",
         "orderIndex": 1,
         "actor": {
           "id": "14da8c4e-0639-4526-8a79-351efe5fd774",
           "tmdbId": null,
-          "name": "Dilin Döğer",
+          "name": "Dilin D\u00f6\u011fer",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10447,7 +13637,7 @@
         "actor": {
           "id": "e074e6ac-d09e-4fe6-bfd7-48f30350918e",
           "tmdbId": null,
-          "name": "Mehmet Ali Nuroğlu",
+          "name": "Mehmet Ali Nuro\u011flu",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10461,7 +13651,7 @@
         "actor": {
           "id": "a7be8d60-9f4e-4a00-8bda-2be3a2167d9b",
           "tmdbId": null,
-          "name": "Kaan Çakır",
+          "name": "Kaan \u00c7ak\u0131r",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10474,7 +13664,7 @@
     "tmdbId": null,
     "imdbId": null,
     "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 3",
-    "originalTitle": "Diriliş: Ertuğrul",
+    "originalTitle": "Dirili\u015f: Ertu\u011frul",
     "tagline": "A Duel of Honor and Bravery",
     "overview": "Titus swears vengeance against Ertugrul as secret conspiracies within the fortress of Aleppo threaten to tear the alliance apart. Masterpiece historical battle sequences.",
     "releaseDate": "2019-01-01",
@@ -10524,7 +13714,7 @@
       {
         "id": "04122caf-e304-461f-a8ee-f6e1ed575486",
         "tmdbId": null,
-        "name": "Metin Günay",
+        "name": "Metin G\u00fcnay",
         "profileUrl": null,
         "popularity": 85
       }
@@ -10534,12 +13724,12 @@
         "id": "a438c56c-f84a-412a-a9a2-998361a974df",
         "movieId": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
         "actorId": "094949f2-0260-4422-afde-4f6468240286",
-        "characterName": "Ertuğrul Ghazi",
+        "characterName": "Ertu\u011frul Ghazi",
         "orderIndex": 0,
         "actor": {
           "id": "094949f2-0260-4422-afde-4f6468240286",
           "tmdbId": null,
-          "name": "Engin Altan Düzyatan",
+          "name": "Engin Altan D\u00fczyatan",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10553,7 +13743,7 @@
         "actor": {
           "id": "d3a24c5d-bd62-4fcd-8574-d941924c434a",
           "tmdbId": null,
-          "name": "Cengiz Coşkun",
+          "name": "Cengiz Co\u015fkun",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10562,12 +13752,12 @@
         "id": "ea98b11d-0a23-4cbf-b0ee-857af944c95a",
         "movieId": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
         "actorId": "1c38899f-c472-42ac-9d12-61e09dd51b73",
-        "characterName": "Doğan Alp",
+        "characterName": "Do\u011fan Alp",
         "orderIndex": 2,
         "actor": {
           "id": "1c38899f-c472-42ac-9d12-61e09dd51b73",
           "tmdbId": null,
-          "name": "Cavit Çetin Güner",
+          "name": "Cavit \u00c7etin G\u00fcner",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10580,7 +13770,7 @@
     "tmdbId": null,
     "imdbId": null,
     "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 2",
-    "originalTitle": "Diriliş: Ertuğrul",
+    "originalTitle": "Dirili\u015f: Ertu\u011frul",
     "tagline": "The Kayi Camp Stands United",
     "overview": "Suleyman Shah and Ertugrul navigate political hostility within the tribe while seeking new winter pastures in Aleppo under the gaze of Sultan El-Aziz.",
     "releaseDate": "2019-01-01",
@@ -10630,7 +13820,7 @@
       {
         "id": "764ae778-3e66-41e3-a1bf-496e1f6656c3",
         "tmdbId": null,
-        "name": "Metin Günay",
+        "name": "Metin G\u00fcnay",
         "profileUrl": null,
         "popularity": 85
       }
@@ -10640,12 +13830,12 @@
         "id": "5d063188-306f-4a7b-acf0-2b762a37b442",
         "movieId": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
         "actorId": "11edb328-a0a0-4fa2-8444-3217d1f40eee",
-        "characterName": "Ertuğrul Ghazi",
+        "characterName": "Ertu\u011frul Ghazi",
         "orderIndex": 0,
         "actor": {
           "id": "11edb328-a0a0-4fa2-8444-3217d1f40eee",
           "tmdbId": null,
-          "name": "Engin Altan Düzyatan",
+          "name": "Engin Altan D\u00fczyatan",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10654,12 +13844,12 @@
         "id": "9b0a76cd-5395-4b09-9c6b-93c93be4eb0c",
         "movieId": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
         "actorId": "29d2525c-8cfb-45d8-b739-e79ccea4dfd8",
-        "characterName": "Süleyman Şah",
+        "characterName": "S\u00fcleyman \u015eah",
         "orderIndex": 1,
         "actor": {
           "id": "29d2525c-8cfb-45d8-b739-e79ccea4dfd8",
           "tmdbId": null,
-          "name": "Serdar Gökhan",
+          "name": "Serdar G\u00f6khan",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10673,7 +13863,7 @@
         "actor": {
           "id": "55f3a6c9-c14e-4f41-a0bb-1c18d4ec1198",
           "tmdbId": null,
-          "name": "Esra Bilgiç",
+          "name": "Esra Bilgi\u00e7",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10685,8 +13875,8 @@
     "id": "d8675e82-af77-48b3-b161-0a5829d21542",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 1",
-    "originalTitle": "Diriliş: Ertuğrul",
+    "title": "Ertu\u011frul Ghazi (Urdu Dubbed)",
+    "originalTitle": "Dirili\u015f: Ertu\u011frul",
     "tagline": "Faith, Honor, and the Sword of Justice",
     "overview": "13th-century Anatolia: When nomad warrior Ertugrul rescues captive noble prisoners from the Templar Knights, he sparks an epic conflict that will reshape the destiny of the Islamic world and the Kayi tribe. Official TRT/PTV Urdu Dubbing.",
     "releaseDate": "2019-01-01",
@@ -10736,7 +13926,7 @@
       {
         "id": "421a5083-114d-4e80-885f-8d0aa3aa46b4",
         "tmdbId": null,
-        "name": "Metin Günay",
+        "name": "Metin G\u00fcnay",
         "profileUrl": null,
         "popularity": 85
       }
@@ -10746,12 +13936,12 @@
         "id": "ff1f77c8-fdfe-4cca-9d4f-032d559616f9",
         "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
         "actorId": "79571530-b2ed-4f3a-b871-f7f181a9e709",
-        "characterName": "Ertuğrul Ghazi",
+        "characterName": "Ertu\u011frul Ghazi",
         "orderIndex": 0,
         "actor": {
           "id": "79571530-b2ed-4f3a-b871-f7f181a9e709",
           "tmdbId": null,
-          "name": "Engin Altan Düzyatan",
+          "name": "Engin Altan D\u00fczyatan",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10765,7 +13955,7 @@
         "actor": {
           "id": "37fcea23-3c97-44d5-96d1-718aeb1834ca",
           "tmdbId": null,
-          "name": "Esra Bilgiç",
+          "name": "Esra Bilgi\u00e7",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10779,7 +13969,7 @@
         "actor": {
           "id": "b5c59e40-58d7-4a4d-8eee-efb1363ef473",
           "tmdbId": null,
-          "name": "Cengiz Coşkun",
+          "name": "Cengiz Co\u015fkun",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10788,12 +13978,12 @@
         "id": "cb505da1-5d05-4680-a16a-b503030608e5",
         "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
         "actorId": "7df8bbd7-1c1e-4fe1-afd9-5273cbb36532",
-        "characterName": "Bamsı Beyrek",
+        "characterName": "Bams\u0131 Beyrek",
         "orderIndex": 3,
         "actor": {
           "id": "7df8bbd7-1c1e-4fe1-afd9-5273cbb36532",
           "tmdbId": null,
-          "name": "Nurettin Sönmez",
+          "name": "Nurettin S\u00f6nmez",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10805,8 +13995,8 @@
     "id": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Kuruluş: Osman (Urdu Dubbed) - Season 4 Episode 74 (4K)",
-    "originalTitle": "Kuruluş: Osman",
+    "title": "Kurulu\u015f: Osman (Urdu Dubbed) - Season 4 Episode 74 (4K)",
+    "originalTitle": "Kurulu\u015f: Osman",
     "tagline": "Ultra 4K Experience: The Battle for Anatolia",
     "overview": "In ultra 4K visual fidelity, Osman Bey faces treacherous plots in the Marmara region. Grand battles, cinematic horse chases, and gripping sword fights in official Urdu dubbing.",
     "releaseDate": "2023-01-01",
@@ -10856,7 +14046,7 @@
       {
         "id": "0268287a-c2b2-4b9a-abb8-76c0c5267dae",
         "tmdbId": null,
-        "name": "Ahmet Yılmaz",
+        "name": "Ahmet Y\u0131lmaz",
         "profileUrl": null,
         "popularity": 85
       }
@@ -10871,7 +14061,7 @@
         "actor": {
           "id": "73c350c9-5cac-4202-926e-00d94262fd57",
           "tmdbId": null,
-          "name": "Burak Özçivit",
+          "name": "Burak \u00d6z\u00e7ivit",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10885,7 +14075,7 @@
         "actor": {
           "id": "75ac92d9-abea-4a75-b0fd-2939dfd8b176",
           "tmdbId": null,
-          "name": "Özge Törer",
+          "name": "\u00d6zge T\u00f6rer",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10899,7 +14089,7 @@
         "actor": {
           "id": "14448e4e-519c-470c-a026-f8d40308946d",
           "tmdbId": null,
-          "name": "Rüzgar Aksoy",
+          "name": "R\u00fczgar Aksoy",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10911,8 +14101,8 @@
     "id": "4769ec89-c475-4415-9a3e-f65465193b74",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Kuruluş: Osman (Urdu Dubbed) - Episode 2",
-    "originalTitle": "Kuruluş: Osman",
+    "title": "Kurulu\u015f: Osman (Urdu Dubbed) - Episode 2",
+    "originalTitle": "Kurulu\u015f: Osman",
     "tagline": "The Fire of Kayi Tribe Burns High",
     "overview": "Tensions rise as Osman Bey leads his Alps into danger to uncover Byzantine conspiracies threatening the camp, while dark secrets from Kulucahisar castle emerge. Official Urdu dubbing.",
     "releaseDate": "2020-01-01",
@@ -10957,7 +14147,7 @@
       {
         "id": "badd7828-7e33-4b98-9340-a24c9deef283",
         "tmdbId": null,
-        "name": "Metin Günay",
+        "name": "Metin G\u00fcnay",
         "profileUrl": null,
         "popularity": 85
       }
@@ -10972,7 +14162,7 @@
         "actor": {
           "id": "82387d96-b50b-419f-ac23-103af5883fed",
           "tmdbId": null,
-          "name": "Burak Özçivit",
+          "name": "Burak \u00d6z\u00e7ivit",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10986,7 +14176,7 @@
         "actor": {
           "id": "e62923e6-6d73-496a-8f45-f3046f40531e",
           "tmdbId": null,
-          "name": "Özge Törer",
+          "name": "\u00d6zge T\u00f6rer",
           "profileUrl": null,
           "popularity": 80
         }
@@ -10995,12 +14185,12 @@
         "id": "540c51cb-9e7d-4e87-932c-4dc07fe44bb9",
         "movieId": "4769ec89-c475-4415-9a3e-f65465193b74",
         "actorId": "84eef972-e80d-4ece-bb46-7b918dca359c",
-        "characterName": "Bamsı Beyrek",
+        "characterName": "Bams\u0131 Beyrek",
         "orderIndex": 2,
         "actor": {
           "id": "84eef972-e80d-4ece-bb46-7b918dca359c",
           "tmdbId": null,
-          "name": "Nurettin Sönmez",
+          "name": "Nurettin S\u00f6nmez",
           "profileUrl": null,
           "popularity": 80
         }
@@ -11012,8 +14202,8 @@
     "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Kuruluş: Osman (Urdu Dubbed) - Episode 1",
-    "originalTitle": "Kuruluş: Osman",
+    "title": "Kurulu\u015f: Osman (Urdu Dubbed)",
+    "originalTitle": "Kurulu\u015f: Osman",
     "tagline": "The Legend of Osman Bey & The Dawn of the Ottoman Empire",
     "overview": "Follow the heroic journey of Osman Bey, son of Ertugrul Ghazi, as he battles internal traitors, Byzantine warlords, and Mongol legions to lay the foundation of the glorious Ottoman Empire. Dubbed in official Urdu audio.",
     "releaseDate": "2020-01-01",
@@ -11063,7 +14253,7 @@
       {
         "id": "9341939d-716e-408d-b56f-b20fa2d1ccf2",
         "tmdbId": null,
-        "name": "Metin Günay",
+        "name": "Metin G\u00fcnay",
         "profileUrl": null,
         "popularity": 85
       }
@@ -11078,7 +14268,7 @@
         "actor": {
           "id": "78bb631c-496b-4fb8-bc4c-cab4915f60df",
           "tmdbId": null,
-          "name": "Burak Özçivit",
+          "name": "Burak \u00d6z\u00e7ivit",
           "profileUrl": null,
           "popularity": 80
         }
@@ -11092,7 +14282,7 @@
         "actor": {
           "id": "67de7e03-1f3a-44b8-8098-eda1c9fdb3af",
           "tmdbId": null,
-          "name": "Özge Törer",
+          "name": "\u00d6zge T\u00f6rer",
           "profileUrl": null,
           "popularity": 80
         }
@@ -11106,7 +14296,7 @@
         "actor": {
           "id": "ddb262a9-a93a-45bb-afd4-7d5f354cc005",
           "tmdbId": null,
-          "name": "Yıldız Çağrı Atiksoy",
+          "name": "Y\u0131ld\u0131z \u00c7a\u011fr\u0131 Atiksoy",
           "profileUrl": null,
           "popularity": 80
         }
@@ -11120,7 +14310,7 @@
         "actor": {
           "id": "6dcad258-e9e2-4e97-bd34-dfffd32f50d9",
           "tmdbId": null,
-          "name": "Yiğit Uçan",
+          "name": "Yi\u011fit U\u00e7an",
           "profileUrl": null,
           "popularity": 80
         }
