@@ -30,15 +30,40 @@ export default function Navbar() {
     };
     window.addEventListener("scroll", handleScroll);
 
-    // Fetch active user session
+    // 1. Immediately hydrate user from localStorage for 0ms delay
+    try {
+      const saved = localStorage.getItem("cinesa_user_profile");
+      if (saved) {
+        setUser(JSON.parse(saved));
+      }
+    } catch (e) {}
+
+    // 2. Verify with server session in background
     fetch("/api/auth/me")
       .then((res) => res.json())
       .then((data) => {
-        if (data.user) setUser(data.user);
+        if (data.user) {
+          setUser(data.user);
+          try {
+            localStorage.setItem("cinesa_user_profile", JSON.stringify(data.user));
+          } catch (e) {}
+        }
       })
       .catch(() => {});
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    // 3. Listen to login events across tabs / onboarding modal
+    const handleLoginEvent = () => {
+      try {
+        const saved = localStorage.getItem("cinesa_user_profile");
+        if (saved) setUser(JSON.parse(saved));
+      } catch (e) {}
+    };
+    window.addEventListener("cinesa:user_login", handleLoginEvent);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("cinesa:user_login", handleLoginEvent);
+    };
   }, []);
 
   const handleRoleSwitch = async (role: "user" | "admin") => {
@@ -140,121 +165,110 @@ export default function Navbar() {
             <span className="hidden sm:inline">Ask CineMate</span>
           </Link>
 
-          {/* User Profile / Role Dropdown */}
-          <div className="relative">
-            <button
-              onClick={() => setUserDropdown(!userDropdown)}
-              className="flex items-center gap-2 p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition"
-              aria-expanded={userDropdown}
-            >
-              <div className="relative w-8 h-8 rounded-lg overflow-hidden bg-brand-purple/30 border border-white/20">
-                {user?.avatar ? (
-                  <Image
-                    src={user.avatar}
-                    alt={user.name || "User"}
-                    fill
-                    className="object-cover"
-                  />
-                ) : (
-                  <UserIcon className="w-5 h-5 text-gray-300 absolute inset-0 m-auto" />
-                )}
-              </div>
-              <div className="hidden lg:flex flex-col text-left">
-                <span className="text-xs font-semibold text-white leading-tight">
-                  {user?.name || "Alex Cinephile"}
-                </span>
-                <span className="text-[10px] text-gray-400 capitalize">
-                  {user?.role || "user"}
-                </span>
-              </div>
-              <ChevronDown className="w-3.5 h-3.5 text-gray-400" />
-            </button>
-
-            {/* Dropdown Menu */}
-            {userDropdown && (
-              <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-surface border border-white/10 shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
-                <div className="px-3 py-2.5 border-b border-white/10 mb-1">
-                  <p className="text-xs text-gray-400">Signed in as</p>
-                  <p className="text-sm font-bold text-white truncate">
-                    {user?.email || "demo@cinemate.io"}
-                  </p>
-                  <span className="inline-block mt-1 px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-brand-crimson/20 text-brand-crimson border border-brand-crimson/30">
-                    {user?.role === "admin" ? "Platform Admin" : "Cinephile User"}
+          {/* User Profile / Role Dropdown OR Sign In Button */}
+          {user ? (
+            <div className="relative">
+              <button
+                onClick={() => setUserDropdown(!userDropdown)}
+                className="flex items-center gap-2 p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition"
+                aria-expanded={userDropdown}
+              >
+                <div className="relative w-8 h-8 rounded-lg overflow-hidden bg-brand-purple/30 border border-white/20">
+                  {user.avatar ? (
+                    <Image
+                      src={user.avatar}
+                      alt={user.name || "User"}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <UserIcon className="w-5 h-5 text-gray-300 absolute inset-0 m-auto" />
+                  )}
+                </div>
+                <div className="hidden lg:flex flex-col text-left">
+                  <span className="text-xs font-semibold text-white leading-tight truncate max-w-[120px]">
+                    {user.name}
+                  </span>
+                  <span className="text-[10px] text-gray-400 capitalize">
+                    {user.role}
                   </span>
                 </div>
+                <ChevronDown className="w-3.5 h-3.5 text-gray-400" />
+              </button>
 
-                <Link
-                  href="/profile"
-                  onClick={() => setUserDropdown(false)}
-                  className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-gray-200 hover:bg-white/10 hover:text-white transition"
-                >
-                  <UserIcon className="w-4 h-4 text-gray-400" />
-                  <span>My Taste Profile</span>
-                </Link>
-
-                <Link
-                  href="/watchlist"
-                  onClick={() => setUserDropdown(false)}
-                  className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-gray-200 hover:bg-white/10 hover:text-white transition"
-                >
-                  <Bookmark className="w-4 h-4 text-gray-400" />
-                  <span>My Watchlist & Lists</span>
-                </Link>
-
-                {user?.role === "admin" && (
-                  <Link
-                    href="/admin"
-                    onClick={() => setUserDropdown(false)}
-                    className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-yellow-400 hover:bg-yellow-400/10 transition"
-                  >
-                    <Shield className="w-4 h-4 text-yellow-400" />
-                    <span>Admin Moderation Panel</span>
-                  </Link>
-                )}
-
-                <div className="my-1 border-t border-white/10" />
-
-                <div className="px-3 py-1.5">
-                  <p className="text-[10px] uppercase font-bold text-gray-500 mb-1.5">
-                    1-Click Role Switcher
-                  </p>
-                  <div className="grid grid-cols-2 gap-1.5">
-                    <button
-                      onClick={() => handleRoleSwitch("user")}
-                      className={`px-2 py-1.5 rounded-lg text-xs font-medium border ${
-                        user?.role === "user"
-                          ? "bg-brand-red/20 border-brand-red text-white"
-                          : "bg-white/5 border-white/10 text-gray-400 hover:text-white"
-                      }`}
-                    >
-                      User View
-                    </button>
-                    <button
-                      onClick={() => handleRoleSwitch("admin")}
-                      className={`px-2 py-1.5 rounded-lg text-xs font-medium border ${
-                        user?.role === "admin"
-                          ? "bg-brand-purple/20 border-brand-purple text-white"
-                          : "bg-white/5 border-white/10 text-gray-400 hover:text-white"
-                      }`}
-                    >
-                      Admin View
-                    </button>
+              {/* Dropdown Menu */}
+              {userDropdown && (
+                <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-surface border border-white/10 shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
+                  <div className="px-3 py-2.5 border-b border-white/10 mb-1">
+                    <p className="text-xs text-gray-400">Signed in as</p>
+                    <p className="text-sm font-bold text-white truncate">
+                      {user.name}
+                    </p>
+                    <p className="text-xs text-gray-400 truncate">
+                      {user.email || user.phone}
+                    </p>
+                    <span className="inline-block mt-1 px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-brand-crimson/20 text-brand-crimson border border-brand-crimson/30">
+                      {user.role === "admin" ? "Platform Founder" : "Verified User"}
+                    </span>
                   </div>
+
+                  <Link
+                    href="/profile"
+                    onClick={() => setUserDropdown(false)}
+                    className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-gray-200 hover:bg-white/10 hover:text-white transition"
+                  >
+                    <UserIcon className="w-4 h-4 text-gray-400" />
+                    <span>My Taste Profile</span>
+                  </Link>
+
+                  <Link
+                    href="/watchlist"
+                    onClick={() => setUserDropdown(false)}
+                    className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-gray-200 hover:bg-white/10 hover:text-white transition"
+                  >
+                    <Bookmark className="w-4 h-4 text-gray-400" />
+                    <span>My Watchlist</span>
+                  </Link>
+
+                  {user.role === "admin" && (
+                    <Link
+                      href="/admin"
+                      onClick={() => setUserDropdown(false)}
+                      className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-bold text-amber-300 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 transition"
+                    >
+                      <Shield className="w-4 h-4 text-amber-400" />
+                      <span>Founder Admin Hub</span>
+                    </Link>
+                  )}
+
+                  <div className="my-1 border-t border-white/10" />
+
+                  <button
+                    onClick={() => {
+                      setUserDropdown(false);
+                      setUser(null);
+                      try {
+                        localStorage.removeItem("cinesa_user_profile");
+                      } catch (e) {}
+                      window.location.href = "/login";
+                    }}
+                    className="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-red-400 hover:bg-red-500/10 transition text-left"
+                  >
+                    <LogOut className="w-4 h-4" />
+                    <span>Sign Out</span>
+                  </button>
                 </div>
-
-                <div className="my-1 border-t border-white/10" />
-
-                <Link
-                  href="/login"
-                  onClick={() => setUserDropdown(false)}
-                  className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-medium text-red-400 hover:bg-red-500/10 transition"
-                >
-                  <LogOut className="w-4 h-4" />
-                  <span>Sign Out / Switch Account</span>
-                </Link>
-              </div>
-            )}
-          </div>
+              )}
+            </div>
+          ) : (
+            <Link
+              href="/login"
+              className="flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl bg-gradient-to-r from-brand-red to-brand-crimson hover:from-red-600 hover:to-red-700 text-white text-xs sm:text-sm font-bold shadow-lg shadow-brand-red/30 transition hover:scale-[1.02]"
+            >
+              <UserIcon className="w-3.5 h-3.5" />
+              <span>Sign In</span>
+            </Link>
+          )}
         </div>
       </div>
     </header>

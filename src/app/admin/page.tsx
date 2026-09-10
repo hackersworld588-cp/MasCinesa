@@ -63,14 +63,9 @@ export default function AdminDashboardPage() {
     fetchAdminData(passkey);
   };
 
-  const handleQuickFounderLogin = () => {
-    setPasskey("aabid9588");
-    fetchAdminData("aabid9588");
-  };
-
   const handleExportCSV = async () => {
     try {
-      const p = passkey || (typeof window !== "undefined" ? localStorage.getItem("cinesa_admin_passkey") || "aabid9588" : "aabid9588");
+      const p = passkey || (typeof window !== "undefined" ? localStorage.getItem("cinesa_admin_passkey") || "" : "");
       const res = await fetch("/api/admin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -100,7 +95,7 @@ export default function AdminDashboardPage() {
           <div>
             <h2 className="text-xl sm:text-2xl font-black text-white">Founder Admin Access</h2>
             <p className="text-xs sm:text-sm text-gray-400 mt-1">
-              This portal is exclusively reserved for Founder <strong>Mohammad Aabid Husain</strong>.
+              Protected portal exclusively for Founder <strong>Mohammad Aabid Husain</strong>. Password required.
             </p>
           </div>
 
@@ -109,26 +104,21 @@ export default function AdminDashboardPage() {
               type="password"
               value={passkey}
               onChange={(e) => setPasskey(e.target.value)}
-              placeholder="Enter Founder Passkey (e.g. aabid9588)"
+              placeholder="Enter Founder Secret Passkey"
+              required
               className="w-full px-4 py-3 rounded-xl bg-surface-muted border border-white/10 text-white text-sm focus:outline-none focus:border-brand-crimson text-center"
             />
             <button
               type="submit"
               className="w-full py-3 rounded-xl bg-brand-crimson hover:bg-red-600 text-white font-bold text-sm shadow-lg transition"
             >
-              Unlock Dashboard
+              Verify & Unlock Dashboard
             </button>
           </form>
 
-          <div className="pt-2 border-t border-white/10">
-            <button
-              onClick={handleQuickFounderLogin}
-              className="w-full py-2.5 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 font-semibold text-xs transition flex items-center justify-center gap-2"
-            >
-              <Shield className="w-4 h-4 text-amber-400" />
-              <span>1-Click Unlock for Mohammad Aabid Husain</span>
-            </button>
-          </div>
+          <p className="text-[11px] text-gray-500">
+            For security, unauthorized access without the secret password is strictly prohibited.
+          </p>
         </div>
       </div>
     );

@@ -5,6 +5,7 @@ import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 import InstallPrompt from "@/components/InstallPrompt";
 import ActivityTracker from "@/components/ActivityTracker";
+import UserOnboardingModal from "@/components/UserOnboardingModal";
 
 export const viewport: Viewport = {
   themeColor: "#0b0c10",
@@ -46,6 +47,9 @@ export default function RootLayout({
       <body className="bg-background text-gray-100 min-h-screen flex flex-col antialiased selection:bg-brand-red selection:text-white">
         {/* Invisible Activity & Analytics Tracker */}
         <ActivityTracker />
+
+        {/* First-time Welcome & User Details Onboarding Modal */}
+        <UserOnboardingModal />
 
         {/* Main Desktop & Mobile Header */}
         <Navbar />
