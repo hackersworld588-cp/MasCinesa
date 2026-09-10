@@ -1,1135 +1,9 @@
 [
   {
-    "id": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 3",
-    "originalTitle": "Payitaht: Abdülhamid",
-    "tagline": "Guarding the Sacred Lands",
-    "overview": "Facing mounting pressure from international bankers, Sultan Abdülhamid delivers his iconic decree protecting Palestine and the sacred lands of Jerusalem and Medina.",
-    "releaseDate": "2021-01-01",
-    "releaseYear": 2021,
-    "runtime": 122,
-    "posterUrl": "https://i.ytimg.com/vi/8ZqiaQ2lXbg/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/8ZqiaQ2lXbg/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "8ZqiaQ2lXbg",
-    "fullMovieKey": "8ZqiaQ2lXbg",
-    "isFreeWatch": true,
-    "voteAverage": 9,
-    "voteCount": 50000,
-    "popularity": 93,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT",
-      "Hum TV"
-    ],
-    "genres": [
-      {
-        "id": "b6d5a11b-4e6b-4645-a279-e99f4bd697c6",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "861a7fc5-897b-44df-ab3e-e3e1414f2634",
-        "name": "Drama",
-        "slug": "drama"
-      },
-      {
-        "id": "3cde43e3-5588-4d54-a7ae-c02e26a0d683",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      },
-      {
-        "id": "6af7d1d9-3582-47b2-b0e7-e680a91ddf67",
-        "name": "Thriller",
-        "slug": "thriller"
-      }
-    ],
-    "directors": [
-      {
-        "id": "9b813a88-d73a-4541-9a9f-ae1b71232851",
-        "tmdbId": null,
-        "name": "Serdar Akar",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "da2ab313-9c9f-4b26-9d10-5c887a81c5ae",
-        "movieId": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
-        "actorId": "45c8628a-6b9d-4199-980b-dc781200a4c5",
-        "characterName": "Sultan Abdülhamid II",
-        "orderIndex": 0,
-        "actor": {
-          "id": "45c8628a-6b9d-4199-980b-dc781200a4c5",
-          "tmdbId": null,
-          "name": "Bülent İnal",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "26be7932-3ef5-4a88-a3c2-04b3edc58ead",
-        "movieId": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
-        "actorId": "593d3c0f-9f76-49a1-8b12-39ad4a4ebd9d",
-        "characterName": "Mahmud Pasha",
-        "orderIndex": 1,
-        "actor": {
-          "id": "593d3c0f-9f76-49a1-8b12-39ad4a4ebd9d",
-          "tmdbId": null,
-          "name": "Hakan Boyav",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 2",
-    "originalTitle": "Payitaht: Abdülhamid",
-    "tagline": "The Great Game in Istanbul",
-    "overview": "Sultan Abdülhamid launches the historic Hejaz Railway project while foreign envoys attempt to destabilize the Ottoman capital through espionage and financial coercion.",
-    "releaseDate": "2021-01-01",
-    "releaseYear": 2021,
-    "runtime": 120,
-    "posterUrl": "https://i.ytimg.com/vi/Lj1UYTxvDjk/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/Lj1UYTxvDjk/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "Lj1UYTxvDjk",
-    "fullMovieKey": "Lj1UYTxvDjk",
-    "isFreeWatch": true,
-    "voteAverage": 8.9,
-    "voteCount": 50000,
-    "popularity": 92,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT",
-      "Hum TV"
-    ],
-    "genres": [
-      {
-        "id": "41959a3b-06fe-482e-ae88-b43e897ab318",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "37675ebe-891d-4d2e-92fc-8ce78734abfa",
-        "name": "Drama",
-        "slug": "drama"
-      },
-      {
-        "id": "d28cc3af-6536-4b17-8577-d3f0118d8cd7",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      },
-      {
-        "id": "647a15b5-e74d-48d1-9710-b9568b44c470",
-        "name": "Thriller",
-        "slug": "thriller"
-      }
-    ],
-    "directors": [
-      {
-        "id": "9740ba22-fb91-46b3-b290-e59b499e4ded",
-        "tmdbId": null,
-        "name": "Serdar Akar",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "d2156deb-d2b5-4692-9159-0859271a3391",
-        "movieId": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
-        "actorId": "bcc0c157-237e-4dc0-a785-f07016fc041c",
-        "characterName": "Sultan Abdülhamid II",
-        "orderIndex": 0,
-        "actor": {
-          "id": "bcc0c157-237e-4dc0-a785-f07016fc041c",
-          "tmdbId": null,
-          "name": "Bülent İnal",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "21f7cb98-5d90-4d6d-8b25-b11927f79d2e",
-        "movieId": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
-        "actorId": "556523f6-ef24-4a52-8a8c-08b260dae221",
-        "characterName": "Mahmud Pasha",
-        "orderIndex": 1,
-        "actor": {
-          "id": "556523f6-ef24-4a52-8a8c-08b260dae221",
-          "tmdbId": null,
-          "name": "Hakan Boyav",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 1",
-    "originalTitle": "Payitaht: Abdülhamid",
-    "tagline": "The 34th Sultan Fierce Fight for the Throne and Faith",
-    "overview": "Experience the intense political chess match of the final 20 years of Sultan Abdülhamid II reign, as he outwits Western imperialist plots, global conspiracies, and internal betrayals to safeguard the Ottoman Empire and the Caliphate.",
-    "releaseDate": "2021-01-01",
-    "releaseYear": 2021,
-    "runtime": 125,
-    "posterUrl": "https://i.ytimg.com/vi/GyqbUrT_7j8/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/GyqbUrT_7j8/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "GyqbUrT_7j8",
-    "fullMovieKey": "GyqbUrT_7j8",
-    "isFreeWatch": true,
-    "voteAverage": 9.1,
-    "voteCount": 50000,
-    "popularity": 96,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT",
-      "Hum TV"
-    ],
-    "genres": [
-      {
-        "id": "a1438f0e-fc62-4274-bacf-5cf6c402c603",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "2ddb8579-c7b9-455a-b8d6-46828793366b",
-        "name": "Drama",
-        "slug": "drama"
-      },
-      {
-        "id": "b9e7cb60-9058-4aee-b29f-7111f86f8e3f",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      },
-      {
-        "id": "0e8c08a2-f41f-4b64-9f27-9cb2137c70de",
-        "name": "Thriller",
-        "slug": "thriller"
-      }
-    ],
-    "directors": [
-      {
-        "id": "3ce2beb4-b545-4ef7-90d9-0debef83d87b",
-        "tmdbId": null,
-        "name": "Serdar Akar",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "d44a1cba-9fbe-410a-970f-5e4ad5b41e9e",
-        "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
-        "actorId": "ba325c36-5ed6-448c-a275-c9d188482905",
-        "characterName": "Sultan Abdülhamid II",
-        "orderIndex": 0,
-        "actor": {
-          "id": "ba325c36-5ed6-448c-a275-c9d188482905",
-          "tmdbId": null,
-          "name": "Bülent İnal",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "0a7a0c0e-0448-43df-954c-55aeb719e9b3",
-        "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
-        "actorId": "76ad499f-945c-4781-95d5-6c1b89c6a758",
-        "characterName": "Bidar Kadın",
-        "orderIndex": 1,
-        "actor": {
-          "id": "76ad499f-945c-4781-95d5-6c1b89c6a758",
-          "tmdbId": null,
-          "name": "Özlem Conker",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "fa0b44da-2fc9-4e22-b137-283e5de1180b",
-        "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
-        "actorId": "58cbcf4f-ce2b-41fb-83fc-340b7b7fc38b",
-        "characterName": "Mahmud Pasha",
-        "orderIndex": 2,
-        "actor": {
-          "id": "58cbcf4f-ce2b-41fb-83fc-340b7b7fc38b",
-          "tmdbId": null,
-          "name": "Hakan Boyav",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "0cf6554e-fbd1-481a-b1e1-aecade7c8ad4",
-        "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
-        "actorId": "9b32d889-d6e3-4ad7-8825-2ae7394ef287",
-        "characterName": "Theodor Herzl",
-        "orderIndex": 3,
-        "actor": {
-          "id": "9b32d889-d6e3-4ad7-8825-2ae7394ef287",
-          "tmdbId": null,
-          "name": "Saygın Soysal",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 3",
-    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
-    "tagline": "Justice Above All",
-    "overview": "The battle for unity intensifies as Selahaddin risks his life to rescue captives and defend the honor of the oppressed.",
-    "releaseDate": "2023-01-01",
-    "releaseYear": 2023,
-    "runtime": 125,
-    "posterUrl": "https://i.ytimg.com/vi/kgzIZRLC1Jk/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/kgzIZRLC1Jk/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "kgzIZRLC1Jk",
-    "fullMovieKey": "kgzIZRLC1Jk",
-    "isFreeWatch": true,
-    "voteAverage": 9.1,
-    "voteCount": 50000,
-    "popularity": 93.5,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT 1",
-      "Ansari Films"
-    ],
-    "genres": [
-      {
-        "id": "ef21a843-405c-470a-a117-cabed0730698",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "5461a3ff-bac1-400b-a2cf-198207811f84",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "fb32eb0c-7a96-45f1-93ba-e75fe3437cd9",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      }
-    ],
-    "directors": [
-      {
-        "id": "216e5f98-e0ed-4166-a8a0-c04eeebcf3f0",
-        "tmdbId": null,
-        "name": "Sedat İnci",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "437ffd20-748d-48e3-9c09-26cb50d83753",
-        "movieId": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
-        "actorId": "24fa9bd9-1674-48d8-960f-8f048facdefc",
-        "characterName": "Sultan Selahaddin Eyyubi",
-        "orderIndex": 0,
-        "actor": {
-          "id": "24fa9bd9-1674-48d8-960f-8f048facdefc",
-          "tmdbId": null,
-          "name": "Uğur Güneş",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "b57e9da8-c0da-4212-bd94-ebb8fde27e33",
-        "movieId": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
-        "actorId": "c8824c65-58ee-41ad-ba4a-ce0b778933cc",
-        "characterName": "Süreyya Hatun",
-        "orderIndex": 1,
-        "actor": {
-          "id": "c8824c65-58ee-41ad-ba4a-ce0b778933cc",
-          "tmdbId": null,
-          "name": "Dilin Döğer",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "84e18939-0ecf-49c1-abb0-7954d26515f0",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 2",
-    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
-    "tagline": "The Siege of the Lion",
-    "overview": "Selahaddin uncovers a secret plot inside the Zengi court while standing firm in defense of the realm against Ascalon crusader army.",
-    "releaseDate": "2023-01-01",
-    "releaseYear": 2023,
-    "runtime": 128,
-    "posterUrl": "https://i.ytimg.com/vi/VHXyJxWKDBA/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/VHXyJxWKDBA/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "VHXyJxWKDBA",
-    "fullMovieKey": "VHXyJxWKDBA",
-    "isFreeWatch": true,
-    "voteAverage": 9,
-    "voteCount": 50000,
-    "popularity": 94,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT 1",
-      "Ansari Films"
-    ],
-    "genres": [
-      {
-        "id": "9631b467-4800-469e-8b2d-f259043aca57",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "eb7da62e-1f65-46cd-a1ba-cfcff631d0bc",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "26944ac1-8118-49f4-aeeb-2dfa596ab9ff",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      }
-    ],
-    "directors": [
-      {
-        "id": "78443cbe-1208-4b67-8180-09a97907d40f",
-        "tmdbId": null,
-        "name": "Sedat İnci",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "859b806d-022a-4f1d-8b0e-028de70109de",
-        "movieId": "84e18939-0ecf-49c1-abb0-7954d26515f0",
-        "actorId": "54cb560d-c56c-4bb0-bb11-2641ffc72fab",
-        "characterName": "Sultan Selahaddin Eyyubi",
-        "orderIndex": 0,
-        "actor": {
-          "id": "54cb560d-c56c-4bb0-bb11-2641ffc72fab",
-          "tmdbId": null,
-          "name": "Uğur Güneş",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "df7b284a-f911-406a-82d9-d805e8c2b107",
-        "movieId": "84e18939-0ecf-49c1-abb0-7954d26515f0",
-        "actorId": "f4699ecb-d13b-4093-ae73-32114a0ec2af",
-        "characterName": "Süreyya Hatun",
-        "orderIndex": 1,
-        "actor": {
-          "id": "f4699ecb-d13b-4093-ae73-32114a0ec2af",
-          "tmdbId": null,
-          "name": "Dilin Döğer",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 1",
-    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
-    "tagline": "The Conqueror of Jerusalem & Lion of Islam",
-    "overview": "The grand historical drama chronicling the extraordinary life, valor, and chivalry of Sultan Salahuddin Ayyubi (Saladin), who united the Muslim world and liberated Jerusalem from the Crusaders with unyielding honor.",
-    "releaseDate": "2023-01-01",
-    "releaseYear": 2023,
-    "runtime": 135,
-    "posterUrl": "https://i.ytimg.com/vi/o1b-cTUM_ig/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/o1b-cTUM_ig/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "o1b-cTUM_ig",
-    "fullMovieKey": "o1b-cTUM_ig",
-    "isFreeWatch": true,
-    "voteAverage": 9.2,
-    "voteCount": 50000,
-    "popularity": 98.2,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT 1",
-      "Ansari Films"
-    ],
-    "genres": [
-      {
-        "id": "43cc199f-c4b2-4bba-b9e7-9ba3a1f4ce50",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "12087c68-ebb0-47b1-8dcc-d755cd371ef6",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "90dd4f6c-9d0e-497a-be08-ae603c9f9ccf",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      },
-      {
-        "id": "aab33786-2008-481f-b80a-a56bd31ad677",
-        "name": "War",
-        "slug": "war"
-      }
-    ],
-    "directors": [
-      {
-        "id": "8e6e787d-3a41-45ca-9725-37bcc784c482",
-        "tmdbId": null,
-        "name": "Sedat İnci",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "2c77fa81-a465-4ea0-b341-77c8ef81940b",
-        "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
-        "actorId": "9443b8f1-f4b9-4959-9430-a6196e40238f",
-        "characterName": "Sultan Selahaddin Eyyubi",
-        "orderIndex": 0,
-        "actor": {
-          "id": "9443b8f1-f4b9-4959-9430-a6196e40238f",
-          "tmdbId": null,
-          "name": "Uğur Güneş",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "c2e8705d-4ea9-4119-93b2-46ca4b097ae5",
-        "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
-        "actorId": "14da8c4e-0639-4526-8a79-351efe5fd774",
-        "characterName": "Süreyya Hatun",
-        "orderIndex": 1,
-        "actor": {
-          "id": "14da8c4e-0639-4526-8a79-351efe5fd774",
-          "tmdbId": null,
-          "name": "Dilin Döğer",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "01af7bab-9b26-41ac-b1ac-a30fcc2360e3",
-        "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
-        "actorId": "e074e6ac-d09e-4fe6-bfd7-48f30350918e",
-        "characterName": "Nureddin Zengi",
-        "orderIndex": 2,
-        "actor": {
-          "id": "e074e6ac-d09e-4fe6-bfd7-48f30350918e",
-          "tmdbId": null,
-          "name": "Mehmet Ali Nuroğlu",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "8ece47aa-cae1-4c89-b2e3-21ee47284ec9",
-        "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
-        "actorId": "a7be8d60-9f4e-4a00-8bda-2be3a2167d9b",
-        "characterName": "Nusreddin",
-        "orderIndex": 3,
-        "actor": {
-          "id": "a7be8d60-9f4e-4a00-8bda-2be3a2167d9b",
-          "tmdbId": null,
-          "name": "Kaan Çakır",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 3",
-    "originalTitle": "Diriliş: Ertuğrul",
-    "tagline": "A Duel of Honor and Bravery",
-    "overview": "Titus swears vengeance against Ertugrul as secret conspiracies within the fortress of Aleppo threaten to tear the alliance apart. Masterpiece historical battle sequences.",
-    "releaseDate": "2019-01-01",
-    "releaseYear": 2019,
-    "runtime": 112,
-    "posterUrl": "https://i.ytimg.com/vi/U5sJ59S6mNs/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/U5sJ59S6mNs/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "U5sJ59S6mNs",
-    "fullMovieKey": "U5sJ59S6mNs",
-    "isFreeWatch": true,
-    "voteAverage": 9.5,
-    "voteCount": 50000,
-    "popularity": 96.5,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT",
-      "PTV Home"
-    ],
-    "genres": [
-      {
-        "id": "6e8c0a0c-7d6d-4f8f-8360-e9a41faa9228",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "351c0985-9908-4716-9f39-d5e79f1397f5",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "3f76e4ce-9d1e-4a7a-8935-2a87102db989",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      },
-      {
-        "id": "38e42c65-78ee-4aa3-84e7-ac81c9426319",
-        "name": "Adventure",
-        "slug": "adventure"
-      }
-    ],
-    "directors": [
-      {
-        "id": "04122caf-e304-461f-a8ee-f6e1ed575486",
-        "tmdbId": null,
-        "name": "Metin Günay",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "a438c56c-f84a-412a-a9a2-998361a974df",
-        "movieId": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
-        "actorId": "094949f2-0260-4422-afde-4f6468240286",
-        "characterName": "Ertuğrul Ghazi",
-        "orderIndex": 0,
-        "actor": {
-          "id": "094949f2-0260-4422-afde-4f6468240286",
-          "tmdbId": null,
-          "name": "Engin Altan Düzyatan",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "6e5e4d1e-2f52-4b27-9a52-42d355397ec7",
-        "movieId": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
-        "actorId": "d3a24c5d-bd62-4fcd-8574-d941924c434a",
-        "characterName": "Turgut Alp",
-        "orderIndex": 1,
-        "actor": {
-          "id": "d3a24c5d-bd62-4fcd-8574-d941924c434a",
-          "tmdbId": null,
-          "name": "Cengiz Coşkun",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "ea98b11d-0a23-4cbf-b0ee-857af944c95a",
-        "movieId": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
-        "actorId": "1c38899f-c472-42ac-9d12-61e09dd51b73",
-        "characterName": "Doğan Alp",
-        "orderIndex": 2,
-        "actor": {
-          "id": "1c38899f-c472-42ac-9d12-61e09dd51b73",
-          "tmdbId": null,
-          "name": "Cavit Çetin Güner",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 2",
-    "originalTitle": "Diriliş: Ertuğrul",
-    "tagline": "The Kayi Camp Stands United",
-    "overview": "Suleyman Shah and Ertugrul navigate political hostility within the tribe while seeking new winter pastures in Aleppo under the gaze of Sultan El-Aziz.",
-    "releaseDate": "2019-01-01",
-    "releaseYear": 2019,
-    "runtime": 110,
-    "posterUrl": "https://i.ytimg.com/vi/EXdtyUnUpGY/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/EXdtyUnUpGY/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "EXdtyUnUpGY",
-    "fullMovieKey": "EXdtyUnUpGY",
-    "isFreeWatch": true,
-    "voteAverage": 9.4,
-    "voteCount": 50000,
-    "popularity": 96,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT",
-      "PTV Home"
-    ],
-    "genres": [
-      {
-        "id": "9f6d1a1d-20d7-4894-b8b5-9fa6750892ba",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "b5f97918-e9c5-451c-92be-1b5ae5b7cc4c",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "41d33f0c-a8a0-475f-966e-5afe2eba44d2",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      },
-      {
-        "id": "ec221b68-7f5b-432f-8708-e79ec5de580e",
-        "name": "Adventure",
-        "slug": "adventure"
-      }
-    ],
-    "directors": [
-      {
-        "id": "764ae778-3e66-41e3-a1bf-496e1f6656c3",
-        "tmdbId": null,
-        "name": "Metin Günay",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "5d063188-306f-4a7b-acf0-2b762a37b442",
-        "movieId": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
-        "actorId": "11edb328-a0a0-4fa2-8444-3217d1f40eee",
-        "characterName": "Ertuğrul Ghazi",
-        "orderIndex": 0,
-        "actor": {
-          "id": "11edb328-a0a0-4fa2-8444-3217d1f40eee",
-          "tmdbId": null,
-          "name": "Engin Altan Düzyatan",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "9b0a76cd-5395-4b09-9c6b-93c93be4eb0c",
-        "movieId": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
-        "actorId": "29d2525c-8cfb-45d8-b739-e79ccea4dfd8",
-        "characterName": "Süleyman Şah",
-        "orderIndex": 1,
-        "actor": {
-          "id": "29d2525c-8cfb-45d8-b739-e79ccea4dfd8",
-          "tmdbId": null,
-          "name": "Serdar Gökhan",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "e9842732-cacd-481b-b382-927eaee8678c",
-        "movieId": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
-        "actorId": "55f3a6c9-c14e-4f41-a0bb-1c18d4ec1198",
-        "characterName": "Halime Sultan",
-        "orderIndex": 2,
-        "actor": {
-          "id": "55f3a6c9-c14e-4f41-a0bb-1c18d4ec1198",
-          "tmdbId": null,
-          "name": "Esra Bilgiç",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "d8675e82-af77-48b3-b161-0a5829d21542",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 1",
-    "originalTitle": "Diriliş: Ertuğrul",
-    "tagline": "Faith, Honor, and the Sword of Justice",
-    "overview": "13th-century Anatolia: When nomad warrior Ertugrul rescues captive noble prisoners from the Templar Knights, he sparks an epic conflict that will reshape the destiny of the Islamic world and the Kayi tribe. Official TRT/PTV Urdu Dubbing.",
-    "releaseDate": "2019-01-01",
-    "releaseYear": 2019,
-    "runtime": 115,
-    "posterUrl": "https://i.ytimg.com/vi/fa89NxhAKis/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/fa89NxhAKis/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "fa89NxhAKis",
-    "fullMovieKey": "fa89NxhAKis",
-    "isFreeWatch": true,
-    "voteAverage": 9.6,
-    "voteCount": 50000,
-    "popularity": 99.9,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "TRT",
-      "PTV Home"
-    ],
-    "genres": [
-      {
-        "id": "6dce0a9a-5df9-4d49-a523-3390893bdac7",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "46ad0d27-ef44-4c31-8f96-601bdc2c09b4",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "d98d581a-a446-4e21-b0d8-3b8db9af4088",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      },
-      {
-        "id": "03d52d0e-20ae-4306-b58a-b374f8f7303f",
-        "name": "Adventure",
-        "slug": "adventure"
-      }
-    ],
-    "directors": [
-      {
-        "id": "421a5083-114d-4e80-885f-8d0aa3aa46b4",
-        "tmdbId": null,
-        "name": "Metin Günay",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "ff1f77c8-fdfe-4cca-9d4f-032d559616f9",
-        "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
-        "actorId": "79571530-b2ed-4f3a-b871-f7f181a9e709",
-        "characterName": "Ertuğrul Ghazi",
-        "orderIndex": 0,
-        "actor": {
-          "id": "79571530-b2ed-4f3a-b871-f7f181a9e709",
-          "tmdbId": null,
-          "name": "Engin Altan Düzyatan",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "430193e9-a04c-4c46-bd64-ba179460012b",
-        "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
-        "actorId": "37fcea23-3c97-44d5-96d1-718aeb1834ca",
-        "characterName": "Halime Sultan",
-        "orderIndex": 1,
-        "actor": {
-          "id": "37fcea23-3c97-44d5-96d1-718aeb1834ca",
-          "tmdbId": null,
-          "name": "Esra Bilgiç",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "1e82da92-95a3-4a3a-8694-8129154f16f4",
-        "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
-        "actorId": "b5c59e40-58d7-4a4d-8eee-efb1363ef473",
-        "characterName": "Turgut Alp",
-        "orderIndex": 2,
-        "actor": {
-          "id": "b5c59e40-58d7-4a4d-8eee-efb1363ef473",
-          "tmdbId": null,
-          "name": "Cengiz Coşkun",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "cb505da1-5d05-4680-a16a-b503030608e5",
-        "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
-        "actorId": "7df8bbd7-1c1e-4fe1-afd9-5273cbb36532",
-        "characterName": "Bamsı Beyrek",
-        "orderIndex": 3,
-        "actor": {
-          "id": "7df8bbd7-1c1e-4fe1-afd9-5273cbb36532",
-          "tmdbId": null,
-          "name": "Nurettin Sönmez",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Kuruluş: Osman (Urdu Dubbed) - Season 4 Episode 74 (4K)",
-    "originalTitle": "Kuruluş: Osman",
-    "tagline": "Ultra 4K Experience: The Battle for Anatolia",
-    "overview": "In ultra 4K visual fidelity, Osman Bey faces treacherous plots in the Marmara region. Grand battles, cinematic horse chases, and gripping sword fights in official Urdu dubbing.",
-    "releaseDate": "2023-01-01",
-    "releaseYear": 2023,
-    "runtime": 130,
-    "posterUrl": "https://i.ytimg.com/vi/pwVF9clT-CI/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/pwVF9clT-CI/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "pwVF9clT-CI",
-    "fullMovieKey": "pwVF9clT-CI",
-    "isFreeWatch": true,
-    "voteAverage": 9.4,
-    "voteCount": 50000,
-    "popularity": 97,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "atv",
-      "Kurulus Osman Urdu"
-    ],
-    "genres": [
-      {
-        "id": "ab30ac66-67e0-4fab-9f45-f18644226fe6",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "e17d683d-2239-4ffa-9e9b-c398efe3bf15",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "5468ac0b-e071-4542-9413-629fb0cb769f",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      },
-      {
-        "id": "2e3c4906-a47d-401d-ade7-b6eb8453d4fd",
-        "name": "War",
-        "slug": "war"
-      }
-    ],
-    "directors": [
-      {
-        "id": "0268287a-c2b2-4b9a-abb8-76c0c5267dae",
-        "tmdbId": null,
-        "name": "Ahmet Yılmaz",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "d87cc55f-95b5-4032-861c-bec0a505bc8c",
-        "movieId": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
-        "actorId": "73c350c9-5cac-4202-926e-00d94262fd57",
-        "characterName": "Osman Bey",
-        "orderIndex": 0,
-        "actor": {
-          "id": "73c350c9-5cac-4202-926e-00d94262fd57",
-          "tmdbId": null,
-          "name": "Burak Özçivit",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "86d9be31-313a-4861-8cb5-ccb721949b90",
-        "movieId": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
-        "actorId": "75ac92d9-abea-4a75-b0fd-2939dfd8b176",
-        "characterName": "Bala Hatun",
-        "orderIndex": 1,
-        "actor": {
-          "id": "75ac92d9-abea-4a75-b0fd-2939dfd8b176",
-          "tmdbId": null,
-          "name": "Özge Törer",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "fa7af2f0-4303-4297-9e4f-eda47cf5e85a",
-        "movieId": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
-        "actorId": "14448e4e-519c-470c-a026-f8d40308946d",
-        "characterName": "Turgut Alp",
-        "orderIndex": 2,
-        "actor": {
-          "id": "14448e4e-519c-470c-a026-f8d40308946d",
-          "tmdbId": null,
-          "name": "Rüzgar Aksoy",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
-    "id": "4769ec89-c475-4415-9a3e-f65465193b74",
-    "tmdbId": null,
-    "imdbId": null,
-    "title": "Kuruluş: Osman (Urdu Dubbed) - Episode 2",
-    "originalTitle": "Kuruluş: Osman",
-    "tagline": "The Fire of Kayi Tribe Burns High",
-    "overview": "Tensions rise as Osman Bey leads his Alps into danger to uncover Byzantine conspiracies threatening the camp, while dark secrets from Kulucahisar castle emerge. Official Urdu dubbing.",
-    "releaseDate": "2020-01-01",
-    "releaseYear": 2020,
-    "runtime": 118,
-    "posterUrl": "https://i.ytimg.com/vi/X2DnXfwOK98/hqdefault.jpg",
-    "backdropUrl": "https://i.ytimg.com/vi/X2DnXfwOK98/maxresdefault.jpg",
-    "trailerUrl": null,
-    "trailerKey": "X2DnXfwOK98",
-    "fullMovieKey": "X2DnXfwOK98",
-    "isFreeWatch": true,
-    "voteAverage": 9.1,
-    "voteCount": 50000,
-    "popularity": 95,
-    "language": "ur",
-    "originCountry": "TR",
-    "budget": 0,
-    "revenue": 0,
-    "streamingPlatforms": [
-      "YouTube",
-      "atv",
-      "Kurulus Osman Urdu"
-    ],
-    "genres": [
-      {
-        "id": "c2fde060-c4a1-481e-a583-d3d4b6808195",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "24d0fc8e-297b-483b-a22a-6b8b895d203b",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "d0a6a50b-9e82-4bf6-86e9-13c8f63c938f",
-        "name": "Turkish Drama",
-        "slug": "turkish-drama"
-      }
-    ],
-    "directors": [
-      {
-        "id": "badd7828-7e33-4b98-9340-a24c9deef283",
-        "tmdbId": null,
-        "name": "Metin Günay",
-        "profileUrl": null,
-        "popularity": 85
-      }
-    ],
-    "cast": [
-      {
-        "id": "b94fb33a-add9-4abc-ae17-500559f816d7",
-        "movieId": "4769ec89-c475-4415-9a3e-f65465193b74",
-        "actorId": "82387d96-b50b-419f-ac23-103af5883fed",
-        "characterName": "Osman Bey",
-        "orderIndex": 0,
-        "actor": {
-          "id": "82387d96-b50b-419f-ac23-103af5883fed",
-          "tmdbId": null,
-          "name": "Burak Özçivit",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "5f1f6256-26f0-4252-b1c6-78b931122617",
-        "movieId": "4769ec89-c475-4415-9a3e-f65465193b74",
-        "actorId": "e62923e6-6d73-496a-8f45-f3046f40531e",
-        "characterName": "Bala Hatun",
-        "orderIndex": 1,
-        "actor": {
-          "id": "e62923e6-6d73-496a-8f45-f3046f40531e",
-          "tmdbId": null,
-          "name": "Özge Törer",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      },
-      {
-        "id": "540c51cb-9e7d-4e87-932c-4dc07fe44bb9",
-        "movieId": "4769ec89-c475-4415-9a3e-f65465193b74",
-        "actorId": "84eef972-e80d-4ece-bb46-7b918dca359c",
-        "characterName": "Bamsı Beyrek",
-        "orderIndex": 2,
-        "actor": {
-          "id": "84eef972-e80d-4ece-bb46-7b918dca359c",
-          "tmdbId": null,
-          "name": "Nurettin Sönmez",
-          "profileUrl": null,
-          "popularity": 80
-        }
-      }
-    ]
-  },
-  {
     "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
     "tmdbId": null,
     "imdbId": null,
-    "title": "Kuruluş: Osman (Urdu Dubbed) - Episode 1",
+    "title": "Kuruluş: Osman (Urdu Dubbed)",
     "originalTitle": "Kuruluş: Osman",
     "tagline": "The Legend of Osman Bey & The Dawn of the Ottoman Empire",
     "overview": "Follow the heroic journey of Osman Bey, son of Ertugrul Ghazi, as he battles internal traitors, Byzantine warlords, and Mongol legions to lay the foundation of the glorious Ottoman Empire. Dubbed in official Urdu audio.",
@@ -1142,8 +16,10 @@
     "trailerKey": "yzC6IWPLg78",
     "fullMovieKey": "yzC6IWPLg78",
     "isFreeWatch": true,
-    "voteAverage": 9.3,
-    "voteCount": 50000,
+    "isSeries": true,
+    "totalEpisodes": 3,
+    "voteAverage": 9.4,
+    "voteCount": 75000,
     "popularity": 99.8,
     "language": "ur",
     "originCountry": "TR",
@@ -1156,91 +32,490 @@
     ],
     "genres": [
       {
-        "id": "d33045a8-9d03-4f5b-a291-ed2198eff3ff",
-        "name": "Historical Drama",
-        "slug": "historical-drama"
-      },
-      {
-        "id": "3ad76d37-abf9-4c81-a8a0-072d3d00a7a0",
-        "name": "Action",
-        "slug": "action"
-      },
-      {
-        "id": "cfec8546-1ab3-4ece-9a2f-554e2b32acea",
+        "id": "g-hist",
         "name": "Turkish Drama",
         "slug": "turkish-drama"
       },
       {
-        "id": "db23b595-d6b5-4667-b2db-e150b07ca09c",
+        "id": "g-drama",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "g-act",
+        "name": "Action",
+        "slug": "action"
+      }
+    ],
+    "directors": [
+      {
+        "id": "d-mg",
+        "tmdbId": null,
+        "name": "Metin Günay",
+        "profileUrl": null,
+        "popularity": 88
+      }
+    ],
+    "cast": [
+      {
+        "id": "c-1",
+        "movieId": "kurulus-osman-series",
+        "actorId": "a-bo",
+        "characterName": "Osman Bey",
+        "orderIndex": 0,
+        "actor": {
+          "id": "a-bo",
+          "tmdbId": null,
+          "name": "Burak Özçivit",
+          "profileUrl": null,
+          "popularity": 90
+        }
+      },
+      {
+        "id": "c-2",
+        "movieId": "kurulus-osman-series",
+        "actorId": "a-ot",
+        "characterName": "Bala Hatun",
+        "orderIndex": 1,
+        "actor": {
+          "id": "a-ot",
+          "tmdbId": null,
+          "name": "Özge Törer",
+          "profileUrl": null,
+          "popularity": 85
+        }
+      },
+      {
+        "id": "c-3",
+        "movieId": "kurulus-osman-series",
+        "actorId": "a-ya",
+        "characterName": "Malhun Hatun",
+        "orderIndex": 2,
+        "actor": {
+          "id": "a-ya",
+          "tmdbId": null,
+          "name": "Yıldız Çağrı Atiksoy",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "episodes": [
+      {
+        "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
+        "episodeNumber": 1,
+        "title": "Episode 1: The Legend of Osman Begins",
+        "overview": "Osman Bey leads his Alps into danger to uncover Byzantine conspiracies threatening the Kayi camp.",
+        "runtime": 124,
+        "fullMovieKey": "yzC6IWPLg78",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yzC6IWPLg78/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-01"
+      },
+      {
+        "id": "4769ec89-c475-4415-9a3e-f65465193b74",
+        "episodeNumber": 2,
+        "title": "Episode 2: The Camp in Danger",
+        "overview": "Tensions rise as Osman uncovers dark secrets from Kulucahisar castle.",
+        "runtime": 118,
+        "fullMovieKey": "X2DnXfwOK98",
+        "thumbnailUrl": "https://i.ytimg.com/vi/X2DnXfwOK98/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2020-01-08"
+      },
+      {
+        "id": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
+        "episodeNumber": 3,
+        "title": "Season 4 - Episode 74 (Ultra 4K)",
+        "overview": "In ultra 4K visual fidelity, Osman Bey faces treacherous plots in the Marmara region.",
+        "runtime": 130,
+        "fullMovieKey": "pwVF9clT-CI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/pwVF9clT-CI/hqdefault.jpg",
+        "badge": "Ultra 4K",
+        "releaseDate": "2023-05-10"
+      }
+    ]
+  },
+  {
+    "id": "d8675e82-af77-48b3-b161-0a5829d21542",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Diriliş: Ertuğrul (Ertugrul Ghazi Urdu)",
+    "originalTitle": "Diriliş: Ertuğrul",
+    "tagline": "Faith, Honor, and the Sword of Justice",
+    "overview": "13th-century Anatolia: When nomad warrior Ertugrul rescues captive noble prisoners from the Templar Knights, he sparks an epic conflict that will reshape the destiny of the Islamic world and the Kayi tribe. Official TRT/PTV Urdu Dubbing.",
+    "releaseDate": "2019-01-01",
+    "releaseYear": 2019,
+    "runtime": 115,
+    "posterUrl": "https://i.ytimg.com/vi/fa89NxhAKis/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/fa89NxhAKis/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "fa89NxhAKis",
+    "fullMovieKey": "fa89NxhAKis",
+    "isFreeWatch": true,
+    "isSeries": true,
+    "totalEpisodes": 3,
+    "voteAverage": 9.6,
+    "voteCount": 95000,
+    "popularity": 99.9,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT",
+      "PTV Home"
+    ],
+    "genres": [
+      {
+        "id": "g-hist",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "g-drama",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "g-adv",
+        "name": "Adventure",
+        "slug": "adventure"
+      }
+    ],
+    "directors": [
+      {
+        "id": "d-mg",
+        "tmdbId": null,
+        "name": "Metin Günay",
+        "profileUrl": null,
+        "popularity": 90
+      }
+    ],
+    "cast": [
+      {
+        "id": "c-4",
+        "movieId": "ertugrul-ghazi-series",
+        "actorId": "a-ea",
+        "characterName": "Ertuğrul Ghazi",
+        "orderIndex": 0,
+        "actor": {
+          "id": "a-ea",
+          "tmdbId": null,
+          "name": "Engin Altan Düzyatan",
+          "profileUrl": null,
+          "popularity": 95
+        }
+      },
+      {
+        "id": "c-5",
+        "movieId": "ertugrul-ghazi-series",
+        "actorId": "a-eb",
+        "characterName": "Halime Sultan",
+        "orderIndex": 1,
+        "actor": {
+          "id": "a-eb",
+          "tmdbId": null,
+          "name": "Esra Bilgiç",
+          "profileUrl": null,
+          "popularity": 90
+        }
+      },
+      {
+        "id": "c-6",
+        "movieId": "ertugrul-ghazi-series",
+        "actorId": "a-cc",
+        "characterName": "Turgut Alp",
+        "orderIndex": 2,
+        "actor": {
+          "id": "a-cc",
+          "tmdbId": null,
+          "name": "Cengiz Coşkun",
+          "profileUrl": null,
+          "popularity": 85
+        }
+      }
+    ],
+    "episodes": [
+      {
+        "id": "d8675e82-af77-48b3-b161-0a5829d21542",
+        "episodeNumber": 1,
+        "title": "Episode 1: The Nomad Warrior",
+        "overview": "Ertugrul saves a noble Seljuk family from Crusaders, setting off a chain of dangerous events.",
+        "runtime": 115,
+        "fullMovieKey": "fa89NxhAKis",
+        "thumbnailUrl": "https://i.ytimg.com/vi/fa89NxhAKis/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2019-01-01"
+      },
+      {
+        "id": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
+        "episodeNumber": 2,
+        "title": "Episode 2: The Journey to Aleppo",
+        "overview": "Suleyman Shah and Ertugrul seek new winter pastures under the gaze of Sultan El-Aziz.",
+        "runtime": 110,
+        "fullMovieKey": "EXdtyUnUpGY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/EXdtyUnUpGY/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2019-01-03"
+      },
+      {
+        "id": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
+        "episodeNumber": 3,
+        "title": "Episode 3: A Duel of Honor",
+        "overview": "Titus swears vengeance as conspiracies within Aleppo fortress threaten the alliance.",
+        "runtime": 112,
+        "fullMovieKey": "U5sJ59S6mNs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/U5sJ59S6mNs/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2019-01-05"
+      }
+    ]
+  },
+  {
+    "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Kudüs Fatihi Selahaddin Eyyubi (Urdu / Hindi)",
+    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
+    "tagline": "The Conqueror of Jerusalem & Lion of Islam",
+    "overview": "The grand historical drama chronicling the extraordinary life, valor, and chivalry of Sultan Salahuddin Ayyubi (Saladin), who united the Muslim world and liberated Jerusalem from the Crusaders with unyielding honor.",
+    "releaseDate": "2023-11-13",
+    "releaseYear": 2023,
+    "runtime": 135,
+    "posterUrl": "https://i.ytimg.com/vi/o1b-cTUM_ig/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/o1b-cTUM_ig/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "o1b-cTUM_ig",
+    "fullMovieKey": "o1b-cTUM_ig",
+    "isFreeWatch": true,
+    "isSeries": true,
+    "totalEpisodes": 3,
+    "voteAverage": 9.3,
+    "voteCount": 42000,
+    "popularity": 98.2,
+    "language": "tr",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT 1",
+      "Ansari Films"
+    ],
+    "genres": [
+      {
+        "id": "g-hist",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "g-drama",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "g-war",
         "name": "War",
         "slug": "war"
       }
     ],
     "directors": [
       {
-        "id": "9341939d-716e-408d-b56f-b20fa2d1ccf2",
+        "id": "d-si",
         "tmdbId": null,
-        "name": "Metin Günay",
+        "name": "Sedat İnci",
         "profileUrl": null,
         "popularity": 85
       }
     ],
     "cast": [
       {
-        "id": "905a531b-df9f-4867-b69a-181f6074ed94",
-        "movieId": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
-        "actorId": "78bb631c-496b-4fb8-bc4c-cab4915f60df",
-        "characterName": "Osman Bey",
+        "id": "c-7",
+        "movieId": "selahaddin-eyyubi-series",
+        "actorId": "a-ug",
+        "characterName": "Sultan Selahaddin Eyyubi",
         "orderIndex": 0,
         "actor": {
-          "id": "78bb631c-496b-4fb8-bc4c-cab4915f60df",
+          "id": "a-ug",
           "tmdbId": null,
-          "name": "Burak Özçivit",
+          "name": "Uğur Güneş",
           "profileUrl": null,
-          "popularity": 80
+          "popularity": 88
         }
       },
       {
-        "id": "0776bfa9-dc10-462f-b87f-a984677bb95a",
-        "movieId": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
-        "actorId": "67de7e03-1f3a-44b8-8098-eda1c9fdb3af",
-        "characterName": "Bala Hatun",
+        "id": "c-8",
+        "movieId": "selahaddin-eyyubi-series",
+        "actorId": "a-dd",
+        "characterName": "Süreyya Hatun",
         "orderIndex": 1,
         "actor": {
-          "id": "67de7e03-1f3a-44b8-8098-eda1c9fdb3af",
+          "id": "a-dd",
           "tmdbId": null,
-          "name": "Özge Törer",
+          "name": "Dilin Döğer",
           "profileUrl": null,
-          "popularity": 80
+          "popularity": 82
+        }
+      }
+    ],
+    "episodes": [
+      {
+        "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
+        "episodeNumber": 1,
+        "title": "Episode 1: The Lion of Islam",
+        "overview": "Young Selahaddin defends the realm against Crusader ambushes and unifies the people.",
+        "runtime": 135,
+        "fullMovieKey": "o1b-cTUM_ig",
+        "thumbnailUrl": "https://i.ytimg.com/vi/o1b-cTUM_ig/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2023-11-13"
+      },
+      {
+        "id": "84e18939-0ecf-49c1-abb0-7954d26515f0",
+        "episodeNumber": 2,
+        "title": "Episode 2: The Siege Begins",
+        "overview": "Selahaddin uncovers a secret plot inside the court while standing firm in Ascalon.",
+        "runtime": 128,
+        "fullMovieKey": "VHXyJxWKDBA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VHXyJxWKDBA/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2023-11-20"
+      },
+      {
+        "id": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
+        "episodeNumber": 3,
+        "title": "Episode 3: Justice Above All",
+        "overview": "The battle for unity intensifies as Selahaddin risks his life to defend the innocent.",
+        "runtime": 125,
+        "fullMovieKey": "kgzIZRLC1Jk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kgzIZRLC1Jk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2023-11-27"
+      }
+    ]
+  },
+  {
+    "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Payitaht: Sultan Abdülhamid (Urdu Dubbed)",
+    "originalTitle": "Payitaht: Abdülhamid",
+    "tagline": "The 34th Sultan Fierce Fight for the Throne and Faith",
+    "overview": "Experience the intense political chess match of the final 20 years of Sultan Abdülhamid II reign, as he outwits Western imperialist plots, global conspiracies, and internal betrayals to safeguard the Ottoman Empire and the Caliphate.",
+    "releaseDate": "2021-01-01",
+    "releaseYear": 2021,
+    "runtime": 125,
+    "posterUrl": "https://i.ytimg.com/vi/GyqbUrT_7j8/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/GyqbUrT_7j8/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "GyqbUrT_7j8",
+    "fullMovieKey": "GyqbUrT_7j8",
+    "isFreeWatch": true,
+    "isSeries": true,
+    "totalEpisodes": 3,
+    "voteAverage": 9.2,
+    "voteCount": 38000,
+    "popularity": 96,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT",
+      "Hum TV"
+    ],
+    "genres": [
+      {
+        "id": "g-hist",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "g-drama",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "g-thr",
+        "name": "Thriller",
+        "slug": "thriller"
+      }
+    ],
+    "directors": [
+      {
+        "id": "d-sa",
+        "tmdbId": null,
+        "name": "Serdar Akar",
+        "profileUrl": null,
+        "popularity": 86
+      }
+    ],
+    "cast": [
+      {
+        "id": "c-9",
+        "movieId": "payitaht-abdulhamid-series",
+        "actorId": "a-bi",
+        "characterName": "Sultan Abdülhamid II",
+        "orderIndex": 0,
+        "actor": {
+          "id": "a-bi",
+          "tmdbId": null,
+          "name": "Bülent İnal",
+          "profileUrl": null,
+          "popularity": 90
         }
       },
       {
-        "id": "06ba91bc-8278-4b59-a3bd-3f8f8c59907e",
-        "movieId": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
-        "actorId": "ddb262a9-a93a-45bb-afd4-7d5f354cc005",
-        "characterName": "Malhun Hatun",
-        "orderIndex": 2,
+        "id": "c-10",
+        "movieId": "payitaht-abdulhamid-series",
+        "actorId": "a-oc",
+        "characterName": "Bidar Kadın",
+        "orderIndex": 1,
         "actor": {
-          "id": "ddb262a9-a93a-45bb-afd4-7d5f354cc005",
+          "id": "a-oc",
           "tmdbId": null,
-          "name": "Yıldız Çağrı Atiksoy",
+          "name": "Özlem Conker",
           "profileUrl": null,
           "popularity": 80
         }
+      }
+    ],
+    "episodes": [
+      {
+        "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
+        "episodeNumber": 1,
+        "title": "Episode 1: The Imperial Throne",
+        "overview": "Sultan Abdülhamid II navigates deadly palace intrigues and foreign conspiracies.",
+        "runtime": 125,
+        "fullMovieKey": "GyqbUrT_7j8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/GyqbUrT_7j8/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2021-01-01"
       },
       {
-        "id": "d0998e19-bcc1-4716-9e37-f32e0ae2de3f",
-        "movieId": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
-        "actorId": "6dcad258-e9e2-4e97-bd34-dfffd32f50d9",
-        "characterName": "Boran Alp",
-        "orderIndex": 3,
-        "actor": {
-          "id": "6dcad258-e9e2-4e97-bd34-dfffd32f50d9",
-          "tmdbId": null,
-          "name": "Yiğit Uçan",
-          "profileUrl": null,
-          "popularity": 80
-        }
+        "id": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
+        "episodeNumber": 2,
+        "title": "Episode 2: The Great Game in Istanbul",
+        "overview": "The Sultan launches the historic Hejaz Railway project while battling espionage.",
+        "runtime": 120,
+        "fullMovieKey": "Lj1UYTxvDjk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Lj1UYTxvDjk/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2021-01-08"
+      },
+      {
+        "id": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
+        "episodeNumber": 3,
+        "title": "Episode 3: Guarding the Sacred Lands",
+        "overview": "Facing mounting pressure from international financiers, Sultan Abdülhamid defends Jerusalem.",
+        "runtime": 122,
+        "fullMovieKey": "8ZqiaQ2lXbg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8ZqiaQ2lXbg/hqdefault.jpg",
+        "badge": "Full HD",
+        "releaseDate": "2021-01-15"
       }
     ]
   },
@@ -10595,5 +9870,1262 @@
     ],
     "directors": [],
     "cast": []
+  },
+  {
+    "id": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 3",
+    "originalTitle": "Payitaht: Abdülhamid",
+    "tagline": "Guarding the Sacred Lands",
+    "overview": "Facing mounting pressure from international bankers, Sultan Abdülhamid delivers his iconic decree protecting Palestine and the sacred lands of Jerusalem and Medina.",
+    "releaseDate": "2021-01-01",
+    "releaseYear": 2021,
+    "runtime": 122,
+    "posterUrl": "https://i.ytimg.com/vi/8ZqiaQ2lXbg/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/8ZqiaQ2lXbg/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "8ZqiaQ2lXbg",
+    "fullMovieKey": "8ZqiaQ2lXbg",
+    "isFreeWatch": true,
+    "voteAverage": 9,
+    "voteCount": 50000,
+    "popularity": 93,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT",
+      "Hum TV"
+    ],
+    "genres": [
+      {
+        "id": "b6d5a11b-4e6b-4645-a279-e99f4bd697c6",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "861a7fc5-897b-44df-ab3e-e3e1414f2634",
+        "name": "Drama",
+        "slug": "drama"
+      },
+      {
+        "id": "3cde43e3-5588-4d54-a7ae-c02e26a0d683",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "6af7d1d9-3582-47b2-b0e7-e680a91ddf67",
+        "name": "Thriller",
+        "slug": "thriller"
+      }
+    ],
+    "directors": [
+      {
+        "id": "9b813a88-d73a-4541-9a9f-ae1b71232851",
+        "tmdbId": null,
+        "name": "Serdar Akar",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "da2ab313-9c9f-4b26-9d10-5c887a81c5ae",
+        "movieId": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
+        "actorId": "45c8628a-6b9d-4199-980b-dc781200a4c5",
+        "characterName": "Sultan Abdülhamid II",
+        "orderIndex": 0,
+        "actor": {
+          "id": "45c8628a-6b9d-4199-980b-dc781200a4c5",
+          "tmdbId": null,
+          "name": "Bülent İnal",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "26be7932-3ef5-4a88-a3c2-04b3edc58ead",
+        "movieId": "c062ceff-0860-4672-94ff-bbe7c6799ac1",
+        "actorId": "593d3c0f-9f76-49a1-8b12-39ad4a4ebd9d",
+        "characterName": "Mahmud Pasha",
+        "orderIndex": 1,
+        "actor": {
+          "id": "593d3c0f-9f76-49a1-8b12-39ad4a4ebd9d",
+          "tmdbId": null,
+          "name": "Hakan Boyav",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 2",
+    "originalTitle": "Payitaht: Abdülhamid",
+    "tagline": "The Great Game in Istanbul",
+    "overview": "Sultan Abdülhamid launches the historic Hejaz Railway project while foreign envoys attempt to destabilize the Ottoman capital through espionage and financial coercion.",
+    "releaseDate": "2021-01-01",
+    "releaseYear": 2021,
+    "runtime": 120,
+    "posterUrl": "https://i.ytimg.com/vi/Lj1UYTxvDjk/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/Lj1UYTxvDjk/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "Lj1UYTxvDjk",
+    "fullMovieKey": "Lj1UYTxvDjk",
+    "isFreeWatch": true,
+    "voteAverage": 8.9,
+    "voteCount": 50000,
+    "popularity": 92,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT",
+      "Hum TV"
+    ],
+    "genres": [
+      {
+        "id": "41959a3b-06fe-482e-ae88-b43e897ab318",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "37675ebe-891d-4d2e-92fc-8ce78734abfa",
+        "name": "Drama",
+        "slug": "drama"
+      },
+      {
+        "id": "d28cc3af-6536-4b17-8577-d3f0118d8cd7",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "647a15b5-e74d-48d1-9710-b9568b44c470",
+        "name": "Thriller",
+        "slug": "thriller"
+      }
+    ],
+    "directors": [
+      {
+        "id": "9740ba22-fb91-46b3-b290-e59b499e4ded",
+        "tmdbId": null,
+        "name": "Serdar Akar",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "d2156deb-d2b5-4692-9159-0859271a3391",
+        "movieId": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
+        "actorId": "bcc0c157-237e-4dc0-a785-f07016fc041c",
+        "characterName": "Sultan Abdülhamid II",
+        "orderIndex": 0,
+        "actor": {
+          "id": "bcc0c157-237e-4dc0-a785-f07016fc041c",
+          "tmdbId": null,
+          "name": "Bülent İnal",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "21f7cb98-5d90-4d6d-8b25-b11927f79d2e",
+        "movieId": "56e30a2c-7634-4717-bce0-ba1b7fb1be7e",
+        "actorId": "556523f6-ef24-4a52-8a8c-08b260dae221",
+        "characterName": "Mahmud Pasha",
+        "orderIndex": 1,
+        "actor": {
+          "id": "556523f6-ef24-4a52-8a8c-08b260dae221",
+          "tmdbId": null,
+          "name": "Hakan Boyav",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Payitaht Sultan Abdulhamid (Urdu Dubbed) - Episode 1",
+    "originalTitle": "Payitaht: Abdülhamid",
+    "tagline": "The 34th Sultan Fierce Fight for the Throne and Faith",
+    "overview": "Experience the intense political chess match of the final 20 years of Sultan Abdülhamid II reign, as he outwits Western imperialist plots, global conspiracies, and internal betrayals to safeguard the Ottoman Empire and the Caliphate.",
+    "releaseDate": "2021-01-01",
+    "releaseYear": 2021,
+    "runtime": 125,
+    "posterUrl": "https://i.ytimg.com/vi/GyqbUrT_7j8/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/GyqbUrT_7j8/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "GyqbUrT_7j8",
+    "fullMovieKey": "GyqbUrT_7j8",
+    "isFreeWatch": true,
+    "voteAverage": 9.1,
+    "voteCount": 50000,
+    "popularity": 96,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT",
+      "Hum TV"
+    ],
+    "genres": [
+      {
+        "id": "a1438f0e-fc62-4274-bacf-5cf6c402c603",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "2ddb8579-c7b9-455a-b8d6-46828793366b",
+        "name": "Drama",
+        "slug": "drama"
+      },
+      {
+        "id": "b9e7cb60-9058-4aee-b29f-7111f86f8e3f",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "0e8c08a2-f41f-4b64-9f27-9cb2137c70de",
+        "name": "Thriller",
+        "slug": "thriller"
+      }
+    ],
+    "directors": [
+      {
+        "id": "3ce2beb4-b545-4ef7-90d9-0debef83d87b",
+        "tmdbId": null,
+        "name": "Serdar Akar",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "d44a1cba-9fbe-410a-970f-5e4ad5b41e9e",
+        "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
+        "actorId": "ba325c36-5ed6-448c-a275-c9d188482905",
+        "characterName": "Sultan Abdülhamid II",
+        "orderIndex": 0,
+        "actor": {
+          "id": "ba325c36-5ed6-448c-a275-c9d188482905",
+          "tmdbId": null,
+          "name": "Bülent İnal",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "0a7a0c0e-0448-43df-954c-55aeb719e9b3",
+        "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
+        "actorId": "76ad499f-945c-4781-95d5-6c1b89c6a758",
+        "characterName": "Bidar Kadın",
+        "orderIndex": 1,
+        "actor": {
+          "id": "76ad499f-945c-4781-95d5-6c1b89c6a758",
+          "tmdbId": null,
+          "name": "Özlem Conker",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "fa0b44da-2fc9-4e22-b137-283e5de1180b",
+        "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
+        "actorId": "58cbcf4f-ce2b-41fb-83fc-340b7b7fc38b",
+        "characterName": "Mahmud Pasha",
+        "orderIndex": 2,
+        "actor": {
+          "id": "58cbcf4f-ce2b-41fb-83fc-340b7b7fc38b",
+          "tmdbId": null,
+          "name": "Hakan Boyav",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "0cf6554e-fbd1-481a-b1e1-aecade7c8ad4",
+        "movieId": "68453b4a-e5aa-48f5-9b24-ac48cf785da7",
+        "actorId": "9b32d889-d6e3-4ad7-8825-2ae7394ef287",
+        "characterName": "Theodor Herzl",
+        "orderIndex": 3,
+        "actor": {
+          "id": "9b32d889-d6e3-4ad7-8825-2ae7394ef287",
+          "tmdbId": null,
+          "name": "Saygın Soysal",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 3",
+    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
+    "tagline": "Justice Above All",
+    "overview": "The battle for unity intensifies as Selahaddin risks his life to rescue captives and defend the honor of the oppressed.",
+    "releaseDate": "2023-01-01",
+    "releaseYear": 2023,
+    "runtime": 125,
+    "posterUrl": "https://i.ytimg.com/vi/kgzIZRLC1Jk/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/kgzIZRLC1Jk/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "kgzIZRLC1Jk",
+    "fullMovieKey": "kgzIZRLC1Jk",
+    "isFreeWatch": true,
+    "voteAverage": 9.1,
+    "voteCount": 50000,
+    "popularity": 93.5,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT 1",
+      "Ansari Films"
+    ],
+    "genres": [
+      {
+        "id": "ef21a843-405c-470a-a117-cabed0730698",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "5461a3ff-bac1-400b-a2cf-198207811f84",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "fb32eb0c-7a96-45f1-93ba-e75fe3437cd9",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      }
+    ],
+    "directors": [
+      {
+        "id": "216e5f98-e0ed-4166-a8a0-c04eeebcf3f0",
+        "tmdbId": null,
+        "name": "Sedat İnci",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "437ffd20-748d-48e3-9c09-26cb50d83753",
+        "movieId": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
+        "actorId": "24fa9bd9-1674-48d8-960f-8f048facdefc",
+        "characterName": "Sultan Selahaddin Eyyubi",
+        "orderIndex": 0,
+        "actor": {
+          "id": "24fa9bd9-1674-48d8-960f-8f048facdefc",
+          "tmdbId": null,
+          "name": "Uğur Güneş",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "b57e9da8-c0da-4212-bd94-ebb8fde27e33",
+        "movieId": "4ab105bd-c297-4e8d-8f59-7186e8bfac91",
+        "actorId": "c8824c65-58ee-41ad-ba4a-ce0b778933cc",
+        "characterName": "Süreyya Hatun",
+        "orderIndex": 1,
+        "actor": {
+          "id": "c8824c65-58ee-41ad-ba4a-ce0b778933cc",
+          "tmdbId": null,
+          "name": "Dilin Döğer",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "84e18939-0ecf-49c1-abb0-7954d26515f0",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 2",
+    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
+    "tagline": "The Siege of the Lion",
+    "overview": "Selahaddin uncovers a secret plot inside the Zengi court while standing firm in defense of the realm against Ascalon crusader army.",
+    "releaseDate": "2023-01-01",
+    "releaseYear": 2023,
+    "runtime": 128,
+    "posterUrl": "https://i.ytimg.com/vi/VHXyJxWKDBA/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/VHXyJxWKDBA/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "VHXyJxWKDBA",
+    "fullMovieKey": "VHXyJxWKDBA",
+    "isFreeWatch": true,
+    "voteAverage": 9,
+    "voteCount": 50000,
+    "popularity": 94,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT 1",
+      "Ansari Films"
+    ],
+    "genres": [
+      {
+        "id": "9631b467-4800-469e-8b2d-f259043aca57",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "eb7da62e-1f65-46cd-a1ba-cfcff631d0bc",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "26944ac1-8118-49f4-aeeb-2dfa596ab9ff",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      }
+    ],
+    "directors": [
+      {
+        "id": "78443cbe-1208-4b67-8180-09a97907d40f",
+        "tmdbId": null,
+        "name": "Sedat İnci",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "859b806d-022a-4f1d-8b0e-028de70109de",
+        "movieId": "84e18939-0ecf-49c1-abb0-7954d26515f0",
+        "actorId": "54cb560d-c56c-4bb0-bb11-2641ffc72fab",
+        "characterName": "Sultan Selahaddin Eyyubi",
+        "orderIndex": 0,
+        "actor": {
+          "id": "54cb560d-c56c-4bb0-bb11-2641ffc72fab",
+          "tmdbId": null,
+          "name": "Uğur Güneş",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "df7b284a-f911-406a-82d9-d805e8c2b107",
+        "movieId": "84e18939-0ecf-49c1-abb0-7954d26515f0",
+        "actorId": "f4699ecb-d13b-4093-ae73-32114a0ec2af",
+        "characterName": "Süreyya Hatun",
+        "orderIndex": 1,
+        "actor": {
+          "id": "f4699ecb-d13b-4093-ae73-32114a0ec2af",
+          "tmdbId": null,
+          "name": "Dilin Döğer",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Sultan Selahaddin Eyyubi (Kudüs Fatihi) - Episode 1",
+    "originalTitle": "Kudüs Fatihi Selahaddin Eyyubi",
+    "tagline": "The Conqueror of Jerusalem & Lion of Islam",
+    "overview": "The grand historical drama chronicling the extraordinary life, valor, and chivalry of Sultan Salahuddin Ayyubi (Saladin), who united the Muslim world and liberated Jerusalem from the Crusaders with unyielding honor.",
+    "releaseDate": "2023-01-01",
+    "releaseYear": 2023,
+    "runtime": 135,
+    "posterUrl": "https://i.ytimg.com/vi/o1b-cTUM_ig/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/o1b-cTUM_ig/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "o1b-cTUM_ig",
+    "fullMovieKey": "o1b-cTUM_ig",
+    "isFreeWatch": true,
+    "voteAverage": 9.2,
+    "voteCount": 50000,
+    "popularity": 98.2,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT 1",
+      "Ansari Films"
+    ],
+    "genres": [
+      {
+        "id": "43cc199f-c4b2-4bba-b9e7-9ba3a1f4ce50",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "12087c68-ebb0-47b1-8dcc-d755cd371ef6",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "90dd4f6c-9d0e-497a-be08-ae603c9f9ccf",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "aab33786-2008-481f-b80a-a56bd31ad677",
+        "name": "War",
+        "slug": "war"
+      }
+    ],
+    "directors": [
+      {
+        "id": "8e6e787d-3a41-45ca-9725-37bcc784c482",
+        "tmdbId": null,
+        "name": "Sedat İnci",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "2c77fa81-a465-4ea0-b341-77c8ef81940b",
+        "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
+        "actorId": "9443b8f1-f4b9-4959-9430-a6196e40238f",
+        "characterName": "Sultan Selahaddin Eyyubi",
+        "orderIndex": 0,
+        "actor": {
+          "id": "9443b8f1-f4b9-4959-9430-a6196e40238f",
+          "tmdbId": null,
+          "name": "Uğur Güneş",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "c2e8705d-4ea9-4119-93b2-46ca4b097ae5",
+        "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
+        "actorId": "14da8c4e-0639-4526-8a79-351efe5fd774",
+        "characterName": "Süreyya Hatun",
+        "orderIndex": 1,
+        "actor": {
+          "id": "14da8c4e-0639-4526-8a79-351efe5fd774",
+          "tmdbId": null,
+          "name": "Dilin Döğer",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "01af7bab-9b26-41ac-b1ac-a30fcc2360e3",
+        "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
+        "actorId": "e074e6ac-d09e-4fe6-bfd7-48f30350918e",
+        "characterName": "Nureddin Zengi",
+        "orderIndex": 2,
+        "actor": {
+          "id": "e074e6ac-d09e-4fe6-bfd7-48f30350918e",
+          "tmdbId": null,
+          "name": "Mehmet Ali Nuroğlu",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "8ece47aa-cae1-4c89-b2e3-21ee47284ec9",
+        "movieId": "b78e6d73-98fe-4d32-ad5b-0cff15a79b31",
+        "actorId": "a7be8d60-9f4e-4a00-8bda-2be3a2167d9b",
+        "characterName": "Nusreddin",
+        "orderIndex": 3,
+        "actor": {
+          "id": "a7be8d60-9f4e-4a00-8bda-2be3a2167d9b",
+          "tmdbId": null,
+          "name": "Kaan Çakır",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 3",
+    "originalTitle": "Diriliş: Ertuğrul",
+    "tagline": "A Duel of Honor and Bravery",
+    "overview": "Titus swears vengeance against Ertugrul as secret conspiracies within the fortress of Aleppo threaten to tear the alliance apart. Masterpiece historical battle sequences.",
+    "releaseDate": "2019-01-01",
+    "releaseYear": 2019,
+    "runtime": 112,
+    "posterUrl": "https://i.ytimg.com/vi/U5sJ59S6mNs/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/U5sJ59S6mNs/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "U5sJ59S6mNs",
+    "fullMovieKey": "U5sJ59S6mNs",
+    "isFreeWatch": true,
+    "voteAverage": 9.5,
+    "voteCount": 50000,
+    "popularity": 96.5,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT",
+      "PTV Home"
+    ],
+    "genres": [
+      {
+        "id": "6e8c0a0c-7d6d-4f8f-8360-e9a41faa9228",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "351c0985-9908-4716-9f39-d5e79f1397f5",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "3f76e4ce-9d1e-4a7a-8935-2a87102db989",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "38e42c65-78ee-4aa3-84e7-ac81c9426319",
+        "name": "Adventure",
+        "slug": "adventure"
+      }
+    ],
+    "directors": [
+      {
+        "id": "04122caf-e304-461f-a8ee-f6e1ed575486",
+        "tmdbId": null,
+        "name": "Metin Günay",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "a438c56c-f84a-412a-a9a2-998361a974df",
+        "movieId": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
+        "actorId": "094949f2-0260-4422-afde-4f6468240286",
+        "characterName": "Ertuğrul Ghazi",
+        "orderIndex": 0,
+        "actor": {
+          "id": "094949f2-0260-4422-afde-4f6468240286",
+          "tmdbId": null,
+          "name": "Engin Altan Düzyatan",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "6e5e4d1e-2f52-4b27-9a52-42d355397ec7",
+        "movieId": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
+        "actorId": "d3a24c5d-bd62-4fcd-8574-d941924c434a",
+        "characterName": "Turgut Alp",
+        "orderIndex": 1,
+        "actor": {
+          "id": "d3a24c5d-bd62-4fcd-8574-d941924c434a",
+          "tmdbId": null,
+          "name": "Cengiz Coşkun",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "ea98b11d-0a23-4cbf-b0ee-857af944c95a",
+        "movieId": "ffb99812-28c3-4959-ae89-9d1aa0145f17",
+        "actorId": "1c38899f-c472-42ac-9d12-61e09dd51b73",
+        "characterName": "Doğan Alp",
+        "orderIndex": 2,
+        "actor": {
+          "id": "1c38899f-c472-42ac-9d12-61e09dd51b73",
+          "tmdbId": null,
+          "name": "Cavit Çetin Güner",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 2",
+    "originalTitle": "Diriliş: Ertuğrul",
+    "tagline": "The Kayi Camp Stands United",
+    "overview": "Suleyman Shah and Ertugrul navigate political hostility within the tribe while seeking new winter pastures in Aleppo under the gaze of Sultan El-Aziz.",
+    "releaseDate": "2019-01-01",
+    "releaseYear": 2019,
+    "runtime": 110,
+    "posterUrl": "https://i.ytimg.com/vi/EXdtyUnUpGY/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/EXdtyUnUpGY/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "EXdtyUnUpGY",
+    "fullMovieKey": "EXdtyUnUpGY",
+    "isFreeWatch": true,
+    "voteAverage": 9.4,
+    "voteCount": 50000,
+    "popularity": 96,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT",
+      "PTV Home"
+    ],
+    "genres": [
+      {
+        "id": "9f6d1a1d-20d7-4894-b8b5-9fa6750892ba",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "b5f97918-e9c5-451c-92be-1b5ae5b7cc4c",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "41d33f0c-a8a0-475f-966e-5afe2eba44d2",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "ec221b68-7f5b-432f-8708-e79ec5de580e",
+        "name": "Adventure",
+        "slug": "adventure"
+      }
+    ],
+    "directors": [
+      {
+        "id": "764ae778-3e66-41e3-a1bf-496e1f6656c3",
+        "tmdbId": null,
+        "name": "Metin Günay",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "5d063188-306f-4a7b-acf0-2b762a37b442",
+        "movieId": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
+        "actorId": "11edb328-a0a0-4fa2-8444-3217d1f40eee",
+        "characterName": "Ertuğrul Ghazi",
+        "orderIndex": 0,
+        "actor": {
+          "id": "11edb328-a0a0-4fa2-8444-3217d1f40eee",
+          "tmdbId": null,
+          "name": "Engin Altan Düzyatan",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "9b0a76cd-5395-4b09-9c6b-93c93be4eb0c",
+        "movieId": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
+        "actorId": "29d2525c-8cfb-45d8-b739-e79ccea4dfd8",
+        "characterName": "Süleyman Şah",
+        "orderIndex": 1,
+        "actor": {
+          "id": "29d2525c-8cfb-45d8-b739-e79ccea4dfd8",
+          "tmdbId": null,
+          "name": "Serdar Gökhan",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "e9842732-cacd-481b-b382-927eaee8678c",
+        "movieId": "ddb2adc3-6c29-44e5-8149-152cd94d8439",
+        "actorId": "55f3a6c9-c14e-4f41-a0bb-1c18d4ec1198",
+        "characterName": "Halime Sultan",
+        "orderIndex": 2,
+        "actor": {
+          "id": "55f3a6c9-c14e-4f41-a0bb-1c18d4ec1198",
+          "tmdbId": null,
+          "name": "Esra Bilgiç",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "d8675e82-af77-48b3-b161-0a5829d21542",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Ertugrul Ghazi (Urdu Dubbed) - Episode 1",
+    "originalTitle": "Diriliş: Ertuğrul",
+    "tagline": "Faith, Honor, and the Sword of Justice",
+    "overview": "13th-century Anatolia: When nomad warrior Ertugrul rescues captive noble prisoners from the Templar Knights, he sparks an epic conflict that will reshape the destiny of the Islamic world and the Kayi tribe. Official TRT/PTV Urdu Dubbing.",
+    "releaseDate": "2019-01-01",
+    "releaseYear": 2019,
+    "runtime": 115,
+    "posterUrl": "https://i.ytimg.com/vi/fa89NxhAKis/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/fa89NxhAKis/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "fa89NxhAKis",
+    "fullMovieKey": "fa89NxhAKis",
+    "isFreeWatch": true,
+    "voteAverage": 9.6,
+    "voteCount": 50000,
+    "popularity": 99.9,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "TRT",
+      "PTV Home"
+    ],
+    "genres": [
+      {
+        "id": "6dce0a9a-5df9-4d49-a523-3390893bdac7",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "46ad0d27-ef44-4c31-8f96-601bdc2c09b4",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "d98d581a-a446-4e21-b0d8-3b8db9af4088",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "03d52d0e-20ae-4306-b58a-b374f8f7303f",
+        "name": "Adventure",
+        "slug": "adventure"
+      }
+    ],
+    "directors": [
+      {
+        "id": "421a5083-114d-4e80-885f-8d0aa3aa46b4",
+        "tmdbId": null,
+        "name": "Metin Günay",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "ff1f77c8-fdfe-4cca-9d4f-032d559616f9",
+        "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
+        "actorId": "79571530-b2ed-4f3a-b871-f7f181a9e709",
+        "characterName": "Ertuğrul Ghazi",
+        "orderIndex": 0,
+        "actor": {
+          "id": "79571530-b2ed-4f3a-b871-f7f181a9e709",
+          "tmdbId": null,
+          "name": "Engin Altan Düzyatan",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "430193e9-a04c-4c46-bd64-ba179460012b",
+        "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
+        "actorId": "37fcea23-3c97-44d5-96d1-718aeb1834ca",
+        "characterName": "Halime Sultan",
+        "orderIndex": 1,
+        "actor": {
+          "id": "37fcea23-3c97-44d5-96d1-718aeb1834ca",
+          "tmdbId": null,
+          "name": "Esra Bilgiç",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "1e82da92-95a3-4a3a-8694-8129154f16f4",
+        "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
+        "actorId": "b5c59e40-58d7-4a4d-8eee-efb1363ef473",
+        "characterName": "Turgut Alp",
+        "orderIndex": 2,
+        "actor": {
+          "id": "b5c59e40-58d7-4a4d-8eee-efb1363ef473",
+          "tmdbId": null,
+          "name": "Cengiz Coşkun",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "cb505da1-5d05-4680-a16a-b503030608e5",
+        "movieId": "d8675e82-af77-48b3-b161-0a5829d21542",
+        "actorId": "7df8bbd7-1c1e-4fe1-afd9-5273cbb36532",
+        "characterName": "Bamsı Beyrek",
+        "orderIndex": 3,
+        "actor": {
+          "id": "7df8bbd7-1c1e-4fe1-afd9-5273cbb36532",
+          "tmdbId": null,
+          "name": "Nurettin Sönmez",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Kuruluş: Osman (Urdu Dubbed) - Season 4 Episode 74 (4K)",
+    "originalTitle": "Kuruluş: Osman",
+    "tagline": "Ultra 4K Experience: The Battle for Anatolia",
+    "overview": "In ultra 4K visual fidelity, Osman Bey faces treacherous plots in the Marmara region. Grand battles, cinematic horse chases, and gripping sword fights in official Urdu dubbing.",
+    "releaseDate": "2023-01-01",
+    "releaseYear": 2023,
+    "runtime": 130,
+    "posterUrl": "https://i.ytimg.com/vi/pwVF9clT-CI/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/pwVF9clT-CI/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "pwVF9clT-CI",
+    "fullMovieKey": "pwVF9clT-CI",
+    "isFreeWatch": true,
+    "voteAverage": 9.4,
+    "voteCount": 50000,
+    "popularity": 97,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "atv",
+      "Kurulus Osman Urdu"
+    ],
+    "genres": [
+      {
+        "id": "ab30ac66-67e0-4fab-9f45-f18644226fe6",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "e17d683d-2239-4ffa-9e9b-c398efe3bf15",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "5468ac0b-e071-4542-9413-629fb0cb769f",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "2e3c4906-a47d-401d-ade7-b6eb8453d4fd",
+        "name": "War",
+        "slug": "war"
+      }
+    ],
+    "directors": [
+      {
+        "id": "0268287a-c2b2-4b9a-abb8-76c0c5267dae",
+        "tmdbId": null,
+        "name": "Ahmet Yılmaz",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "d87cc55f-95b5-4032-861c-bec0a505bc8c",
+        "movieId": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
+        "actorId": "73c350c9-5cac-4202-926e-00d94262fd57",
+        "characterName": "Osman Bey",
+        "orderIndex": 0,
+        "actor": {
+          "id": "73c350c9-5cac-4202-926e-00d94262fd57",
+          "tmdbId": null,
+          "name": "Burak Özçivit",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "86d9be31-313a-4861-8cb5-ccb721949b90",
+        "movieId": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
+        "actorId": "75ac92d9-abea-4a75-b0fd-2939dfd8b176",
+        "characterName": "Bala Hatun",
+        "orderIndex": 1,
+        "actor": {
+          "id": "75ac92d9-abea-4a75-b0fd-2939dfd8b176",
+          "tmdbId": null,
+          "name": "Özge Törer",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "fa7af2f0-4303-4297-9e4f-eda47cf5e85a",
+        "movieId": "3790c791-60db-4e6b-bdd1-20b9dbd397dc",
+        "actorId": "14448e4e-519c-470c-a026-f8d40308946d",
+        "characterName": "Turgut Alp",
+        "orderIndex": 2,
+        "actor": {
+          "id": "14448e4e-519c-470c-a026-f8d40308946d",
+          "tmdbId": null,
+          "name": "Rüzgar Aksoy",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "4769ec89-c475-4415-9a3e-f65465193b74",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Kuruluş: Osman (Urdu Dubbed) - Episode 2",
+    "originalTitle": "Kuruluş: Osman",
+    "tagline": "The Fire of Kayi Tribe Burns High",
+    "overview": "Tensions rise as Osman Bey leads his Alps into danger to uncover Byzantine conspiracies threatening the camp, while dark secrets from Kulucahisar castle emerge. Official Urdu dubbing.",
+    "releaseDate": "2020-01-01",
+    "releaseYear": 2020,
+    "runtime": 118,
+    "posterUrl": "https://i.ytimg.com/vi/X2DnXfwOK98/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/X2DnXfwOK98/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "X2DnXfwOK98",
+    "fullMovieKey": "X2DnXfwOK98",
+    "isFreeWatch": true,
+    "voteAverage": 9.1,
+    "voteCount": 50000,
+    "popularity": 95,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "atv",
+      "Kurulus Osman Urdu"
+    ],
+    "genres": [
+      {
+        "id": "c2fde060-c4a1-481e-a583-d3d4b6808195",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "24d0fc8e-297b-483b-a22a-6b8b895d203b",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "d0a6a50b-9e82-4bf6-86e9-13c8f63c938f",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      }
+    ],
+    "directors": [
+      {
+        "id": "badd7828-7e33-4b98-9340-a24c9deef283",
+        "tmdbId": null,
+        "name": "Metin Günay",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "b94fb33a-add9-4abc-ae17-500559f816d7",
+        "movieId": "4769ec89-c475-4415-9a3e-f65465193b74",
+        "actorId": "82387d96-b50b-419f-ac23-103af5883fed",
+        "characterName": "Osman Bey",
+        "orderIndex": 0,
+        "actor": {
+          "id": "82387d96-b50b-419f-ac23-103af5883fed",
+          "tmdbId": null,
+          "name": "Burak Özçivit",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "5f1f6256-26f0-4252-b1c6-78b931122617",
+        "movieId": "4769ec89-c475-4415-9a3e-f65465193b74",
+        "actorId": "e62923e6-6d73-496a-8f45-f3046f40531e",
+        "characterName": "Bala Hatun",
+        "orderIndex": 1,
+        "actor": {
+          "id": "e62923e6-6d73-496a-8f45-f3046f40531e",
+          "tmdbId": null,
+          "name": "Özge Törer",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "540c51cb-9e7d-4e87-932c-4dc07fe44bb9",
+        "movieId": "4769ec89-c475-4415-9a3e-f65465193b74",
+        "actorId": "84eef972-e80d-4ece-bb46-7b918dca359c",
+        "characterName": "Bamsı Beyrek",
+        "orderIndex": 2,
+        "actor": {
+          "id": "84eef972-e80d-4ece-bb46-7b918dca359c",
+          "tmdbId": null,
+          "name": "Nurettin Sönmez",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
+  },
+  {
+    "id": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
+    "tmdbId": null,
+    "imdbId": null,
+    "title": "Kuruluş: Osman (Urdu Dubbed) - Episode 1",
+    "originalTitle": "Kuruluş: Osman",
+    "tagline": "The Legend of Osman Bey & The Dawn of the Ottoman Empire",
+    "overview": "Follow the heroic journey of Osman Bey, son of Ertugrul Ghazi, as he battles internal traitors, Byzantine warlords, and Mongol legions to lay the foundation of the glorious Ottoman Empire. Dubbed in official Urdu audio.",
+    "releaseDate": "2020-01-01",
+    "releaseYear": 2020,
+    "runtime": 124,
+    "posterUrl": "https://i.ytimg.com/vi/yzC6IWPLg78/hqdefault.jpg",
+    "backdropUrl": "https://i.ytimg.com/vi/yzC6IWPLg78/maxresdefault.jpg",
+    "trailerUrl": null,
+    "trailerKey": "yzC6IWPLg78",
+    "fullMovieKey": "yzC6IWPLg78",
+    "isFreeWatch": true,
+    "voteAverage": 9.3,
+    "voteCount": 50000,
+    "popularity": 99.8,
+    "language": "ur",
+    "originCountry": "TR",
+    "budget": 0,
+    "revenue": 0,
+    "streamingPlatforms": [
+      "YouTube",
+      "atv",
+      "Kurulus Osman Urdu"
+    ],
+    "genres": [
+      {
+        "id": "d33045a8-9d03-4f5b-a291-ed2198eff3ff",
+        "name": "Historical Drama",
+        "slug": "historical-drama"
+      },
+      {
+        "id": "3ad76d37-abf9-4c81-a8a0-072d3d00a7a0",
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": "cfec8546-1ab3-4ece-9a2f-554e2b32acea",
+        "name": "Turkish Drama",
+        "slug": "turkish-drama"
+      },
+      {
+        "id": "db23b595-d6b5-4667-b2db-e150b07ca09c",
+        "name": "War",
+        "slug": "war"
+      }
+    ],
+    "directors": [
+      {
+        "id": "9341939d-716e-408d-b56f-b20fa2d1ccf2",
+        "tmdbId": null,
+        "name": "Metin Günay",
+        "profileUrl": null,
+        "popularity": 85
+      }
+    ],
+    "cast": [
+      {
+        "id": "905a531b-df9f-4867-b69a-181f6074ed94",
+        "movieId": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
+        "actorId": "78bb631c-496b-4fb8-bc4c-cab4915f60df",
+        "characterName": "Osman Bey",
+        "orderIndex": 0,
+        "actor": {
+          "id": "78bb631c-496b-4fb8-bc4c-cab4915f60df",
+          "tmdbId": null,
+          "name": "Burak Özçivit",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "0776bfa9-dc10-462f-b87f-a984677bb95a",
+        "movieId": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
+        "actorId": "67de7e03-1f3a-44b8-8098-eda1c9fdb3af",
+        "characterName": "Bala Hatun",
+        "orderIndex": 1,
+        "actor": {
+          "id": "67de7e03-1f3a-44b8-8098-eda1c9fdb3af",
+          "tmdbId": null,
+          "name": "Özge Törer",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "06ba91bc-8278-4b59-a3bd-3f8f8c59907e",
+        "movieId": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
+        "actorId": "ddb262a9-a93a-45bb-afd4-7d5f354cc005",
+        "characterName": "Malhun Hatun",
+        "orderIndex": 2,
+        "actor": {
+          "id": "ddb262a9-a93a-45bb-afd4-7d5f354cc005",
+          "tmdbId": null,
+          "name": "Yıldız Çağrı Atiksoy",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      },
+      {
+        "id": "d0998e19-bcc1-4716-9e37-f32e0ae2de3f",
+        "movieId": "390787cc-af13-41c9-b7e2-55f3bdfe0e77",
+        "actorId": "6dcad258-e9e2-4e97-bd34-dfffd32f50d9",
+        "characterName": "Boran Alp",
+        "orderIndex": 3,
+        "actor": {
+          "id": "6dcad258-e9e2-4e97-bd34-dfffd32f50d9",
+          "tmdbId": null,
+          "name": "Yiğit Uçan",
+          "profileUrl": null,
+          "popularity": 80
+        }
+      }
+    ],
+    "isEpisodeOnly": true
   }
 ]

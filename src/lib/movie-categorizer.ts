@@ -30,11 +30,16 @@ export function getStrictCategorizedMovies(allMovies: Movie[]): StrictMovieCateg
     romanceDrama: [],
   };
 
-  // 0. Turkish & Islamic Historical Mega Series (Kuruluş Osman, Ertuğrul, Selahaddin, Abdülhamid - Exclusive)
+  // 0. Turkish & Islamic Historical Mega Series (Kuruluş Osman, Ertuğrul, Selahaddin, Abdülhamid - Master Series only)
   for (const m of allMovies) {
+    if ((m as any).isEpisodeOnly) {
+      assigned.add(m.id);
+      continue;
+    }
     const t = m.title.toLowerCase();
     const genres = m.genres?.map((g) => g.name) || [];
     const isTurkish =
+      m.isSeries ||
       t.includes("osman") ||
       t.includes("ertugrul") ||
       t.includes("selahaddin") ||
@@ -109,7 +114,7 @@ export function getStrictCategorizedMovies(allMovies: Movie[]): StrictMovieCateg
 
   // Fallback for any unassigned
   for (const m of allMovies) {
-    if (!assigned.has(m.id)) {
+    if (!assigned.has(m.id) && !(m as any).isEpisodeOnly) {
       result.goldminesAction.push(m);
       assigned.add(m.id);
     }

@@ -20,6 +20,7 @@ import WatchlistButton from "@/components/WatchlistButton";
 import MovieRow from "@/components/MovieRow";
 import ReviewSection from "@/components/ReviewSection";
 import MovieDetailHeroButtons from "@/components/MovieDetailHeroButtons";
+import SeriesEpisodesSection from "@/components/SeriesEpisodesSection";
 
 interface MoviePageProps {
   params: { id: string };
@@ -193,13 +194,20 @@ export default async function MovieDetailsPage({ params }: MoviePageProps) {
                 <span>{movie.runtime} min</span>
               </div>
 
-              {/* 100% Ad-Free Full Movie Badge */}
-              {movie.isFreeWatch && (
+              {/* 100% Ad-Free Full Movie or Series Badge */}
+              {movie.isSeries ? (
+                <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 backdrop-blur-md">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <span className="font-semibold text-xs uppercase tracking-wide">
+                    {movie.episodes?.length || movie.totalEpisodes || 3} Episodes (Serial-Wise HD)
+                  </span>
+                </div>
+              ) : movie.isFreeWatch ? (
                 <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 backdrop-blur-md">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                   <span className="font-semibold text-xs uppercase tracking-wide">100% Ad-Free Full Movie</span>
                 </div>
-              )}
+              ) : null}
 
               {/* Hindi Dubbed Available Badge */}
               {!movie.isFreeWatch && (movie.language === "hi" || movie.streamingPlatforms?.some((p) => p.includes("Hindi"))) && (
@@ -235,6 +243,8 @@ export default async function MovieDetailsPage({ params }: MoviePageProps) {
                 trailerUrl={movie.trailerUrl}
                 fullMovieKey={movie.fullMovieKey}
                 isFreeWatch={movie.isFreeWatch}
+                isSeries={movie.isSeries}
+                episodes={movie.episodes}
                 initialInWatchlist={inWatchlist}
                 initialUserRating={userRatingVal}
               />
@@ -321,6 +331,17 @@ export default async function MovieDetailsPage({ params }: MoviePageProps) {
             )}
           </div>
         </div>
+
+        {/* Serial-Wise Episodes Section for Turkish / Historical Mega Series */}
+        {movie.episodes && movie.episodes.length > 0 && (
+          <SeriesEpisodesSection
+            movieId={movie.id}
+            seriesTitle={movie.title}
+            backdropUrl={movie.backdropUrl}
+            posterUrl={movie.posterUrl}
+            episodes={movie.episodes}
+          />
+        )}
 
         {/* 3. Community Reviews & Rating Section */}
         <div className="mt-16">

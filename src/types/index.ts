@@ -30,6 +30,18 @@ export interface CastMember {
   actor: Actor;
 }
 
+export interface Episode {
+  id: string;
+  episodeNumber: number;
+  title: string;
+  overview?: string;
+  runtime?: number;
+  fullMovieKey: string;
+  thumbnailUrl: string;
+  badge?: string;
+  releaseDate?: string;
+}
+
 export interface Movie {
   id: string;
   tmdbId?: number | null;
@@ -47,6 +59,9 @@ export interface Movie {
   trailerKey?: string | null;
   fullMovieKey?: string | null;
   isFreeWatch?: boolean;
+  isSeries?: boolean;
+  totalEpisodes?: number;
+  episodes?: Episode[];
   voteAverage: number;
   voteCount: number;
   popularity: number;

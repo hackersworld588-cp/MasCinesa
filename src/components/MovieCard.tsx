@@ -50,8 +50,13 @@ export default function MovieCard({
           {/* Dark Overlay Gradient on Hover */}
           <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between p-3.5" />
 
-          {/* Free Movie, Hindi Dubbed, or AI Match Badge */}
-          {movie.isFreeWatch ? (
+          {/* Free Movie, Series, Hindi Dubbed, or AI Match Badge */}
+          {movie.isSeries ? (
+            <div className="absolute top-2.5 left-2.5 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-600/95 backdrop-blur-md text-white font-bold text-[11px] shadow-lg shadow-emerald-950/50 border border-emerald-400/30">
+              <Play className="w-2.5 h-2.5 fill-white" />
+              <span>{movie.episodes?.length || movie.totalEpisodes || 3} Episodes</span>
+            </div>
+          ) : movie.isFreeWatch ? (
             <div className="absolute top-2.5 left-2.5 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-600/90 backdrop-blur-md text-white font-bold text-[11px] shadow-lg shadow-emerald-950/50 border border-emerald-400/30">
               <Play className="w-2.5 h-2.5 fill-white" />
               <span>Free Movie</span>
@@ -88,7 +93,7 @@ export default function MovieCard({
               }`}
             >
               <Play className="w-3.5 h-3.5 fill-black" />
-              <span>Watch Movie</span>
+              <span>{movie.isSeries ? "Watch Series" : "Watch Movie"}</span>
             </button>
 
             <WatchlistButton
@@ -124,8 +129,13 @@ export default function MovieCard({
             </p>
           )}
 
-          {/* Runtime */}
-          {!explanation && (
+          {/* Runtime or Series Episode Count */}
+          {movie.isSeries ? (
+            <p className="mt-1 text-xs text-emerald-400 font-semibold flex items-center gap-1">
+              <span>📺</span>
+              <span>{movie.episodes?.length || movie.totalEpisodes || 3} Episodes (Serial-Wise)</span>
+            </p>
+          ) : !explanation && (
             <p className="mt-1 text-xs text-gray-500">
               {movie.runtime ? `${movie.runtime} min` : "120 min"}
             </p>
@@ -146,6 +156,7 @@ export default function MovieCard({
         title={movie.title}
         movieId={movie.id}
         posterUrl={imgSrc || movie.posterUrl}
+        episodes={movie.episodes}
       />
     </>
   );

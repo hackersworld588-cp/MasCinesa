@@ -45,10 +45,10 @@ export async function getAllMovies(): Promise<Movie[]> {
 export async function getFeaturedHeroMovies(): Promise<Movie[]> {
   const all = await getAllMovies();
   
-  const kurulus = all.find((m) => m.fullMovieKey === "yzC6IWPLg78" || m.title.includes("Kuruluş: Osman"));
-  const ertugrul = all.find((m) => m.fullMovieKey === "fa89NxhAKis" || m.title.includes("Ertugrul Ghazi"));
-  const selahaddin = all.find((m) => m.fullMovieKey === "o1b-cTUM_ig" || m.title.includes("Selahaddin Eyyubi"));
-  const payitaht = all.find((m) => m.fullMovieKey === "GyqbUrT_7j8" || m.title.includes("Payitaht Sultan"));
+  const kurulus = all.find((m) => m.isSeries && m.title.includes("Kuruluş: Osman")) || all.find((m) => m.title.includes("Kuruluş: Osman"));
+  const ertugrul = all.find((m) => m.isSeries && m.title.includes("Ertuğrul")) || all.find((m) => m.title.includes("Ertugrul"));
+  const selahaddin = all.find((m) => m.isSeries && m.title.includes("Selahaddin")) || all.find((m) => m.title.includes("Selahaddin"));
+  const payitaht = all.find((m) => m.isSeries && m.title.includes("Payitaht")) || all.find((m) => m.title.includes("Payitaht"));
 
   const list: Movie[] = [];
   if (kurulus) list.push(kurulus);

@@ -219,7 +219,7 @@ export default function HeroSection({ movie, movies }: HeroSectionProps) {
                 className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-6 sm:px-8 py-3.5 rounded-xl font-bold text-sm sm:text-base bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-xl shadow-emerald-950/60 border border-emerald-400/40 transition-all duration-200 hover:scale-[1.03] active:scale-[0.98]"
               >
                 <Play className="w-5 h-5 fill-white" />
-                <span>Watch Episode 1</span>
+                <span>{currentMovie.isSeries ? "Watch Episode 1" : "Watch Full Movie"}</span>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-black/30 text-emerald-200 border border-emerald-300/30">
                   Ad-Free HD
                 </span>
@@ -290,7 +290,7 @@ export default function HeroSection({ movie, movies }: HeroSectionProps) {
         </div>
       </div>
 
-      {/* Ad-Free Full Movie Player Modal */}
+      {/* Ad-Free Full Movie / Series Player Modal */}
       <TrailerModal
         isOpen={playerOpen}
         onClose={() => setPlayerOpen(false)}
@@ -303,6 +303,7 @@ export default function HeroSection({ movie, movies }: HeroSectionProps) {
         title={currentMovie.title}
         movieId={currentMovie.id}
         posterUrl={currentMovie.posterUrl}
+        episodes={currentMovie.episodes}
       />
     </>
   );

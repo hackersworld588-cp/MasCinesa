@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import { X, Film, ShieldCheck } from "lucide-react";
+import { Episode } from "@/types";
 import CinemaPlayer from "./CinemaPlayer";
 
 interface TrailerModalProps {
@@ -17,6 +18,8 @@ interface TrailerModalProps {
   backdropUrl?: string | null;
   initialStartTime?: number | null;
   initialMode?: "trailer" | "fullMovie";
+  episodes?: Episode[];
+  initialEpisodeIndex?: number;
   title: string;
 }
 
@@ -31,6 +34,8 @@ export default function TrailerModal({
   posterUrl,
   backdropUrl,
   initialStartTime,
+  episodes,
+  initialEpisodeIndex,
   title,
 }: TrailerModalProps) {
   useEffect(() => {
@@ -103,6 +108,8 @@ export default function TrailerModal({
             posterUrl={posterUrl}
             backdropUrl={backdropUrl}
             initialStartTime={initialStartTime}
+            episodes={episodes}
+            initialEpisodeIndex={initialEpisodeIndex}
             onClose={onClose}
           />
         </div>

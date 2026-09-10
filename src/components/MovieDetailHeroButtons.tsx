@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Play, Star, Share2, Check } from "lucide-react";
+import { Episode } from "@/types";
 import WatchlistButton from "./WatchlistButton";
 import TrailerModal from "./TrailerModal";
 
@@ -15,6 +16,8 @@ interface MovieDetailHeroButtonsProps {
   trailerUrl?: string | null;
   fullMovieKey?: string | null;
   isFreeWatch?: boolean;
+  isSeries?: boolean;
+  episodes?: Episode[];
   initialInWatchlist: boolean;
   initialUserRating?: number | null;
 }
@@ -29,6 +32,8 @@ export default function MovieDetailHeroButtons({
   trailerUrl,
   fullMovieKey,
   isFreeWatch,
+  isSeries,
+  episodes,
   initialInWatchlist,
   initialUserRating,
 }: MovieDetailHeroButtonsProps) {
@@ -61,13 +66,13 @@ export default function MovieDetailHeroButtons({
   return (
     <>
       <div className="flex flex-wrap items-center gap-3 sm:gap-4 relative">
-        {/* Watch Full Movie (Ad-Free HD) */}
+        {/* Watch Full Movie / Series (Ad-Free HD) */}
         <button
           onClick={() => setModalOpen(true)}
           className="flex items-center gap-2.5 px-6 sm:px-7 py-3.5 rounded-xl font-bold text-sm sm:text-base bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-xl shadow-emerald-950/60 border border-emerald-400/40 transition-all duration-200 hover:scale-[1.03] active:scale-[0.98]"
         >
           <Play className="w-5 h-5 fill-white" />
-          <span>Watch Full Movie</span>
+          <span>{isSeries ? "Watch Series" : "Watch Full Movie"}</span>
           <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-black/30 text-emerald-200 border border-emerald-300/30">
             Ad-Free HD
           </span>
@@ -135,7 +140,7 @@ export default function MovieDetailHeroButtons({
         </button>
       </div>
 
-      {/* Full Movie Cinema Player Modal */}
+      {/* Full Movie / Series Cinema Player Modal */}
       <TrailerModal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
@@ -148,6 +153,7 @@ export default function MovieDetailHeroButtons({
         title={title}
         movieId={movieId}
         posterUrl={backdropUrl || undefined}
+        episodes={episodes}
       />
     </>
   );
