@@ -10,23 +10,26 @@ export async function getCurrentUser(): Promise<UserSession | null> {
     const sessionVal = cookieStore.get(SESSION_COOKIE_NAME)?.value;
 
     if (!sessionVal) {
-      // Fallback: return default demo user for seamless pairing and evaluation
-      const demoUser = await db.user.findFirst({
-        where: { email: "demo@cinemate.io" },
-      });
-      if (demoUser) {
-        return {
-          id: demoUser.id,
-          name: demoUser.name,
-          email: demoUser.email,
-          role: demoUser.role as any,
-          avatar: demoUser.avatar || undefined,
-        };
-      }
       return null;
     }
 
     const parsed = JSON.parse(sessionVal);
+    if (!parsed?.userId) return null;
+
+    const isRemoteDb = Boolean(
+      process.env.DATABASE_URL &&
+        !process.env.DATABASE_URL.startsWith("file:")
+    );
+
+    if (!isRemoteDb) {
+      return {
+        id: parsed.userId,
+        name: "CineSa Viewer",
+        email: "viewer@cinesa.tv",
+        role: "user",
+      };
+    }
+
     const user = await db.user.findUnique({
       where: { id: parsed.userId },
     });

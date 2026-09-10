@@ -1,18 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import { Sparkles, ArrowRight, ShieldCheck, Film } from "lucide-react";
+import { ArrowRight, ShieldCheck } from "lucide-react";
 import HeroSection from "@/components/HeroSection";
 import MovieRow from "@/components/MovieRow";
-import { db } from "@/lib/db";
-import { getCurrentUser } from "@/lib/auth";
-import { formatMovieWithRelations } from "@/lib/ai-engine";
 import { getAllMovies, getFeaturedMovie } from "@/lib/movie-service";
 
-export const revalidate = 60; // ISR cache revalidation
-
 export default async function HomePage() {
-  const user = await getCurrentUser();
-
   // 1. Fetch Featured Hero Movie (Sarrainodu or Hera Pheri or DJ)
   const featuredMovie = await getFeaturedMovie();
 
@@ -55,30 +48,6 @@ export default async function HomePage() {
 
   // 🌟 Trending / Most Popular
   const trendingMovies = [...formattedAll].sort((a, b) => b.popularity - a.popularity).slice(0, 10);
-
-  // Continue Watching (if user logged in)
-  let continueWatchingMovies: any[] = [];
-  if (user) {
-    try {
-      const history = await db.watchHistory.findMany({
-        where: { userId: user.id },
-        take: 6,
-        orderBy: { watchedAt: "desc" },
-        include: {
-          movie: {
-            include: {
-              movieGenres: { include: { genre: true } },
-              movieDirectors: { include: { director: true } },
-              movieCast: { include: { actor: true } },
-            },
-          },
-        },
-      });
-      continueWatchingMovies = history.map((h) => formatMovieWithRelations(h.movie));
-    } catch (e) {
-      continueWatchingMovies = [];
-    }
-  }
 
   return (
     <div className="flex flex-col w-full bg-background min-h-screen">
@@ -123,17 +92,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 3. Continue Watching (if available) */}
-      {continueWatchingMovies.length > 0 && (
-        <div className="mt-6">
-          <MovieRow
-            title="Continue Watching"
-            subtitle="Resume where you left off"
-            movies={continueWatchingMovies}
-            badge="History"
-          />
-        </div>
-      )}
+      {/* 2. 💥 South Indian Hindi Dubbed Blockbusters (Goldmines Mass) */}
 
       {/* 4. 💥 South Indian Hindi Dubbed Blockbusters (Goldmines Mass) */}
       {massActionMovies.length > 0 && (

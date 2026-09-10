@@ -25,6 +25,12 @@ interface MoviePageProps {
   params: { id: string };
 }
 
+export async function generateStaticParams() {
+  const { getAllMovies } = await import("@/lib/movie-service");
+  const movies = await getAllMovies();
+  return movies.map((m) => ({ id: m.id }));
+}
+
 export default async function MovieDetailsPage({ params }: MoviePageProps) {
   const { id } = params;
   const user = await getCurrentUser();

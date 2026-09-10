@@ -12,6 +12,11 @@
     "db:seed": "node prisma/seed.js",
     "db:generate": "prisma generate"
   },
+  "allowScripts": {
+    "@prisma/client": true,
+    "@prisma/engines": true,
+    "prisma": true
+  },
   "dependencies": {
     "next": "^14.2.5",
     "react": "^18.3.1",
