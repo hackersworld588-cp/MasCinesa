@@ -1,75 +1,69 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
 import { createSessionCookie } from "@/lib/auth";
+import { upsertTrackedUser, recordActivity } from "@/lib/tracking";
 
 export async function POST(req: Request) {
   try {
-    const { email, password, name, isSignUp } = await req.json();
+    const { email, password, name, phone, isSignUp } = await req.json();
 
-    if (!email) {
-      return NextResponse.json({ error: "Email is required" }, { status: 400 });
+    if (!email && !phone) {
+      return NextResponse.json({ error: "Email or Phone number is required" }, { status: 400 });
     }
 
-    if (isSignUp) {
-      const existing = await db.user.findUnique({ where: { email } });
-      if (existing) {
-        return NextResponse.json({ error: "Email already registered" }, { status: 400 });
-      }
+    const userEmail = email ? email.trim().toLowerCase() : `${(phone || "").replace(/\D/g, "")}@cinesa.user`;
+    const userName = name ? name.trim() : (email ? email.split("@")[0] : "Cinema Fan");
+    const userPhone = phone ? phone.trim() : undefined;
 
-      const newUser = await db.user.create({
-        data: {
-          email,
-          name: name || email.split("@")[0],
-          passwordHash: password || "default_hash",
-          role: "user",
-          avatar: `https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80`,
-        },
-      });
+    // Check if this is the Founder (Mohammad Aabid Husain)
+    const isFounder =
+      userEmail.includes("admin") ||
+      userEmail.includes("founder") ||
+      (userPhone && userPhone.includes("9588879423")) ||
+      userName.toLowerCase().includes("aabid");
 
-      // Initialize default preferences
-      await db.userPreference.create({
-        data: {
-          userId: newUser.id,
-          favoriteGenres: JSON.stringify(["Science Fiction", "Thriller", "Action"]),
-          tasteWeights: JSON.stringify({
-            "Science Fiction": 80,
-            "Thriller": 75,
-            "Action": 60,
-          }),
-        },
-      });
+    const role = isFounder ? "admin" : "user";
+    const avatar = isFounder
+      ? "/founder.jpg"
+      : `https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80`;
 
-      // Initialize default watchlist
-      await db.watchlist.create({
-        data: {
-          userId: newUser.id,
-          title: "My Watchlist",
-          isDefault: true,
-        },
-      });
+    const userId = isFounder ? "founder-aabid" : `user-${Date.now()}-${Math.random().toString(36).substr(2, 5)}`;
 
-      createSessionCookie(newUser.id);
-      return NextResponse.json({ success: true, user: newUser });
-    }
+    const sessionPayload = {
+      userId,
+      name: isFounder ? "Mohammad Aabid Husain" : userName,
+      email: userEmail,
+      phone: userPhone || (isFounder ? "+91 9588879423" : undefined),
+      role: role as "user" | "admin",
+      avatar,
+    };
 
-    // Sign in flow
-    let user = await db.user.findUnique({ where: { email } });
-    if (!user) {
-      // Auto-fallback: create if demo credentials used
-      user = await db.user.create({
-        data: {
-          email,
-          name: name || email.split("@")[0],
-          passwordHash: password || "demo_pass",
-          role: email.includes("admin") ? "admin" : "user",
-          avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
-        },
-      });
-    }
+    // Save session in signed HTTP-only cookie
+    createSessionCookie(sessionPayload);
 
-    createSessionCookie(user.id);
-    return NextResponse.json({ success: true, user });
+    // Save into Live User Tracking Store for Founder Dashboard
+    upsertTrackedUser({
+      id: userId,
+      name: sessionPayload.name,
+      email: sessionPayload.email,
+      phone: sessionPayload.phone,
+      role: sessionPayload.role,
+      avatar: sessionPayload.avatar,
+      lastActive: new Date().toISOString(),
+    });
+
+    // Log Activity
+    recordActivity({
+      userId,
+      userName: sessionPayload.name,
+      userPhone: sessionPayload.phone,
+      action: isSignUp ? "signup" : "login",
+      details: isSignUp
+        ? `New user registered: ${sessionPayload.name} (${sessionPayload.phone || sessionPayload.email})`
+        : `User logged in: ${sessionPayload.name}`,
+    });
+
+    return NextResponse.json({ success: true, user: sessionPayload });
   } catch (err: any) {
-    return NextResponse.json({ error: err.message }, { status: 500 });
+    return NextResponse.json({ error: err.message || "Authentication error" }, { status: 500 });
   }
 }

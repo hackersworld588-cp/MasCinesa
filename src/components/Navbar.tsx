@@ -102,6 +102,20 @@ export default function Navbar() {
               </Link>
             );
           })}
+
+          {user?.role === "admin" && (
+            <Link
+              href="/admin"
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                pathname === "/admin"
+                  ? "bg-amber-500/25 text-amber-300 border border-amber-500/60 shadow-lg shadow-amber-950/40"
+                  : "bg-amber-500/10 text-amber-400 border border-amber-500/30 hover:bg-amber-500/20"
+              }`}
+            >
+              <Shield className="w-3.5 h-3.5 text-amber-400" />
+              <span>Admin Hub</span>
+            </Link>
+          )}
         </nav>
 
         {/* Right Side: AI Assistant Quick Button & User Profile */}

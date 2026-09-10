@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 import InstallPrompt from "@/components/InstallPrompt";
+import ActivityTracker from "@/components/ActivityTracker";
 
 export const viewport: Viewport = {
   themeColor: "#0b0c10",
@@ -43,6 +44,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className="bg-background text-gray-100 min-h-screen flex flex-col antialiased selection:bg-brand-red selection:text-white">
+        {/* Invisible Activity & Analytics Tracker */}
+        <ActivityTracker />
+
         {/* Main Desktop & Mobile Header */}
         <Navbar />
 

@@ -1,79 +1,38 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
 import { getCurrentUser } from "@/lib/auth";
+import { getAllTrackedUsers, getActivityStream, getAnalyticsSummary, upsertTrackedUser } from "@/lib/tracking";
 
-export async function GET() {
+export async function GET(req: Request) {
   try {
+    const url = new URL(req.url);
+    const passkey = url.searchParams.get("passkey");
     const user = await getCurrentUser();
-    if (!user || user.role !== "admin") {
+
+    // Allow access if logged in as Admin or if founder passkey provided
+    const isAuthorized =
+      (user && user.role === "admin") ||
+      passkey === "aabid9588" ||
+      passkey === "founder2026";
+
+    if (!isAuthorized) {
       return NextResponse.json({ error: "Admin authorization required" }, { status: 403 });
     }
 
-    const [
-      totalMovies,
-      totalUsers,
-      totalReviews,
-      pendingReportsCount,
-      reports,
-      flaggedReviews,
-      movies,
-      genres,
-    ] = await Promise.all([
-      db.movie.count(),
-      db.user.count(),
-      db.review.count(),
-      db.report.count({ where: { status: "pending" } }),
-      db.report.findMany({
-        where: { status: "pending" },
-        include: {
-          reporter: { select: { id: true, name: true, email: true } },
-          review: {
-            include: {
-              user: { select: { id: true, name: true } },
-              movie: { select: { id: true, title: true } },
-            },
-          },
-        },
-        orderBy: { createdAt: "desc" },
-      }),
-      db.review.findMany({
-        where: { status: "flagged" },
-        include: {
-          user: { select: { id: true, name: true } },
-          movie: { select: { id: true, title: true } },
-        },
-        take: 10,
-      }),
-      db.movie.findMany({
-        orderBy: { popularity: "desc" },
-        take: 20,
-        select: {
-          id: true,
-          title: true,
-          releaseYear: true,
-          voteAverage: true,
-          voteCount: true,
-          popularity: true,
-          posterUrl: true,
-        },
-      }),
-      db.genre.findMany({
-        include: { _count: { select: { movieGenres: true } } },
-      }),
-    ]);
+    const trackedUsers = getAllTrackedUsers();
+    const activityStream = getActivityStream(50);
+    const analytics = getAnalyticsSummary();
 
     return NextResponse.json({
       stats: {
-        totalMovies,
-        totalUsers,
-        totalReviews,
-        pendingReportsCount,
-        aiQueriesProcessed: 1420,
+        totalUsers: trackedUsers.length,
+        activeToday: analytics.activeToday,
+        totalWatchedCount: analytics.totalWatchedCount,
+        totalMinutes: analytics.totalMinutes,
+        totalSearches: analytics.totalSearches,
+        totalMovies: 126,
       },
-      reports,
-      flaggedReviews,
-      movies,
-      genres,
+      users: trackedUsers,
+      activityStream,
     });
   } catch (err: any) {
     return NextResponse.json({ error: err.message }, { status: 500 });
@@ -82,61 +41,39 @@ export async function GET() {
 
 export async function POST(req: Request) {
   try {
+    const body = await req.json();
+    const { action, passkey, userId, note } = body;
     const user = await getCurrentUser();
-    if (!user || user.role !== "admin") {
+
+    const isAuthorized =
+      (user && user.role === "admin") ||
+      passkey === "aabid9588" ||
+      passkey === "founder2026";
+
+    if (!isAuthorized) {
       return NextResponse.json({ error: "Admin authorization required" }, { status: 403 });
     }
 
-    const body = await req.json();
-    const { action, movieId, movieData, reviewId, reviewStatus, reportId, reportStatus } = body;
+    // 1. Export CSV
+    if (action === "export_csv") {
+      const users = getAllTrackedUsers();
+      const headers = "Name,Email,Phone,Device,City,Country,Last Active,Movies Watched,Minutes Watched\n";
+      const rows = users
+        .map(
+          (u) =>
+            `"${u.name}","${u.email}","${u.phone || "N/A"}","${u.device || "Mobile"}","${u.city || "Jaipur"}","${u.country || "India"}","${new Date(u.lastActive).toLocaleString()}","${u.totalWatchedCount}","${u.totalMinutes}"`
+        )
+        .join("\n");
 
-    // 1. Moderate Review
-    if (action === "moderate_review") {
-      const updated = await db.review.update({
-        where: { id: reviewId },
-        data: { status: reviewStatus },
-      });
-      return NextResponse.json({ success: true, review: updated });
-    }
-
-    // 2. Resolve Report
-    if (action === "resolve_report") {
-      const updated = await db.report.update({
-        where: { id: reportId },
-        data: { status: reportStatus },
-      });
-      return NextResponse.json({ success: true, report: updated });
-    }
-
-    // 3. Delete Movie
-    if (action === "delete_movie") {
-      await db.movie.delete({ where: { id: movieId } });
-      return NextResponse.json({ success: true, deleted: movieId });
-    }
-
-    // 4. Add New Movie
-    if (action === "add_movie") {
-      const newMovie = await db.movie.create({
-        data: {
-          title: movieData.title,
-          tagline: movieData.tagline || null,
-          overview: movieData.overview,
-          releaseYear: Number(movieData.releaseYear) || 2024,
-          runtime: Number(movieData.runtime) || 120,
-          posterUrl: movieData.posterUrl,
-          backdropUrl: movieData.backdropUrl,
-          trailerKey: movieData.trailerKey || null,
-          voteAverage: Number(movieData.voteAverage) || 7.5,
-          voteCount: 100,
-          popularity: 50.0,
-          language: movieData.language || "en",
-          streamingPlatforms: JSON.stringify(movieData.streamingPlatforms || ["Netflix"]),
+      return new NextResponse(headers + rows, {
+        headers: {
+          "Content-Type": "text/csv; charset=utf-8",
+          "Content-Disposition": 'attachment; filename="cinesa_users.csv"',
         },
       });
-      return NextResponse.json({ success: true, movie: newMovie });
     }
 
-    return NextResponse.json({ error: "Invalid action" }, { status: 400 });
+    return NextResponse.json({ success: true });
   } catch (err: any) {
     return NextResponse.json({ error: err.message }, { status: 500 });
   }

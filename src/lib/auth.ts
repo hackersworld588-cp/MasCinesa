@@ -1,8 +1,16 @@
 import { cookies } from "next/headers";
-import { db } from "./db";
 import { UserSession } from "../types";
 
 const SESSION_COOKIE_NAME = "cinemate_session";
+
+export interface SessionPayload {
+  userId: string;
+  name: string;
+  email: string;
+  role: "user" | "admin" | "moderator";
+  avatar?: string;
+  phone?: string;
+}
 
 export async function getCurrentUser(): Promise<UserSession | null> {
   try {
@@ -16,41 +24,32 @@ export async function getCurrentUser(): Promise<UserSession | null> {
     const parsed = JSON.parse(sessionVal);
     if (!parsed?.userId) return null;
 
-    const isRemoteDb = Boolean(
-      process.env.DATABASE_URL &&
-        !process.env.DATABASE_URL.startsWith("file:")
-    );
-
-    if (!isRemoteDb) {
-      return {
-        id: parsed.userId,
-        name: "CineSa Viewer",
-        email: "viewer@cinesa.tv",
-        role: "user",
-      };
-    }
-
-    const user = await db.user.findUnique({
-      where: { id: parsed.userId },
-    });
-
-    if (!user) return null;
-
     return {
-      id: user.id,
-      name: user.name,
-      email: user.email,
-      role: user.role as any,
-      avatar: user.avatar || undefined,
+      id: parsed.userId,
+      name: parsed.name || "CineSa Viewer",
+      email: parsed.email || "viewer@cinesa.tv",
+      role: parsed.role || "user",
+      avatar: parsed.avatar || undefined,
+      phone: parsed.phone || undefined,
     };
   } catch (e) {
     return null;
   }
 }
 
-export function createSessionCookie(userId: string) {
+export function createSessionCookie(payload: SessionPayload | string) {
   const cookieStore = cookies();
-  cookieStore.set(SESSION_COOKIE_NAME, JSON.stringify({ userId }), {
+  const sessionData: SessionPayload =
+    typeof payload === "string"
+      ? {
+          userId: payload,
+          name: "CineSa Viewer",
+          email: "viewer@cinesa.tv",
+          role: "user",
+        }
+      : payload;
+
+  cookieStore.set(SESSION_COOKIE_NAME, JSON.stringify(sessionData), {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",

@@ -61,6 +61,19 @@ export default function CinemaPlayer({
   useEffect(() => {
     if (!movieId) return;
 
+    // Send tracking activity beacon to Founder Dashboard
+    try {
+      fetch("/api/track", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          action: "watch_movie",
+          details: `Streaming ${title}`,
+          currentMovie: title,
+        }),
+      }).catch(() => {});
+    } catch (e) {}
+
     // Increment time ref every second and save every 5 seconds
     const timer = setInterval(() => {
       playbackTimeRef.current += 1;

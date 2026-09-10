@@ -140,6 +140,41 @@ export interface UserSession {
   email: string;
   role: "user" | "admin" | "moderator";
   avatar?: string;
+  phone?: string;
+}
+
+export interface TrackedUser {
+  id: string;
+  name: string;
+  email: string;
+  phone?: string;
+  role: "user" | "admin" | "moderator";
+  avatar?: string;
+  device?: string; // e.g., "Mobile (iPhone)", "Desktop (Chrome)"
+  browser?: string;
+  os?: string;
+  city?: string;
+  country?: string;
+  ip?: string;
+  createdAt: string;
+  lastActive: string;
+  currentMovie?: string;
+  currentPage?: string;
+  totalWatchedCount: number;
+  totalMinutes: number;
+  searchesCount: number;
+}
+
+export interface ActivityEvent {
+  id: string;
+  userId?: string;
+  userName: string;
+  userPhone?: string;
+  action: "visit" | "watch_movie" | "search" | "signup" | "login" | "watchlist_add";
+  details: string;
+  device?: string;
+  location?: string;
+  timestamp: string;
 }
 
 export interface SearchFilterState {
